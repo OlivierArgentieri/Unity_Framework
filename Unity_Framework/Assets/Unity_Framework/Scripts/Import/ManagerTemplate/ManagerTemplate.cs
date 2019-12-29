@@ -12,7 +12,6 @@ public class ManagerTemplate<T> : MonoBehaviour where T : MonoBehaviour
     [SerializeField, Header("Keep ?")] private bool keep = false;
     #endregion
 
-
     #region unity methods
 
     protected void Awake()

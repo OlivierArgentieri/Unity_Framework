@@ -8,8 +8,16 @@
       <e p="Assets" t="Include">
         <e p="Unity_Framework" t="Include">
           <e p="Scripts" t="Include">
-            <e p="ManagerTemplate" t="Include">
-              <e p="ManagerTemplate.cs" t="Include" />
+            <e p="Import" t="Include">
+              <e p="Interface" t="Include">
+                <e p="IEnable.cs" t="Include" />
+                <e p="IHandler.cs" t="Include" />
+                <e p="IHandlerItem.cs" t="Include" />
+                <e p="IIsValid.cs" t="Include" />
+              </e>
+              <e p="ManagerTemplate" t="Include">
+                <e p="ManagerTemplate.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
