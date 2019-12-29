@@ -25,6 +25,7 @@ public class FU_CameraComponent: MonoBehaviour, IHandlerItem<int>
     public void Register()
     {
         FU_CameraManager.Instance.Add(this);
+        name += "[SLV]"; // Slave
     }
 
     public void Unregister()

@@ -33,7 +33,7 @@ public class ManagerTemplate<T> : MonoBehaviour where T : MonoBehaviour
         
         if(keep) DontDestroyOnLoad(gameObject);
 
-        name = "[MNG]";
+        name += "[MNG]";
     }
 
     #endregion
