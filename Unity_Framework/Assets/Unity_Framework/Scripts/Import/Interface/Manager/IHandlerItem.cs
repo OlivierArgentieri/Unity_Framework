@@ -1,4 +1,4 @@
-public interface IHandlerItem<TID>
+public interface IHandlerItem<TID> : IIsValid
 {
     #region f/p
     TID ID { get; }

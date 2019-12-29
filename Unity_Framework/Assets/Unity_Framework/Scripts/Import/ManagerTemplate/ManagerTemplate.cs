@@ -14,7 +14,7 @@ public class ManagerTemplate<T> : MonoBehaviour where T : MonoBehaviour
 
     #region unity methods
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         InitSingleton();
     }

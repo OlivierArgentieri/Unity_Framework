@@ -4,16 +4,32 @@
     <e p="C:\Users\User\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\User\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Unity_Framework.1038882591.00" t="ExcludeRecursive" />
     <e p="D:\Projets\PullGithub\Unity_Framework\Unity_Framework" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Unity_Framework" t="Include">
           <e p="Scripts" t="Include">
+            <e p="3C" t="Include">
+              <e p="Camera" t="Include">
+                <e p="CameraComponents" t="Include">
+                  <e p="FU_CameraComponent.cs" t="Include" />
+                </e>
+                <e p="CameraManager" t="Include">
+                  <e p="FU_CameraManager.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="FU_CameraManagerEditor.cs" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Import" t="Include">
               <e p="Interface" t="Include">
                 <e p="IEnable.cs" t="Include" />
-                <e p="IHandler.cs" t="Include" />
-                <e p="IHandlerItem.cs" t="Include" />
                 <e p="IIsValid.cs" t="Include" />
+                <e p="Manager" t="Include">
+                  <e p="IHandler.cs" t="Include" />
+                  <e p="IHandlerItem.cs" t="Include" />
+                </e>
               </e>
               <e p="ManagerTemplate" t="Include">
                 <e p="ManagerTemplate.cs" t="Include" />
