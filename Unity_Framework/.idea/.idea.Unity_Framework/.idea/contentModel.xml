@@ -12,6 +12,9 @@
             <e p="3C" t="Include">
               <e p="Camera" t="Include">
                 <e p="Behaviour" t="Include">
+                  <e p="Behaviours" t="Include">
+                    <e p="UF_CameraBehaviourFPS.cs" t="Include" />
+                  </e>
                   <e p="UF_CameraBehaviour.cs" t="Include" />
                 </e>
                 <e p="CameraComponents" t="Include">
@@ -44,6 +47,9 @@
               </e>
               <e p="ManagerTemplate" t="Include">
                 <e p="ManagerTemplate.cs" t="Include" />
+              </e>
+              <e p="Util" t="Include">
+                <e p="Util.cs" t="Include" />
               </e>
             </e>
           </e>
