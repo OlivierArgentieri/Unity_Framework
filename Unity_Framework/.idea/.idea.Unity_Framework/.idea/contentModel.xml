@@ -12,13 +12,18 @@
             <e p="3C" t="Include">
               <e p="Camera" t="Include">
                 <e p="CameraComponents" t="Include">
-                  <e p="FU_CameraComponent.cs" t="Include" />
+                  <e p="UF_CameraComponent.cs" t="Include" />
                 </e>
                 <e p="CameraManager" t="Include">
-                  <e p="FU_CameraManager.cs" t="Include" />
+                  <e p="UF_CameraManager.cs" t="Include" />
                 </e>
                 <e p="Editor" t="Include">
-                  <e p="FU_CameraManagerEditor.cs" t="Include" />
+                  <e p="CameraComponent" t="Include">
+                    <e p="UF_CameraComponentEditor.cs" t="Include" />
+                  </e>
+                  <e p="CameraManager" t="Include">
+                    <e p="UF_CameraManagerEditor.cs" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>

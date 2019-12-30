@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-public class FU_CameraManager: ManagerTemplate<FU_CameraManager>, IHandler<int, FU_CameraComponent>
+public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, UF_CameraComponent>
 {
     #region f/p
     public static event Action OnReady = null;
-    public Dictionary<int, FU_CameraComponent> Handles { get; } = new Dictionary<int, FU_CameraComponent>();
+    public Dictionary<int, UF_CameraComponent> Handles { get; } = new Dictionary<int, UF_CameraComponent>();
     public bool IsValid => Handles != null;
     #endregion
 
@@ -20,7 +20,7 @@ public class FU_CameraManager: ManagerTemplate<FU_CameraManager>, IHandler<int, 
     
     #region custom methods
 
-    private void Handler(bool _add, FU_CameraComponent _component)
+    private void Handler(bool _add, UF_CameraComponent _component)
     {
         if (!_component.IsValid || !IsValid) return;
 
@@ -34,9 +34,9 @@ public class FU_CameraManager: ManagerTemplate<FU_CameraManager>, IHandler<int, 
             Handles.Remove(_component.ID);
     }
     
-    public void Add(FU_CameraComponent _item) => Handler(true, _item);
-    public void Remove(FU_CameraComponent _item) => Handler(false, _item);
-    public bool IsExist(FU_CameraComponent _item)
+    public void Add(UF_CameraComponent _item) => Handler(true, _item);
+    public void Remove(UF_CameraComponent _item) => Handler(false, _item);
+    public bool IsExist(UF_CameraComponent _item)
     {
         if (!IsValid) throw new Exception("CameraManager => Invalid CameraManager");
         return Handles.ContainsKey(_item.ID);

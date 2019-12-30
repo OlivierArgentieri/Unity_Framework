@@ -2,17 +2,17 @@
 using UnityEditor;
 using UnityEngine;
 
-public class FU_CameraManagerEditor
+public class UF_CameraManagerEditor
 {
     #region custom methods
     [MenuItem("UF/Camera/CameraManager")]
     public static void Init()
     {
-        FU_CameraManager[] _cameraManagers = Object.FindObjectsOfType<FU_CameraManager>();
+        UF_CameraManager[] _cameraManagers = Object.FindObjectsOfType<UF_CameraManager>();
 
         if (_cameraManagers.Length > 0) return;
         
-        GameObject _cameraManager = new GameObject("CameraManager", typeof(FU_CameraManager));
+        GameObject _cameraManager = new GameObject("CameraManager", typeof(UF_CameraManager));
         Selection.activeObject = _cameraManager;
     }
     #endregion

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class FU_CameraComponent: MonoBehaviour, IHandlerItem<int>
+public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
 {
     #region f/p
     public int ID { get; }
@@ -11,7 +11,7 @@ public class FU_CameraComponent: MonoBehaviour, IHandlerItem<int>
     #region unity mehods
     private void Awake()
     {
-        FU_CameraManager.OnReady += Register;
+        UF_CameraManager.OnReady += Register;
     }
     
     private void OnDestroy()
@@ -24,13 +24,13 @@ public class FU_CameraComponent: MonoBehaviour, IHandlerItem<int>
     #region custom methods
     public void Register()
     {
-        FU_CameraManager.Instance.Add(this);
+        UF_CameraManager.Instance.Add(this);
         name += "[SLV]"; // Slave
     }
 
     public void Unregister()
     {
-        FU_CameraManager.Instance.Remove(this);
+        UF_CameraManager.Instance.Remove(this);
     }
     #endregion
 }
