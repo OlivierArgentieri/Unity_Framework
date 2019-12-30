@@ -6,6 +6,10 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     #region f/p
     public int ID { get; }
     public bool IsValid { get; }
+    
+    [SerializeField, Header("Camera Settings")]
+    private UF_CameraSetting cameraSettings = new UF_CameraSetting();
+    
     #endregion
 
     #region unity mehods
