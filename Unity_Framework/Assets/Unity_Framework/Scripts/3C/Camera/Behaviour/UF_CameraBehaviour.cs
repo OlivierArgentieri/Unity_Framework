@@ -4,7 +4,7 @@ using UnityEngine;
 public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
 {
     #region f/p
-    public event Action OnUpdateBehaviour = null;
+    public Action OnUpdateBehaviour = null;
 
     private UF_CameraSetting cameraSetting = null;
     public bool IsValid => cameraSetting != null;

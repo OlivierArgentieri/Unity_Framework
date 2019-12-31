@@ -6,14 +6,15 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
 {
     #region f/p
     public int ID { get; }
-    public bool IsValid { get; }
+    public bool IsValid => BehaviourExist();
     
     [SerializeField, Header("Camera Settings")]
     private UF_CameraSetting cameraSettings = new UF_CameraSetting();
 
     [SerializeField, Header("Camera Type")]
     private CameraTypes cameraType = CameraTypes.Custom;
-    
+
+    private UF_CameraBehaviour _behaviour = null;
     public CameraTypes CameraType => cameraType;
     #endregion
 
@@ -22,7 +23,13 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     {
         UF_CameraManager.OnReady += Register;
     }
-    
+
+    private void Update()
+    {
+        if (!IsValid) return;
+        _behaviour.OnUpdateBehaviour?.Invoke();
+    }
+
     private void OnDestroy()
     {
         Unregister();
@@ -35,7 +42,7 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     public void InitBehaviour()
     {
         gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
-        UF_CameraBehaviour _behaviour = null;
+       
         switch (cameraType)
         {
             case CameraTypes.FPS:
@@ -61,6 +68,11 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     public void Unregister()
     {
         UF_CameraManager.Instance.Remove(this);
+    }
+
+    private bool BehaviourExist()
+    {
+        return GetComponent<UF_CameraBehaviour>() != null;
     }
     #endregion
 }

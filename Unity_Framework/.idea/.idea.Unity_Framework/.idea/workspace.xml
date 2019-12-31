@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,21 +68,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="36" column="90" lean-forward="true" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+            <state relative-caret-position="288">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
-                <marker date="1577742148581" expanded="false" signature="6:51" ph="..." />
-                <marker date="1577742148581" expanded="true" signature="118:1549" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="125:490" ph="f/p" />
-                <marker date="1577742148581" expanded="true" signature="496:682" ph="unity mehods" />
-                <marker date="1577742148581" expanded="true" signature="541:599" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="633:667" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="697:1547" ph="custom methods" />
-                <marker date="1577742148581" expanded="true" signature="752:1319" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="923:1253" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="1351:1442" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="1472:1532" ph="{...}" />
-                <marker date="1577742148581" expanded="true" signature="1574:1617" ph="{...}" />
+                <marker date="1577750346804" expanded="false" signature="6:51" ph="..." />
+                <marker date="1577750346804" expanded="true" signature="118:1788" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="125:548" ph="f/p" />
+                <marker date="1577750346804" expanded="true" signature="554:853" ph="unity mehods" />
+                <marker date="1577750346804" expanded="true" signature="599:657" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="684:774" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="804:838" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="868:1786" ph="custom methods" />
+                <marker date="1577750346804" expanded="true" signature="923:1452" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="1056:1386" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="1484:1575" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="1605:1665" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="1700:1771" ph="{...}" />
+                <marker date="1577750346804" expanded="true" signature="1813:1856" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,21 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="176">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <marker date="1577742797398" expanded="false" signature="7:52" ph="..." />
-                <marker date="1577742797398" expanded="true" signature="143:968" ph="{...}" />
-                <marker date="1577742797398" expanded="true" signature="150:243" ph="f/p" />
-                <marker date="1577742797398" expanded="true" signature="303:844" ph="unity methods" />
-                <marker date="1577742797398" expanded="true" signature="353:412" ph="{...}" />
-                <marker date="1577742797398" expanded="true" signature="459:824" ph="{...}" />
-                <marker date="1577742797398" expanded="true" signature="580:818" ph="{...}" />
-                <marker date="1577742797398" expanded="true" signature="851:966" ph="custom methods" />
-                <marker date="1577742797398" expanded="true" signature="905:950" ph="{...}" />
+                <marker date="1577742906178" expanded="false" signature="7:52" ph="..." />
+                <marker date="1577742906178" expanded="true" signature="143:947" ph="{...}" />
+                <marker date="1577742906178" expanded="true" signature="150:222" ph="f/p" />
+                <marker date="1577742906178" expanded="true" signature="282:823" ph="unity methods" />
+                <marker date="1577742906178" expanded="true" signature="332:391" ph="{...}" />
+                <marker date="1577742906178" expanded="true" signature="438:803" ph="{...}" />
+                <marker date="1577742906178" expanded="true" signature="559:797" ph="{...}" />
+                <marker date="1577742906178" expanded="true" signature="830:945" ph="custom methods" />
+                <marker date="1577742906178" expanded="true" signature="884:929" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,27 +160,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
-                <marker date="1577735628565" expanded="true" signature="6:32" ph="..." />
-                <marker date="1577735628565" expanded="true" signature="108:904" ph="{...}" />
-                <marker date="1577735628565" expanded="true" signature="115:403" ph="f/p" />
-                <marker date="1577735628565" expanded="true" signature="413:902" ph="custom methods" />
-                <marker date="1577735628565" expanded="true" signature="498:559" ph="{...}" />
-                <marker date="1577735628565" expanded="true" signature="606:680" ph="{...}" />
-                <marker date="1577735628565" expanded="true" signature="723:804" ph="{...}" />
-                <marker date="1577735628565" expanded="true" signature="848:887" ph="{...}" />
+                <marker date="1577750325056" expanded="true" signature="6:32" ph="..." />
+                <marker date="1577750325056" expanded="true" signature="108:898" ph="{...}" />
+                <marker date="1577750325056" expanded="true" signature="115:397" ph="f/p" />
+                <marker date="1577750325056" expanded="true" signature="407:896" ph="custom methods" />
+                <marker date="1577750325056" expanded="true" signature="492:553" ph="{...}" />
+                <marker date="1577750325056" expanded="true" signature="600:674" ph="{...}" />
+                <marker date="1577750325056" expanded="true" signature="717:798" ph="{...}" />
+                <marker date="1577750325056" expanded="true" signature="842:881" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <marker date="1577738520269" expanded="true" signature="75:1068" ph="{...}" />
                 <marker date="1577738520269" expanded="true" signature="82:177" ph="f/p" />
@@ -242,11 +244,11 @@
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraManager/UF_CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraManager/UF_CameraManagerEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSetting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Util/Util.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" />
       </list>
     </option>
   </component>
@@ -258,10 +260,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="998" />
-    <option name="y" value="43" />
-    <option name="width" value="929" />
-    <option name="height" value="946" />
+    <option name="x" value="116" />
+    <option name="y" value="29" />
+    <option name="width" value="928" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -435,12 +437,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577629511144</updated>
-      <workItem from="1577629512977" duration="18740000" />
+      <workItem from="1577629512977" duration="21770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18740000" />
+    <option name="totallyTimeSpent" value="21770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +458,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1869469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1869469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -470,7 +472,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39918116" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39918116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -494,32 +496,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" initialLine="26">
-            <startOffsets>
-              <option value="513" />
-            </startOffsets>
-            <endOffsets>
-              <option value="580" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" initialLine="28">
-            <startOffsets>
-              <option value="603" />
-            </startOffsets>
-            <endOffsets>
-              <option value="643" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -659,71 +635,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1577738520269" expanded="true" signature="75:1068" ph="{...}" />
-            <marker date="1577738520269" expanded="true" signature="82:177" ph="f/p" />
-            <marker date="1577738520269" expanded="true" signature="183:1066" ph="custom methods" />
-            <marker date="1577738520269" expanded="true" signature="255:1050" ph="{...}" />
+            <marker date="1577742906178" expanded="false" signature="7:52" ph="..." />
+            <marker date="1577742906178" expanded="true" signature="143:947" ph="{...}" />
+            <marker date="1577742906178" expanded="true" signature="150:222" ph="f/p" />
+            <marker date="1577742906178" expanded="true" signature="282:823" ph="unity methods" />
+            <marker date="1577742906178" expanded="true" signature="332:391" ph="{...}" />
+            <marker date="1577742906178" expanded="true" signature="438:803" ph="{...}" />
+            <marker date="1577742906178" expanded="true" signature="559:797" ph="{...}" />
+            <marker date="1577742906178" expanded="true" signature="830:945" ph="custom methods" />
+            <marker date="1577742906178" expanded="true" signature="884:929" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <marker date="1577735628565" expanded="true" signature="6:32" ph="..." />
-            <marker date="1577735628565" expanded="true" signature="108:904" ph="{...}" />
-            <marker date="1577735628565" expanded="true" signature="115:403" ph="f/p" />
-            <marker date="1577735628565" expanded="true" signature="413:902" ph="custom methods" />
-            <marker date="1577735628565" expanded="true" signature="498:559" ph="{...}" />
-            <marker date="1577735628565" expanded="true" signature="606:680" ph="{...}" />
-            <marker date="1577735628565" expanded="true" signature="723:804" ph="{...}" />
-            <marker date="1577735628565" expanded="true" signature="848:887" ph="{...}" />
+            <marker date="1577750325056" expanded="true" signature="6:32" ph="..." />
+            <marker date="1577750325056" expanded="true" signature="108:898" ph="{...}" />
+            <marker date="1577750325056" expanded="true" signature="115:397" ph="f/p" />
+            <marker date="1577750325056" expanded="true" signature="407:896" ph="custom methods" />
+            <marker date="1577750325056" expanded="true" signature="492:553" ph="{...}" />
+            <marker date="1577750325056" expanded="true" signature="600:674" ph="{...}" />
+            <marker date="1577750325056" expanded="true" signature="717:798" ph="{...}" />
+            <marker date="1577750325056" expanded="true" signature="842:881" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="90" lean-forward="true" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+        <state relative-caret-position="288">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
-            <marker date="1577742148581" expanded="false" signature="6:51" ph="..." />
-            <marker date="1577742148581" expanded="true" signature="118:1549" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="125:490" ph="f/p" />
-            <marker date="1577742148581" expanded="true" signature="496:682" ph="unity mehods" />
-            <marker date="1577742148581" expanded="true" signature="541:599" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="633:667" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="697:1547" ph="custom methods" />
-            <marker date="1577742148581" expanded="true" signature="752:1319" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="923:1253" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="1351:1442" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="1472:1532" ph="{...}" />
-            <marker date="1577742148581" expanded="true" signature="1574:1617" ph="{...}" />
+            <marker date="1577750346804" expanded="false" signature="6:51" ph="..." />
+            <marker date="1577750346804" expanded="true" signature="118:1788" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="125:548" ph="f/p" />
+            <marker date="1577750346804" expanded="true" signature="554:853" ph="unity mehods" />
+            <marker date="1577750346804" expanded="true" signature="599:657" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="684:774" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="804:838" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="868:1786" ph="custom methods" />
+            <marker date="1577750346804" expanded="true" signature="923:1452" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="1056:1386" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="1484:1575" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="1605:1665" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="1700:1771" ph="{...}" />
+            <marker date="1577750346804" expanded="true" signature="1813:1856" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state relative-caret-position="176">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <marker date="1577742797398" expanded="false" signature="7:52" ph="..." />
-            <marker date="1577742797398" expanded="true" signature="143:968" ph="{...}" />
-            <marker date="1577742797398" expanded="true" signature="150:243" ph="f/p" />
-            <marker date="1577742797398" expanded="true" signature="303:844" ph="unity methods" />
-            <marker date="1577742797398" expanded="true" signature="353:412" ph="{...}" />
-            <marker date="1577742797398" expanded="true" signature="459:824" ph="{...}" />
-            <marker date="1577742797398" expanded="true" signature="580:818" ph="{...}" />
-            <marker date="1577742797398" expanded="true" signature="851:966" ph="custom methods" />
-            <marker date="1577742797398" expanded="true" signature="905:950" ph="{...}" />
+            <marker date="1577738520269" expanded="true" signature="75:1068" ph="{...}" />
+            <marker date="1577738520269" expanded="true" signature="82:177" ph="f/p" />
+            <marker date="1577738520269" expanded="true" signature="183:1066" ph="custom methods" />
+            <marker date="1577738520269" expanded="true" signature="255:1050" ph="{...}" />
           </folding>
         </state>
       </provider>
