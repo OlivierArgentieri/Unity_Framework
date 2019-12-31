@@ -11,6 +11,13 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
 
     #region custom methods
 
+    protected override void FollowTarget()
+    {
+        base.FollowTarget();
+        Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
+        transform.position = Vector3.MoveTowards(transform.position, CameraSetting.Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
+    }
+
     private void OnMouseAxis(Vector2 _mouseAxis)
     {
         if (!IsEnable) return;

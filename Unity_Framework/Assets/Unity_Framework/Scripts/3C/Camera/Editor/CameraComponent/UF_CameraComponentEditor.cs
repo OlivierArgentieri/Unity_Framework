@@ -28,8 +28,6 @@ public class UF_CameraComponentEditor : Editor
         {
             previousCameraType = eTarget.CameraType;
             InitCameraBehaviour();
-            Debug.Log(eTarget.CameraType.ToString() != previousCameraType.ToString());
-            Debug.Log(previousCameraType);
         }
     }
     
