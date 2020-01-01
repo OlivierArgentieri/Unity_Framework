@@ -22,6 +22,10 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     private void Awake()
     {
         UF_CameraManager.OnReady += Register;
+        cameraSettings.SetLocalCamera(GetComponent<Camera>());
+        
+        InitBehaviour();
+        
     }
 
     private void Update()

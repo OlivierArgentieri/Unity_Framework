@@ -144,5 +144,10 @@ public class UF_CameraSetting
         return _toReturn;
     }
 
+    public void SetLocalCamera(Camera _camera)
+    {
+        localCamera = _camera;
+    }
+
     #endregion
 }

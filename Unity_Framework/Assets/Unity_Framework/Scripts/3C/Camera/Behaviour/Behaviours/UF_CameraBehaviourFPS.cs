@@ -11,6 +11,13 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
 
     #region custom methods
 
+    public override void InitBehaviour(UF_CameraSetting _cameraSetting)
+    {
+        base.InitBehaviour(_cameraSetting);
+        OnUpdateBehaviour += FollowTarget;
+        OnUpdateBehaviour += LookAtTarget;
+    }
+
     protected override void FollowTarget()
     {
         base.FollowTarget();

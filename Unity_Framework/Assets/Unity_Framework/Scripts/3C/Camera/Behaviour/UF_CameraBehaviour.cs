@@ -14,7 +14,7 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     #endregion
     
     #region custom methods
-    public void InitBehaviour(UF_CameraSetting _cameraSetting)
+    public virtual void  InitBehaviour(UF_CameraSetting _cameraSetting)
     {
         cameraSetting = _cameraSetting;
         

@@ -23,7 +23,8 @@ public class UF_CameraComponentEditor : Editor
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
-       
+
+        if (Application.isPlaying) return;
         if (eTarget.CameraType.ToString() != previousCameraType.ToString())
         {
             previousCameraType = eTarget.CameraType;
