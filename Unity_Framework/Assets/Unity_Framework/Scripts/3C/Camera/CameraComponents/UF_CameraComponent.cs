@@ -65,12 +65,14 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     
     public void Register()
     {
+        if (!UF_CameraManager.Instance) return;
         UF_CameraManager.Instance.Add(this);
         name += "[SLV]"; // Slave
     }
 
     public void Unregister()
     {
+        if (!UF_CameraManager.Instance) return;
         UF_CameraManager.Instance.Remove(this);
     }
 

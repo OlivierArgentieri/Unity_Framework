@@ -16,6 +16,8 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         base.InitBehaviour(_cameraSetting);
         OnUpdateBehaviour += FollowTarget;
         OnUpdateBehaviour += LookAtTarget;
+        SetEnable(true);
+        UF_InputManager.OnMouseAxis += OnMouseAxis;
     }
 
     protected override void FollowTarget()

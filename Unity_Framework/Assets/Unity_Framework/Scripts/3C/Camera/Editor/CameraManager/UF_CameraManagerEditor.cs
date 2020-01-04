@@ -14,6 +14,9 @@ public class UF_CameraManagerEditor
         
         GameObject _cameraManager = new GameObject("CameraManager", typeof(UF_CameraManager));
         Selection.activeObject = _cameraManager;
+        
+        // create InputManager 
+        UF_InputManagerEditor.Init();
     }
     #endregion
 

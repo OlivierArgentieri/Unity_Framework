@@ -24,23 +24,28 @@ public class UF_CameraComponentEditor : Editor
     {
         base.OnInspectorGUI();
 
-        if (Application.isPlaying) return;
-        if (eTarget.CameraType.ToString() != previousCameraType.ToString())
-        {
-            previousCameraType = eTarget.CameraType;
-            InitCameraBehaviour();
-        }
+        InitCameraBehaviour();
+        
     }
     
     #endregion
 
 
     #region custom methods
+    
 
     void InitCameraBehaviour()
     {
-        eTarget.InitBehaviour();
+        if (Application.isPlaying) return;
+        if (eTarget.CameraType.ToString() != previousCameraType.ToString())
+        {
+            previousCameraType = eTarget.CameraType;
+            eTarget.InitBehaviour();
+        }
+        //if(EditorGUIUtility.isProSkin)
+            Color backgroundColor = EditorGUIUtility.isProSkin ? new Color32(56, 56, 56, 255) : new Color32(194, 194, 194, 255);
     }
+    
 
     #endregion
 }
