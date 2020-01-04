@@ -22,7 +22,7 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
 
     protected override void FollowTarget()
     {
-        base.FollowTarget();
+        if (!IsValid || !CameraSetting.FollowPlayer) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
         transform.position = Vector3.MoveTowards(transform.position, CameraSetting.Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
     }
