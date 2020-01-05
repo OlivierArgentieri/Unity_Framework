@@ -4,7 +4,11 @@ using UnityEngine;
 [Serializable]
 public class UF_CameraSetting
 {
-     #region f/p
+    #region f/p
+    [SerializeField, Header("Setting ID")] private int settingID = 0;
+    [SerializeField, Header("Setting Name")] private string settingName = string.Empty;
+
+    private UF_CameraSettingDatabase database = null;
 
     [SerializeField, Header("Target")] private Transform target = null;
     [SerializeField, Header("Camera")] private Camera localCamera = null;
@@ -130,9 +134,16 @@ public class UF_CameraSetting
     #endregion
 
 
+    #region constructor
+
+    public UF_CameraSetting(){}
+
+    public UF_CameraSetting(UF_CameraSettingDatabase _database) => database = _database;
+    
+    #endregion
 
     #region custom methods
-
+ 
     float ClampValue(float _value, float _maxValue, float _minValue)
     {
         float _toReturn = _value;
@@ -148,6 +159,10 @@ public class UF_CameraSetting
     {
         localCamera = _camera;
     }
-
+    
+    
+    //  todo refactor
+    // setting camera profile
+    
     #endregion
 }

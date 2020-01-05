@@ -14,6 +14,7 @@
                 <e p="Behaviour" t="Include">
                   <e p="Behaviours" t="Include">
                     <e p="UF_CameraBehaviourFPS.cs" t="Include" />
+                    <e p="UF_CameraBehaviourTPS.cs" t="Include" />
                   </e>
                   <e p="UF_CameraBehaviour.cs" t="Include" />
                 </e>
@@ -25,6 +26,7 @@
                 </e>
                 <e p="CameraSettings" t="Include">
                   <e p="UF_CameraSetting.cs" t="Include" />
+                  <e p="UF_CameraSettingDatabase.cs" t="Include" />
                 </e>
                 <e p="Editor" t="Include">
                   <e p="CameraComponent" t="Include">
@@ -32,6 +34,9 @@
                   </e>
                   <e p="CameraManager" t="Include">
                     <e p="UF_CameraManagerEditor.cs" t="Include" />
+                  </e>
+                  <e p="CameraSettingsEditor" t="Include">
+                    <e p="UF_CameraSettingsEditor.cs" t="Include" />
                   </e>
                 </e>
               </e>
