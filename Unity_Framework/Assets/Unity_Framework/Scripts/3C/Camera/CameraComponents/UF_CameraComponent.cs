@@ -58,6 +58,7 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
 
     public void InitBehaviour()
     {
+        behaviour = GetComponent<UF_CameraBehaviour>();
         switch (cameraType)
         {
             case CameraTypes.FPS:
