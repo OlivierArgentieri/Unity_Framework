@@ -41,7 +41,6 @@ public class UF_InputManager : ManagerTemplate<UF_InputManager>
     {
         // Axis
         OnMouseAxis?.Invoke(new Vector2(MouseXValue, MouseYValue));
-
     }
 
     #endregion

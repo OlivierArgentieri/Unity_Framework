@@ -19,14 +19,13 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
     {
         base.InitBehaviour(_cameraSetting);
         OnUpdateBehaviour += FollowTarget;
-        OnUpdateBehaviour += LookAtTarget;
         SetEnable(true);
         UF_InputManager.OnMouseAxis += OnMouseAxis;
     }
 
     protected override void FollowTarget()
     {
-        if (!IsValid || !CameraSetting.FollowPlayer) return;
+        if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
         transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
     }

@@ -9,9 +9,9 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     private UF_CameraSetting cameraSetting = null;
  
     
-    public bool IsValid => cameraSetting != null;
     public bool IsEnable { get; protected set; }
     public UF_CameraSetting CameraSetting => cameraSetting;
+    public bool IsValid => cameraSetting != null;
     #endregion
     
     

@@ -42,5 +42,4 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
         return Handles.ContainsKey(_item.ID);
     }
     #endregion
-
 }

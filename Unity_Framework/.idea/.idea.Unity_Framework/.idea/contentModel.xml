@@ -24,7 +24,7 @@
                 <e p="CameraManager" t="Include">
                   <e p="UF_CameraManager.cs" t="Include" />
                 </e>
-                <e p="CameraSettings" t="Include">
+                <e p="CameraSetting" t="Include">
                   <e p="UF_CameraSetting.cs" t="Include" />
                 </e>
                 <e p="Editor" t="Include">
@@ -33,9 +33,6 @@
                   </e>
                   <e p="CameraManager" t="Include">
                     <e p="UF_CameraManagerEditor.cs" t="Include" />
-                  </e>
-                  <e p="CameraSettingsEditor" t="Include">
-                    <e p="UF_CameraSettingsEditor.cs" t="Include" />
                   </e>
                 </e>
               </e>

@@ -129,10 +129,6 @@ public class UF_CameraSetting : ScriptableObject
 
     #region constructor
 
-    public UF_CameraSetting(){}
-
-    // public UF_CameraSetting(UF_CameraSettingDatabase _database) => database = _database; todo enhancement
-    
     #endregion
 
     #region custom methods
@@ -152,10 +148,5 @@ public class UF_CameraSetting : ScriptableObject
     {
         localCamera = _camera;
     }
-    
-    
-    //  todo refactor
-    // setting camera profile
-    
     #endregion
 }
