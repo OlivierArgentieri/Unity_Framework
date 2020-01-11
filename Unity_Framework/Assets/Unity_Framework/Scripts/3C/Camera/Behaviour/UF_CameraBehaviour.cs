@@ -19,7 +19,6 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     public virtual void  InitBehaviour(UF_CameraSetting _cameraSetting)
     {
         cameraSetting = _cameraSetting;
-        
     }
     
     protected virtual void FollowTarget()
@@ -31,7 +30,7 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     protected virtual void LookAtTarget()
     {
         if (!IsValid || !cameraSetting.FocusPlayer) return;
-        
+
     }
     
     public void SetEnable(bool _value)

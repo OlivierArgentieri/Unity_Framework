@@ -9,16 +9,16 @@ public class UF_CameraSetting : ScriptableObject
 
     #region offset
     [SerializeField, Header("Offset X"), Range(-20, 20)] private float offsetX = 0;
-    [SerializeField, Header("Offset X Max"), Range(-20, 20)] private float offsetXMax = 20;
-    [SerializeField, Header("Offset X Min"), Range(-20, 20)] private float offsetXMin = -20;
+    private float offsetXMax = 20;
+    private float offsetXMin = -20;
     
     [SerializeField, Header("Offset Y"), Range(-20, 20)] private float offsetY = 0;
-    [SerializeField, Header("Offset Y Max"), Range(-20, 20)] private float offsetYMax = 20;
-    [SerializeField, Header("Offset Y Min"), Range(-20, 20)] private float offsetYMin = -20;
+    private float offsetYMax = 20;
+    private float offsetYMin = -20;
     
     [SerializeField, Header("Offset Z"), Range(-20, 20)] private float offsetZ = 0;
-    [SerializeField, Header("Offset Z Max"), Range(-20, 20)] private float offsetZMax = 20;
-    [SerializeField, Header("Offset Z Min"), Range(-20, 20)] private float offsetZMin = -20;
+    private float offsetZMax = 20;
+    private float offsetZMin = -20;
     #endregion
 
     #region clamp
@@ -31,16 +31,17 @@ public class UF_CameraSetting : ScriptableObject
     [SerializeField, Header("Clamp Y Value Max"), Range(-180, 180)] private float clampYValueMax = 0;
     #endregion
    
-    [SerializeField, Header("Rotate Speed"), Range(0, 200)] private float rotateSpeed = .1f;
-    [SerializeField, Header("Rotate Speed Max"), Range(0, 200)] private float rotateSpeedMax = 200;
-    [SerializeField, Header("Rotate Speed Min"), Range(0, 200)] private float rotateSpeedMin = 0;
-
     [SerializeField, Header("Follow Player ?")] private bool followPlayer= false;
     [SerializeField, Header("Focus Player ?")] private bool focusPlayer = false;
+    
+    [SerializeField, Header("Rotate Speed"), Range(0, 200)] private float rotateSpeed = .1f;
+    private float rotateSpeedMax = 200;
+    private float rotateSpeedMin = 0;
+
 
     [SerializeField, Header("Follow Target Speed"), Range(0, 100)] private float followSpeed = .1f;
-    [SerializeField, Header("Follow Target Speed Max"), Range(0, 100)] private float followSpeedMax = 100f;
-    [SerializeField, Header("Follow Target Speed Min"), Range(0, 100)] private float followSpeedMin = 0;
+    private float followSpeedMax = 100f;
+    private float followSpeedMin = 0;
 
     
     #region get/set
