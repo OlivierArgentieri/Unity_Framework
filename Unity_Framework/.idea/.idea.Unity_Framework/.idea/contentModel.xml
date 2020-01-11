@@ -26,7 +26,6 @@
                 </e>
                 <e p="CameraSettings" t="Include">
                   <e p="UF_CameraSetting.cs" t="Include" />
-                  <e p="UF_CameraSettingDatabase.cs" t="Include" />
                 </e>
                 <e p="Editor" t="Include">
                   <e p="CameraComponent" t="Include">

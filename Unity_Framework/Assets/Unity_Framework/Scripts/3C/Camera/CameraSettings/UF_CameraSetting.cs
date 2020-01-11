@@ -5,14 +5,6 @@ using UnityEngine;
 public class UF_CameraSetting : ScriptableObject
 {
     #region f/p
-    /* todo enhancement
-    [SerializeField, Header("Setting ID")] private int settingID = 0;
-    [SerializeField, Header("Setting Name")] private string settingName = string.Empty;
-    
-    private UF_CameraSettingDatabase database = null;
-    */ 
-    
-    
     [SerializeField, Header("Camera")] private Camera localCamera = null;
 
     #region offset

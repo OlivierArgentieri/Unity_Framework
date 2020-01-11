@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourTPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourTPS.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" afterDir="false" />
@@ -39,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+            <state relative-caret-position="-5">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <marker date="1578759627877" expanded="false" signature="6:51" ph="..." />
                 <marker date="1578759627877" expanded="true" signature="118:2606" ph="{...}" />
@@ -64,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSetting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="225">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <marker date="1578758926527" expanded="true" signature="6:32" ph="..." />
@@ -114,20 +115,6 @@
                 <marker date="1578758812963" expanded="true" signature="624:698" ph="{...}" />
                 <marker date="1578758812963" expanded="true" signature="741:822" ph="{...}" />
                 <marker date="1578758812963" expanded="true" signature="866:905" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSettingDatabase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <marker date="1578351533343" expanded="true" signature="6:52" ph="..." />
-                <marker date="1578351533343" expanded="true" signature="199:926" ph="{...}" />
-                <marker date="1578351533343" expanded="true" signature="206:924" ph="/* todo enhancement ... */" />
               </folding>
             </state>
           </provider>
@@ -317,7 +304,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourTPS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50C28864-29A8-49E8-B640-D0ACA52729FC/ae/91c01f09/ScriptableBakedReflectionSystemWrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSettingDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/IEnable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -587,12 +573,12 @@
       <workItem from="1577629512977" duration="27700000" />
       <workItem from="1578005901029" duration="12282000" />
       <workItem from="1578146552950" duration="1490000" />
-      <workItem from="1578148957522" duration="13385000" />
+      <workItem from="1578148957522" duration="14043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54857000" />
+    <option name="totallyTimeSpent" value="55515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,11 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <marker date="1578351533343" expanded="true" signature="6:52" ph="..." />
-            <marker date="1578351533343" expanded="true" signature="199:926" ph="{...}" />
-            <marker date="1578351533343" expanded="true" signature="206:924" ph="/* todo enhancement ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,40 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <marker date="1578758926527" expanded="true" signature="6:32" ph="..." />
-            <marker date="1578758926527" expanded="true" signature="185:5120" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="192:4439" ph="f/p" />
-            <marker date="1578758926527" expanded="true" signature="208:451" ph="/* todo enhancement ... */" />
-            <marker date="1578758926527" expanded="true" signature="542:1388" ph="offset" />
-            <marker date="1578758926527" expanded="true" signature="1394:1969" ph="clamp" />
-            <marker date="1578758926527" expanded="true" signature="2753:4423" ph="get/set" />
-            <marker date="1578758926527" expanded="true" signature="2822:3239" ph="offset" />
-            <marker date="1578758926527" expanded="true" signature="2861:2965" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="2991:3094" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="3120:3223" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="3246:4013" ph="clamp" />
-            <marker date="1578758926527" expanded="false" signature="3282:3348" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="3372:3438" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="3475:3580" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="3613:3718" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="3755:3860" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="3893:3998" ph="{...}" />
-            <marker date="1578758926527" expanded="false" signature="4133:4253" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="4283:4403" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="4446:4628" ph="constructor" />
-            <marker date="1578758926527" expanded="true" signature="4634:5118" ph="custom methods" />
-            <marker date="1578758926527" expanded="true" signature="4727:4945" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="4993:5036" ph="{...}" />
-            <marker date="1578758926527" expanded="true" signature="5051:5098" ph="/* todo refactor ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+        <state relative-caret-position="-5">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <marker date="1578759627877" expanded="false" signature="6:51" ph="..." />
             <marker date="1578759627877" expanded="true" signature="118:2606" ph="{...}" />
@@ -1134,6 +1081,40 @@
             <marker date="1578759627877" expanded="true" signature="2375:2483" ph="{...}" />
             <marker date="1578759627877" expanded="true" signature="2518:2589" ph="{...}" />
             <marker date="1578759627877" expanded="true" signature="2631:2674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettings/UF_CameraSetting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <marker date="1578758926527" expanded="true" signature="6:32" ph="..." />
+            <marker date="1578758926527" expanded="true" signature="185:5120" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="192:4439" ph="f/p" />
+            <marker date="1578758926527" expanded="true" signature="208:451" ph="/* todo enhancement ... */" />
+            <marker date="1578758926527" expanded="true" signature="542:1388" ph="offset" />
+            <marker date="1578758926527" expanded="true" signature="1394:1969" ph="clamp" />
+            <marker date="1578758926527" expanded="true" signature="2753:4423" ph="get/set" />
+            <marker date="1578758926527" expanded="true" signature="2822:3239" ph="offset" />
+            <marker date="1578758926527" expanded="true" signature="2861:2965" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="2991:3094" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="3120:3223" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="3246:4013" ph="clamp" />
+            <marker date="1578758926527" expanded="false" signature="3282:3348" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="3372:3438" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="3475:3580" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="3613:3718" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="3755:3860" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="3893:3998" ph="{...}" />
+            <marker date="1578758926527" expanded="false" signature="4133:4253" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="4283:4403" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="4446:4628" ph="constructor" />
+            <marker date="1578758926527" expanded="true" signature="4634:5118" ph="custom methods" />
+            <marker date="1578758926527" expanded="true" signature="4727:4945" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="4993:5036" ph="{...}" />
+            <marker date="1578758926527" expanded="true" signature="5051:5098" ph="/* todo refactor ... */" />
           </folding>
         </state>
       </provider>
