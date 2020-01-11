@@ -1,16 +1,18 @@
 using System;
 using UnityEngine;
 
-[Serializable]
-public class UF_CameraSetting
+[Serializable][CreateAssetMenu(fileName = "New Camera Setting", menuName = "UF/Camera/CameraSetting")]
+public class UF_CameraSetting : ScriptableObject
 {
     #region f/p
+    /* todo enhancement
     [SerializeField, Header("Setting ID")] private int settingID = 0;
     [SerializeField, Header("Setting Name")] private string settingName = string.Empty;
-
+    
     private UF_CameraSettingDatabase database = null;
-
-    [SerializeField, Header("Target")] private Transform target = null;
+    */ 
+    
+    
     [SerializeField, Header("Camera")] private Camera localCamera = null;
 
     #region offset
@@ -51,7 +53,6 @@ public class UF_CameraSetting
     
     #region get/set
 
-    public Transform Target => target;
     public Camera LocalCamera => localCamera;
 
 
@@ -138,7 +139,7 @@ public class UF_CameraSetting
 
     public UF_CameraSetting(){}
 
-    public UF_CameraSetting(UF_CameraSettingDatabase _database) => database = _database;
+    // public UF_CameraSetting(UF_CameraSettingDatabase _database) => database = _database; todo enhancement
     
     #endregion
 

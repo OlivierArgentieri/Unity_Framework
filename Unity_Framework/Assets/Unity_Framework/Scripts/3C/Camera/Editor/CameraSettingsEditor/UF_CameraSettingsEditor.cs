@@ -9,19 +9,19 @@ public class UF_CameraSettingsEditor : EditorWindow, IIsValid
     public bool IsValid => data;
     #endregion
 
+    
     #region unity methods
-
     private void OnEnable()
     {
         data = Resources.Load<UF_CameraSettingDatabase>("data/CameraSettingDatabase");
     }
-
     #endregion
 
 
+    
     #region custom methods
 
     
-
+    
     #endregion
 }

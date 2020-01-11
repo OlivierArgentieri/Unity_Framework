@@ -9,12 +9,12 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     public bool IsValid => BehaviourExist();
     
     [SerializeField, Header("Camera Settings")]
-    private UF_CameraSetting cameraSettings = new UF_CameraSetting();
+    private UF_CameraSetting cameraSettings = null;
 
     [SerializeField, Header("Camera Type")]
     private CameraTypes cameraType = CameraTypes.Custom;
 
-    private UF_CameraBehaviour _behaviour = null;
+    private UF_CameraBehaviour behaviour = null;
     public CameraTypes CameraType => cameraType;
     #endregion
 
@@ -31,7 +31,7 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
     private void Update()
     {
         if (!IsValid) return;
-        _behaviour.OnUpdateBehaviour?.Invoke();
+        behaviour.OnUpdateBehaviour?.Invoke();
     }
 
     private void OnDestroy()
@@ -45,22 +45,29 @@ public class UF_CameraComponent: MonoBehaviour, IHandlerItem<int>
 
     public void InitBehaviour()
     {
-        gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
-       
+        //gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
+        behaviour = GetComponent<UF_CameraBehaviour>();
         switch (cameraType)
         {
             case CameraTypes.FPS:
-                _behaviour = gameObject.AddComponent<UF_CameraBehaviourFPS>();
+                if (behaviour && behaviour.GetComponent<UF_CameraBehaviourFPS>()) break;
+                gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
+                behaviour = gameObject.AddComponent<UF_CameraBehaviourFPS>();
                 break;
             case CameraTypes.TPS:
+                if (behaviour && behaviour.GetComponent<UF_CameraBehaviourTPS>()) break;
+                gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
+                behaviour = gameObject.AddComponent<UF_CameraBehaviourTPS>();
                 break;
             case CameraTypes.RTS:
+                if (behaviour && behaviour.GetComponent<UF_CameraBehaviourFPS>()) break;
+                DestroyImmediate(behaviour);
                 break;
             case CameraTypes.Custom:
                 break;
         }
         
-        _behaviour?.InitBehaviour(cameraSettings);
+        behaviour?.InitBehaviour(cameraSettings);
     }
     
     public void Register()

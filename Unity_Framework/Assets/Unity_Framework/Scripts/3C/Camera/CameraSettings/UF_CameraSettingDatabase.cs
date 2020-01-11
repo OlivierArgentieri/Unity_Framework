@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CameraSettingDatabase", menuName = "Camera/CameraSetting")]
 public class UF_CameraSettingDatabase : ScriptableObject
 {
+    /* todo enhancement 
     #region f/p
     List<UF_CameraSetting> datas = new List<UF_CameraSetting>();
 
@@ -27,5 +28,5 @@ public class UF_CameraSettingDatabase : ScriptableObject
     public void EditSetting(int _index) => selectedSetting = _index;
     public void RemoveSettingById(int _index) => datas.RemoveAt(_index);
 
-    #endregion
+    #endregion*/
 }

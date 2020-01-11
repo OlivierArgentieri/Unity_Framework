@@ -438,32 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef9163248f8e014cacb3ba3008f2519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSettings:
-    target: {fileID: 1892872408}
-    localCamera: {fileID: 0}
-    offsetX: 0
-    offsetXMax: 20
-    offsetXMin: -20
-    offsetY: 0
-    offsetYMax: 20
-    offsetYMin: -20
-    offsetZ: 0
-    offsetZMax: 20
-    offsetZMin: -20
-    clampX: 0
-    clampY: 0
-    clampXValueMin: 0
-    clampXValueMax: 0
-    clampYValueMin: 0
-    clampYValueMax: 0
-    rotateSpeed: 117
-    rotateSpeedMax: 200
-    rotateSpeedMin: 0
-    followPlayer: 1
-    focusPlayer: 1
-    followSpeed: 0.1
-    followSpeedMax: 100
-    followSpeedMin: 0
+  cameraSettings: {fileID: 11400000, guid: 86a905047f260014cae8da0ce4ebf908, type: 2}
   cameraType: 0
 --- !u!114 &963194229
 MonoBehaviour:
@@ -533,6 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f78f778dc35908469fad1f0a4854489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1892872408}
 --- !u!1 &1565527620
 GameObject:
   m_ObjectHideFlags: 0

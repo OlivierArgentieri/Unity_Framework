@@ -5,13 +5,15 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
 {
     #region f/p
     public Action OnUpdateBehaviour = null;
-
+    
     private UF_CameraSetting cameraSetting = null;
+ 
+    
     public bool IsValid => cameraSetting != null;
     public bool IsEnable { get; protected set; }
-
     public UF_CameraSetting CameraSetting => cameraSetting;
     #endregion
+    
     
     #region custom methods
     public virtual void  InitBehaviour(UF_CameraSetting _cameraSetting)

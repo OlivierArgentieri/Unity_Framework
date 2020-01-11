@@ -3,9 +3,13 @@ using UnityEngine;
 public class UF_CameraBehaviourFPS : UF_CameraBehaviour
 {
     #region f/p
+    [SerializeField, Header("Target")] private Transform target = null;
 
     private float roll = 0; // x
     private float pitch = 0; // y
+
+    
+    public Transform Target => target;
 
     #endregion
 
@@ -24,7 +28,7 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
     {
         if (!IsValid || !CameraSetting.FollowPlayer) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        transform.position = Vector3.MoveTowards(transform.position, CameraSetting.Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
+        transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
     }
 
     private void OnMouseAxis(Vector2 _mouseAxis)
@@ -45,7 +49,7 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
             pitch = pitch % 360;
         
         transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
-        CameraSetting.Target.eulerAngles = new Vector3(CameraSetting.Target.eulerAngles.x, pitch, CameraSetting.Target.eulerAngles.z);
+        Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
     }
 
     #endregion
