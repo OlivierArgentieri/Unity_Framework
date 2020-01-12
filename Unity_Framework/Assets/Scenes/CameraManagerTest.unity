@@ -477,19 +477,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1074564699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dede7292ae154066b2559dd71f2fdc50, type: 3}
+  m_Script: {fileID: 11500000, guid: f12f25818e5474f43b4fe0251940000c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnable: 1
-  target: {x: 0, y: 0, z: 0}
-  stopDistance: 1
-  rotateSpeed: 15
-  navigableLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 512
+  rotateSpeed: 346
   idMainCamera: 0
 --- !u!114 &1074564701
 MonoBehaviour:
@@ -504,8 +496,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSettings:
-    moveSpeed: 10
-  behaviourType: 1
+    moveSpeed: 0.4
+  behaviourType: 2
 --- !u!136 &1074564702
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -672,8 +664,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraID: 0
-  cameraSettings: {fileID: 11400000, guid: ee42e95e5e6c5e5489d0f2b978e773ed, type: 2}
-  cameraType: 2
+  cameraSettings: {fileID: 11400000, guid: c16b5f40c362fd04d93eac61db229e98, type: 2}
+  cameraType: 1
 --- !u!81 &1895288895
 AudioListener:
   m_ObjectHideFlags: 0
@@ -748,7 +740,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1895288893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77a55861228848c18a9ba890eafc67bc, type: 3}
+  m_Script: {fileID: 11500000, guid: b90f24a45d1f6864398501e5f01adc14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1074564705}

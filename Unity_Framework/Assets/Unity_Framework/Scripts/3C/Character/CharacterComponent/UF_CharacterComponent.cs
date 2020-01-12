@@ -61,7 +61,9 @@ public class UF_CharacterComponent : MonoBehaviour, IHandlerItem<int>
                 break;
             
             case UF_CharacterBehaviourType.TPS:
-                
+                if (BehaviourExist() && characterBehaviour.GetComponent<UF_CharacterBehaviourTPS>()) break;
+                ClearBehaviours();
+                characterBehaviour = gameObject.AddComponent<UF_CharacterBehaviourTPS>();
                 break;
             case UF_CharacterBehaviourType.NONE:
                 ClearBehaviours();
