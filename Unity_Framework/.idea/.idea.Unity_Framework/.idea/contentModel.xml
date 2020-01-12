@@ -38,11 +38,28 @@
                 </e>
               </e>
               <e p="Character" t="Include">
+                <e p="CharacterBehaviour" t="Include">
+                  <e p="CharacterBehaviours" t="Include">
+                    <e p="UF_CharacterBehaviourFPS.cs" t="Include" />
+                  </e>
+                  <e p="UF_CharacterBehaviour.cs" t="Include" />
+                </e>
                 <e p="CharacterComponent" t="Include">
                   <e p="UF_CharacterComponent.cs" t="Include" />
                 </e>
                 <e p="CharacterManager" t="Include">
                   <e p="UF_CharacterManager.cs" t="Include" />
+                </e>
+                <e p="CharacterSettings" t="Include">
+                  <e p="UF_CharacterSettings.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="CharacterComponent" t="Include">
+                    <e p="UF_CharacterComponentEditor.cs" t="Include" />
+                  </e>
+                  <e p="CharacterManager" t="Include">
+                    <e p="UF_CharacterManagerEditor.cs" t="Include" />
+                  </e>
                 </e>
               </e>
               <e p="Input" t="Include">

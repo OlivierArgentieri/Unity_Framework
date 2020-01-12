@@ -103,10 +103,8 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
         return GetComponent<UF_CameraBehaviour>() != null;
     }
 
-    private void ClearBehaviours()
-    {
-        gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
-    }
+    private void ClearBehaviours() => gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
+    
 
     #endregion
 }
