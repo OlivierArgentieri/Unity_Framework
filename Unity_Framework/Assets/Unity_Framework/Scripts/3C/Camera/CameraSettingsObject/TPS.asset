@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: TPS
   m_EditorClassIdentifier: 
   localCamera: {fileID: 0}
-  offsetX: 3.5
-  offsetY: 9.5
-  offsetZ: -4
+  offsetX: -0.2
+  offsetY: -1.5
+  offsetZ: 4.1
   clampX: 1
-  clampY: 1
-  clampXValueMin: 60
-  clampXValueMax: 60
+  clampY: 0
+  clampXValueMin: -45
+  clampXValueMax: 45
   clampYValueMin: -45
   clampYValueMax: -45
   followPlayer: 1
   focusPlayer: 1
-  rotateSpeed: 0
-  followSpeed: 7
+  rotateSpeed: 200
+  followSpeed: 70
