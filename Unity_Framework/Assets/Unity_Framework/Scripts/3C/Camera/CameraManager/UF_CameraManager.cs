@@ -5,6 +5,7 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
 {
     #region f/p
     public static event Action OnReady = null;
+    public static event Action<UF_CameraComponent> OnRegister = null;
     public Dictionary<int, UF_CameraComponent> Handles { get; } = new Dictionary<int, UF_CameraComponent>();
     public bool IsValid => Handles != null;
     #endregion
@@ -27,9 +28,12 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
         bool _handle = _add ? !IsExist(_component) : IsExist(_component);
         
         if(! _handle) return; //throw new Exception("CameraManager => Invalid Component in Handler Method");
-        
+
         if (_add)
+        {
             Handles.Add(_component.ID, _component);
+            OnRegister?.Invoke(_component);
+        }
         else
             Handles.Remove(_component.ID);
     }
@@ -39,7 +43,12 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
     public bool IsExist(UF_CameraComponent _item)
     {
         if (!IsValid) throw new Exception("CameraManager => Invalid CameraManager");
-        return Handles.ContainsKey(_item.ID);
+        return IsExist(_item.ID);
     }
+
+    public bool IsExist(int _id) => Handles.ContainsKey(_id);
+
+    public UF_CameraComponent GetById(int _id) => IsExist(_id) ? Handles[_id] : null;
+    
     #endregion
 }

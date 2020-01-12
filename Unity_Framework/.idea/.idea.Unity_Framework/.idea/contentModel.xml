@@ -41,6 +41,7 @@
                 <e p="CharacterBehaviour" t="Include">
                   <e p="CharacterBehaviours" t="Include">
                     <e p="UF_CharacterBehaviourFPS.cs" t="Include" />
+                    <e p="UF_CharacterBehaviourRTS.cs" t="Include" />
                   </e>
                   <e p="UF_CharacterBehaviour.cs" t="Include" />
                 </e>

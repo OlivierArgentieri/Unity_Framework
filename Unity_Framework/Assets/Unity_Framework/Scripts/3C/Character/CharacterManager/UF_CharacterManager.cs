@@ -42,6 +42,13 @@ public class UF_CharacterManager : ManagerTemplate<UF_CharacterManager>, IHandle
     public void Add(UF_CharacterComponent _item) => Handle(true, _item);
     public void Remove(UF_CharacterComponent _item) => Handle(false, _item);
     
-    public bool IsExist(UF_CharacterComponent _item) => Handles.ContainsKey(_item.ID);
+    public bool IsExist(UF_CharacterComponent _item)
+    {
+        if (!IsValid) throw new Exception("CharacterManager => Invalid CharacterManager");
+        return IsExist(_item.ID);
+    }
+
+    public bool IsExist(int _id) => Handles.ContainsKey(_id);
+
     #endregion
 }

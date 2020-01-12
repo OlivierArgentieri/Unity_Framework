@@ -4,7 +4,6 @@ using UnityEngine;
 public class UF_CharacterBehaviourFPS : UF_CharacterBehaviour, IIsValid, IEnable
 {
     #region f/p
-
     [SerializeField, Header("Enable")] private bool isEnable = true;
     public bool IsEnable => isEnable;
     public bool IsValid => CharacterSettings != null;

@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public abstract class Util
 {
     public static float ClampRotation(float _value, float _maxValue, float _minValue)
@@ -12,4 +14,6 @@ public abstract class Util
 
         return _toReturn % 360;
     }
+
+    public static Ray ConvertCordToRay(Camera _camera, Vector2 _v2, float _distance) => _camera.ScreenPointToRay(new Vector3(_v2.x, _v2.y, _distance));
 }

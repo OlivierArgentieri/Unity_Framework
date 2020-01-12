@@ -18,6 +18,8 @@ public class UF_CharacterManagerEditor
         GameObject _characterManager = new GameObject("CharacterManager", typeof(UF_CharacterManager));
         Selection.activeObject = _characterManager;
         
+        
+        
         // create InputManager 
         UF_InputManagerEditor.Init();
     }

@@ -10,6 +10,7 @@ public class UF_CharacterEditor : Editor
     private void OnEnable()
     {
         eTarget = (UF_CharacterComponent) target;
+        
     }
     #endregion
 

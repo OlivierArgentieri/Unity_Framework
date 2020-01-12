@@ -21,6 +21,7 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
     public int ID => cameraID;
     public bool IsValid => cameraSettings;
 
+    public UF_CameraSetting CameraSettings => cameraSettings;
     #endregion
 
     #region unity mehods
