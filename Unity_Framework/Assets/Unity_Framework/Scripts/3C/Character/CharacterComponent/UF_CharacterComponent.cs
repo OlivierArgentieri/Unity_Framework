@@ -15,15 +15,13 @@ public class UF_CharacterComponent : MonoBehaviour, IHandlerItem<int>
     
     
     public UF_CharacterSettings CharacterSettings => characterSettings;
-    
-    
-
+    public UF_CharacterBehaviourType BehaviourType => behaviourType;
     public bool IsValid => true;
     #endregion
 
     #region unity methods
 
-    private void Start()
+    private void Awake()
     {
         UF_CharacterManager.OnReady += InitCharacter;
     }
@@ -42,14 +40,18 @@ public class UF_CharacterComponent : MonoBehaviour, IHandlerItem<int>
     {
         Register();
         characterSettings.InitSettings(this);
+        InitBehaviour();
     }
 
-    void InitBehaviour()
+    public void InitBehaviour()
     {
+        characterBehaviour = GetComponent<UF_CharacterBehaviour>();
         switch (behaviourType)
         {
             case UF_CharacterBehaviourType.FPS:
-                
+                if (BehaviourExist() && characterBehaviour.GetComponent<UF_CharacterBehaviourFPS>()) break;
+                ClearBehaviours();
+                characterBehaviour = gameObject.AddComponent<UF_CharacterBehaviourFPS>();
                 break;
             case UF_CharacterBehaviourType.RTS:
                 
@@ -61,8 +63,9 @@ public class UF_CharacterComponent : MonoBehaviour, IHandlerItem<int>
                 
                 break;
             
-            characterBehaviour?.InitCharacterBehaviour(characterSettings);
         }
+        characterBehaviour?.InitCharacterBehaviour(characterSettings);
+
     }
     
     public void Register()
@@ -77,6 +80,7 @@ public class UF_CharacterComponent : MonoBehaviour, IHandlerItem<int>
         UF_CharacterManager.Instance.Remove(this);
     }
     
+    private bool BehaviourExist() => GetComponent<UF_CharacterBehaviour>() != null;
     private void ClearBehaviours() => gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
     
     #endregion

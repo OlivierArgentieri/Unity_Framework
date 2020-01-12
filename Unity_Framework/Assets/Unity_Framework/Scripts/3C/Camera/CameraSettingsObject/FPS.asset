@@ -25,4 +25,4 @@ MonoBehaviour:
   followPlayer: 1
   focusPlayer: 0
   rotateSpeed: 200
-  followSpeed: 15
+  followSpeed: 100

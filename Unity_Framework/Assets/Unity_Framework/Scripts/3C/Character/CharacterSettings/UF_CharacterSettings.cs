@@ -10,6 +10,8 @@ public class UF_CharacterSettings
 
     
     public float MoveSpeed => moveSpeed;
+
+    public UF_CharacterComponent LocalPlayer => localPlayer;
     #endregion
 
     

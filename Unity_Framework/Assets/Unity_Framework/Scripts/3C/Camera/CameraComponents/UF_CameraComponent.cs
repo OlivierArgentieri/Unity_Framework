@@ -98,10 +98,8 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
         UF_CameraManager.Instance.Remove(this);
     }
 
-    private bool BehaviourExist()
-    {
-        return GetComponent<UF_CameraBehaviour>() != null;
-    }
+    private bool BehaviourExist() => GetComponent<UF_CameraBehaviour>() != null;
+    
 
     private void ClearBehaviours() => gameObject.GetComponents<UF_CameraBehaviour>().ToList().ForEach(DestroyImmediate);
     

@@ -4,7 +4,7 @@ public class UF_CharacterBehaviour : MonoBehaviour
 {
     #region f/p
     private UF_CharacterSettings characterSettings = null;
-    private UF_CharacterSettings CharacterSettings => characterSettings ;
+    protected UF_CharacterSettings CharacterSettings => characterSettings ;
     #endregion
 
 
