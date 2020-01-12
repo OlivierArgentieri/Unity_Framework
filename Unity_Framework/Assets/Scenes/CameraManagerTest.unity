@@ -528,8 +528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraID: 0
-  cameraSettings: {fileID: 11400000, guid: ee42e95e5e6c5e5489d0f2b978e773ed, type: 2}
-  cameraType: 1
+  cameraSettings: {fileID: 11400000, guid: 86a905047f260014cae8da0ce4ebf908, type: 2}
+  cameraType: 0
 --- !u!81 &1895288895
 AudioListener:
   m_ObjectHideFlags: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1895288893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77a55861228848c18a9ba890eafc67bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f78f778dc35908469fad1f0a4854489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1892872408}
+  target: {fileID: 0}

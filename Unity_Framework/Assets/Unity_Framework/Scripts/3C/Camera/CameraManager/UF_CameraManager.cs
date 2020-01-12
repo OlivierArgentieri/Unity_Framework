@@ -26,7 +26,7 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
 
         bool _handle = _add ? !IsExist(_component) : IsExist(_component);
         
-        if(! _handle) throw new Exception("CameraManager => Invalid Component in Handler Method");
+        if(! _handle) return;//throw new Exception("CameraManager => Invalid Component in Handler Method");
         
         if (_add)
             Handles.Add(_component.ID, _component);

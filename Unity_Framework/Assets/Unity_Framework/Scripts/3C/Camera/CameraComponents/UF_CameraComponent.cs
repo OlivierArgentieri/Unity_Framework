@@ -73,9 +73,10 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
                 behaviour = gameObject.AddComponent<UF_CameraBehaviourTPS>();
                 break;
             case CameraTypes.RTS:
-                if (BehaviourExist() && behaviour.GetComponent<UF_CameraBehaviourFPS>()) break;
+                if (BehaviourExist() && behaviour.GetComponent<UF_CameraBehaviourRTS>()) break;
                 ClearBehaviours();
 
+                behaviour = gameObject.AddComponent<UF_CameraBehaviourRTS>();
                 break;
             case CameraTypes.Custom:
                 break;

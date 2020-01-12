@@ -14,6 +14,7 @@
                 <e p="Behaviour" t="Include">
                   <e p="Behaviours" t="Include">
                     <e p="UF_CameraBehaviourFPS.cs" t="Include" />
+                    <e p="UF_CameraBehaviourRTS.cs" t="Include" />
                     <e p="UF_CameraBehaviourTPS.cs" t="Include" />
                   </e>
                   <e p="UF_CameraBehaviour.cs" t="Include" />

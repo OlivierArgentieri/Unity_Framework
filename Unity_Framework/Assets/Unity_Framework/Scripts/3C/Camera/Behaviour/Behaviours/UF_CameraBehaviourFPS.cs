@@ -8,8 +8,8 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
     private float roll = 0; // x
     private float pitch = 0; // y
 
-    
     public Transform Target => target;
+    
 
     #endregion
 
@@ -32,7 +32,7 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
 
     private void OnMouseAxis(Vector2 _mouseAxis)
     {
-        if (!IsEnable) return;
+        if (!IsEnable || !IsValid ) return;
 
         roll += -_mouseAxis.y * CameraSetting.RotateSpeed * Time.deltaTime;
         pitch += _mouseAxis.x * CameraSetting.RotateSpeed * Time.deltaTime;
@@ -50,6 +50,9 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
         Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
     }
+
+    protected override bool TestValid() => base.TestValid() && target;
+    
 
     #endregion
 }

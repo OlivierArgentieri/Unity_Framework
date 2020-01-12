@@ -11,7 +11,7 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     
     public bool IsEnable { get; protected set; }
     public UF_CameraSetting CameraSetting => cameraSetting;
-    public bool IsValid => cameraSetting != null;
+    public bool IsValid => TestValid();
     #endregion
     
     
@@ -37,5 +37,7 @@ public abstract class UF_CameraBehaviour: MonoBehaviour, IIsValid, IEnable
     {
         IsEnable = _value;
     }
+    
+    protected virtual bool TestValid() => cameraSetting != null;
     #endregion
 }

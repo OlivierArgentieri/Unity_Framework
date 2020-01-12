@@ -5,45 +5,56 @@ public class UF_CameraBehaviourTPS : UF_CameraBehaviour
     #region f/p
     [SerializeField, Header("Target")] private Transform target = null;
 
+    private float roll = 0; // x
+    private float pitch = 0; // y
+
     public Transform Target => target;
-
-    private float roll = 0; //x
-    private float pitch = 0; //y
-
+    
 
     #endregion
-    
-    
+
+    #region custom methods
+
     public override void InitBehaviour(UF_CameraSetting _cameraSetting)
     {
         base.InitBehaviour(_cameraSetting);
         OnUpdateBehaviour += FollowTarget;
-        OnUpdateBehaviour += LookAtTarget;
         SetEnable(true);
+        UF_InputManager.OnMouseAxis += OnMouseAxis;
     }
-
 
     protected override void FollowTarget()
     {
-        base.FollowTarget();
+        if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        CameraSetting.LocalCamera.transform.position = Vector3.Lerp(CameraSetting.LocalCamera.transform.position,Target.position + _offset ,Time.deltaTime * CameraSetting.FollowSpeed);
+        //transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
+        transform.position = Vector3.Lerp(transform.position, Target.transform.position - (transform.rotation *  _offset), Time.deltaTime * CameraSetting.FollowSpeed);
     }
 
-    protected override void LookAtTarget()
+    private void OnMouseAxis(Vector2 _mouseAxis)
     {
-        if (!IsEnable) return;
+        if (!IsEnable || !IsValid ) return;
+       
+
+        roll += -_mouseAxis.y * CameraSetting.RotateSpeed * Time.deltaTime;
+        pitch += _mouseAxis.x * CameraSetting.RotateSpeed * Time.deltaTime;
 
         if (CameraSetting.ClampX)
-            roll = Util.ClampRotation(roll, CameraSetting.ClampXValueMin, CameraSetting.ClampXValueMax);
+            roll = Util.ClampRotation(roll, CameraSetting.ClampXValueMax, CameraSetting.ClampXValueMin);
         else
             roll = roll % 360;
 
         if (CameraSetting.ClampY)
-            pitch = Util.ClampRotation(pitch, CameraSetting.ClampYValueMin, CameraSetting.ClampYValueMax);
+            pitch = Util.ClampRotation(pitch, CameraSetting.ClampYValueMax, CameraSetting.ClampYValueMin);
         else
             pitch = pitch % 360;
         
-        CameraSetting.LocalCamera.transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
+        transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);/**/
+        //Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
     }
+
+    protected override bool TestValid() => base.TestValid() && target;
+    
+
+    #endregion
 }
