@@ -11,22 +11,22 @@ public class UF_CameraManager: ManagerTemplate<UF_CameraManager>, IHandler<int, 
 
 
     #region unity methods
-    protected override void Awake()
+    protected void Start()
     {
-        base.Awake();
         OnReady?.Invoke();
     }
+    
     #endregion
     
     #region custom methods
 
     private void Handler(bool _add, UF_CameraComponent _component)
     {
-        if (!_component.IsValid || !IsValid) return;
+        if (!_component || !_component.IsValid || !IsValid) return;
 
         bool _handle = _add ? !IsExist(_component) : IsExist(_component);
         
-        if(! _handle) return;//throw new Exception("CameraManager => Invalid Component in Handler Method");
+        if(! _handle) return; //throw new Exception("CameraManager => Invalid Component in Handler Method");
         
         if (_add)
             Handles.Add(_component.ID, _component);
