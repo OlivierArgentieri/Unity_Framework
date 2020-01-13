@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +42,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="48" column="127" selection-start-line="48" selection-start-column="127" selection-end-line="48" selection-end-column="127" />
+            <state relative-caret-position="315">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1578872922245" expanded="false" signature="6:32" ph="..." />
-                <marker date="1578872922245" expanded="true" signature="114:2902" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="121:601" ph="f/p" />
-                <marker date="1578872922245" expanded="true" signature="608:832" ph="unity methods" />
-                <marker date="1578872922245" expanded="true" signature="656:696" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="726:817" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="842:2634" ph="custom methods" />
-                <marker date="1578872922245" expanded="true" signature="953:1078" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="1121:1660" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="1688:1805" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="1870:2324" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="2376:2553" ph="{...}" />
-                <marker date="1578872922245" expanded="true" signature="2640:2899" ph="Gizmos" />
-                <marker date="1578872922245" expanded="true" signature="2687:2883" ph="{...}" />
+                <marker date="1578902254760" expanded="false" signature="6:32" ph="..." />
+                <marker date="1578902254760" expanded="true" signature="114:2295" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="121:601" ph="f/p" />
+                <marker date="1578902254760" expanded="true" signature="608:832" ph="unity methods" />
+                <marker date="1578902254760" expanded="true" signature="656:696" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="726:817" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="842:2027" ph="custom methods" />
+                <marker date="1578902254760" expanded="true" signature="953:1076" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="1119:1713" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="1769:1946" ph="{...}" />
+                <marker date="1578902254760" expanded="true" signature="2033:2292" ph="Gizmos" />
+                <marker date="1578902254760" expanded="true" signature="2080:2276" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,27 +74,6 @@
                 <marker date="1578858477473" expanded="true" signature="329:1077" ph="custom methods" />
                 <marker date="1578858477473" expanded="true" signature="441:559" ph="{...}" />
                 <marker date="1578858477473" expanded="true" signature="599:1000" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterComponent/UF_CharacterComponentEditor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <marker date="1578863085566" expanded="true" signature="6:51" ph="..." />
-                <marker date="1578863085566" expanded="true" signature="139:1105" ph="{...}" />
-                <marker date="1578863085566" expanded="true" signature="146:329" ph="init" />
-                <marker date="1578863085566" expanded="true" signature="243:314" ph="{...}" />
-                <marker date="1578863085566" expanded="true" signature="336:424" ph="f/p" />
-                <marker date="1578863085566" expanded="true" signature="434:592" ph="editor methods" />
-                <marker date="1578863085566" expanded="true" signature="499:576" ph="{...}" />
-                <marker date="1578863085566" expanded="true" signature="603:1098" ph="custom methods" />
-                <marker date="1578863085566" expanded="true" signature="660:1077" ph="{...}" />
-                <marker date="1578863085566" expanded="true" signature="790:905" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -188,10 +162,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <marker date="1578859724465" expanded="true" signature="6:96" ph="..." />
+                <marker date="1578859724465" expanded="true" signature="161:3023" ph="{...}" />
+                <marker date="1578859724465" expanded="false" signature="168:1686" ph="Axis" />
+                <marker date="1578859724465" expanded="false" signature="190:349" ph="axis delegate" />
+                <marker date="1578859724465" expanded="true" signature="359:762" ph="axis label" />
+                <marker date="1578859724465" expanded="true" signature="768:1670" ph="axis Value (debug)" />
+                <marker date="1578859724465" expanded="true" signature="1692:2183" ph="input" />
+                <marker date="1578859724465" expanded="true" signature="1711:1812" ph="input delegate" />
+                <marker date="1578859724465" expanded="true" signature="1818:2167" ph="input value (debug)" />
+                <marker date="1578859724465" expanded="true" signature="2198:3020" ph="unity methods" />
+                <marker date="1578859724465" expanded="true" signature="2245:2506" ph="{...}" />
+                <marker date="1578859724465" expanded="true" signature="2572:2755" ph="{...}" />
+                <marker date="1578859724465" expanded="true" signature="2627:2727" ph="{...}" />
+                <marker date="1578859724465" expanded="true" signature="2826:3005" ph="{...}" />
+                <marker date="1578859724465" expanded="true" signature="2881:2977" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-131">
-              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <marker date="1578872400923" expanded="true" signature="6:37" ph="..." />
                 <marker date="1578872400923" expanded="true" signature="108:2827" ph="{...}" />
@@ -315,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -391,6 +391,23 @@
               <item name="Character" type="1045f7f1:UnityExplorerNode" />
               <item name="CharacterComponent" type="1045f7f1:UnityExplorerNode" />
             </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="3C" type="1045f7f1:UnityExplorerNode" />
+              <item name="Input" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="3C" type="1045f7f1:UnityExplorerNode" />
+              <item name="Input" type="1045f7f1:UnityExplorerNode" />
+              <item name="InputManager" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -459,12 +476,12 @@
       <workItem from="1578005901029" duration="12282000" />
       <workItem from="1578146552950" duration="1490000" />
       <workItem from="1578148957522" duration="27857000" />
-      <workItem from="1578872201754" duration="723000" />
+      <workItem from="1578872201754" duration="2144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83193000" />
+    <option name="totallyTimeSpent" value="84614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,8 +493,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23281832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -941,29 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding>
-            <marker date="1578859724465" expanded="true" signature="6:96" ph="..." />
-            <marker date="1578859724465" expanded="false" signature="168:1686" ph="Axis" />
-            <marker date="1578859724465" expanded="false" signature="190:349" ph="axis delegate" />
-            <marker date="1578859724465" expanded="true" signature="359:762" ph="axis label" />
-            <marker date="1578859724465" expanded="true" signature="768:1670" ph="axis Value (debug)" />
-            <marker date="1578859724465" expanded="true" signature="1692:2183" ph="input" />
-            <marker date="1578859724465" expanded="true" signature="1711:1812" ph="input delegate" />
-            <marker date="1578859724465" expanded="true" signature="1818:2167" ph="input value (debug)" />
-            <marker date="1578859724465" expanded="true" signature="2198:3020" ph="unity methods" />
-            <marker date="1578859724465" expanded="true" signature="2245:2506" ph="{...}" />
-            <marker date="1578859724465" expanded="true" signature="2572:2755" ph="{...}" />
-            <marker date="1578859724465" expanded="true" signature="2627:2727" ph="{...}" />
-            <marker date="1578859724465" expanded="true" signature="2826:3005" ph="{...}" />
-            <marker date="1578859724465" expanded="true" signature="2881:2977" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourRTS.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
@@ -1128,7 +1121,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-131">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <marker date="1578872400923" expanded="true" signature="6:37" ph="..." />
             <marker date="1578872400923" expanded="true" signature="108:2827" ph="{...}" />
@@ -1187,25 +1180,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <marker date="1578859724465" expanded="true" signature="6:96" ph="..." />
+            <marker date="1578859724465" expanded="true" signature="161:3023" ph="{...}" />
+            <marker date="1578859724465" expanded="false" signature="168:1686" ph="Axis" />
+            <marker date="1578859724465" expanded="false" signature="190:349" ph="axis delegate" />
+            <marker date="1578859724465" expanded="true" signature="359:762" ph="axis label" />
+            <marker date="1578859724465" expanded="true" signature="768:1670" ph="axis Value (debug)" />
+            <marker date="1578859724465" expanded="true" signature="1692:2183" ph="input" />
+            <marker date="1578859724465" expanded="true" signature="1711:1812" ph="input delegate" />
+            <marker date="1578859724465" expanded="true" signature="1818:2167" ph="input value (debug)" />
+            <marker date="1578859724465" expanded="true" signature="2198:3020" ph="unity methods" />
+            <marker date="1578859724465" expanded="true" signature="2245:2506" ph="{...}" />
+            <marker date="1578859724465" expanded="true" signature="2572:2755" ph="{...}" />
+            <marker date="1578859724465" expanded="true" signature="2627:2727" ph="{...}" />
+            <marker date="1578859724465" expanded="true" signature="2826:3005" ph="{...}" />
+            <marker date="1578859724465" expanded="true" signature="2881:2977" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="48" column="127" selection-start-line="48" selection-start-column="127" selection-end-line="48" selection-end-column="127" />
+        <state relative-caret-position="315">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1578872922245" expanded="false" signature="6:32" ph="..." />
-            <marker date="1578872922245" expanded="true" signature="114:2902" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="121:601" ph="f/p" />
-            <marker date="1578872922245" expanded="true" signature="608:832" ph="unity methods" />
-            <marker date="1578872922245" expanded="true" signature="656:696" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="726:817" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="842:2634" ph="custom methods" />
-            <marker date="1578872922245" expanded="true" signature="953:1078" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="1121:1660" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="1688:1805" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="1870:2324" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="2376:2553" ph="{...}" />
-            <marker date="1578872922245" expanded="true" signature="2640:2899" ph="Gizmos" />
-            <marker date="1578872922245" expanded="true" signature="2687:2883" ph="{...}" />
+            <marker date="1578902254760" expanded="false" signature="6:32" ph="..." />
+            <marker date="1578902254760" expanded="true" signature="114:2295" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="121:601" ph="f/p" />
+            <marker date="1578902254760" expanded="true" signature="608:832" ph="unity methods" />
+            <marker date="1578902254760" expanded="true" signature="656:696" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="726:817" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="842:2027" ph="custom methods" />
+            <marker date="1578902254760" expanded="true" signature="953:1076" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="1119:1713" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="1769:1946" ph="{...}" />
+            <marker date="1578902254760" expanded="true" signature="2033:2292" ph="Gizmos" />
+            <marker date="1578902254760" expanded="true" signature="2080:2276" ph="{...}" />
           </folding>
         </state>
       </provider>

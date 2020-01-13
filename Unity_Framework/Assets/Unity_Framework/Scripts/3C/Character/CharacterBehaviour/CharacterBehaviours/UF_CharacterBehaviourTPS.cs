@@ -38,38 +38,18 @@ public class UF_CharacterBehaviourTPS : UF_CharacterBehaviour, IIsValid, IEnable
     {
         base.InitCharacterBehaviour(_characterSettings);
         UF_CameraManager.OnRegister += SetMainCamera;
-
-
     }
     
-    void OnMoveFPS(Vector2 _moveAxis)
+    void OnMoveTPS(Vector2 _moveAxis)
     {
         if(!IsValid || !IsEnable) return;
-        
+        if ((_moveAxis - Vector2.zero).magnitude < 0.1) return;
         CharacterSettings.LocalPlayer.transform.rotation = Quaternion.AngleAxis(mainCamera.transform.eulerAngles.y, Vector3.up);
         
         CharacterSettings.LocalPlayer.transform.position += _moveAxis.y * CharacterSettings.MoveSpeed * Time.deltaTime * CharacterSettings.LocalPlayer.transform.forward;
         CharacterSettings.LocalPlayer.transform.position += _moveAxis.x * CharacterSettings.MoveSpeed * Time.deltaTime * CharacterSettings.LocalPlayer.transform.right;
     }
-
     
-    void OnRotateTo()
-    {
-        if (!IsValid || !isEnable) return;
-
-        RotateTo(mainCamera.transform.forward, rotateSpeed);
-    }
-    
-    
-    void RotateTo(Vector3 _target, float _rotateSpeed)
-    {
-        if ((_target + transform.localScale / 2) - transform.position == Vector3.zero) return;
-
-        Quaternion lookAt = Quaternion.LookRotation((_target  + transform.localScale/2) - transform.position,  transform.up);
-        if((lookAt.eulerAngles - Vector3.zero).magnitude > 0)
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.AngleAxis(lookAt.eulerAngles.y, Vector3.up), Time.deltaTime * _rotateSpeed);
-    }
-
     void SetMainCamera(UF_CameraComponent _camera)
     {
         if(!_camera && _camera.ID != idMainCamera) return;
@@ -89,7 +69,7 @@ public class UF_CharacterBehaviourTPS : UF_CharacterBehaviour, IIsValid, IEnable
         if(!IsValid || !mainCamera || !mainCamera.CameraSettings) return;
 
         if (!mainCamera.CameraSettings.LocalCamera) return;
-        UF_InputManager.OnMoveFPS += OnMoveFPS;
+        UF_InputManager.OnMoveFPS += OnMoveTPS;
 
     }
 
