@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraManagerTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/FPS.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/FPS.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/TPS.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/TPS.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourFPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourFPS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourRTS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourRTS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterManager/UF_CharacterManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterManager/UF_CharacterManagerEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UI.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UI/UF_Key_UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UI/UF_Key_UI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UI/UF_Key_UI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UI/UF_Key_UI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,17 +40,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="360">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
-                <marker date="1579042453146" expanded="true" signature="75:2174" ph="{...}" />
-                <marker date="1579042453146" expanded="true" signature="82:294" ph="f/p" />
-                <marker date="1579042453146" expanded="true" signature="300:2172" ph="custom methods" />
-                <marker date="1579042453146" expanded="true" signature="395:616" ph="{...}" />
-                <marker date="1579042453146" expanded="true" signature="660:914" ph="{...}" />
-                <marker date="1579042453146" expanded="true" signature="675:908" ph="/* if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return; ... */" />
-                <marker date="1579042453146" expanded="true" signature="964:1739" ph="{...}" />
-                <marker date="1579042453146" expanded="true" signature="1784:2080" ph="{...}" />
+                <marker date="1579044785671" expanded="true" signature="75:2217" ph="{...}" />
+                <marker date="1579044785671" expanded="true" signature="82:294" ph="f/p" />
+                <marker date="1579044785671" expanded="true" signature="300:2215" ph="custom methods" />
+                <marker date="1579044785671" expanded="true" signature="395:655" ph="{...}" />
+                <marker date="1579044785671" expanded="true" signature="699:953" ph="{...}" />
+                <marker date="1579044785671" expanded="true" signature="714:947" ph="/* if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return; ... */" />
+                <marker date="1579044785671" expanded="true" signature="1003:1778" ph="{...}" />
+                <marker date="1579044785671" expanded="true" signature="1823:2123" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -633,12 +616,12 @@
       <workItem from="1578005901029" duration="12282000" />
       <workItem from="1578146552950" duration="1490000" />
       <workItem from="1578148957522" duration="27857000" />
-      <workItem from="1578872201754" duration="15628000" />
+      <workItem from="1578872201754" duration="16418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98098000" />
+    <option name="totallyTimeSpent" value="98888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1399,17 +1382,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <marker date="1579042453146" expanded="true" signature="75:2174" ph="{...}" />
-            <marker date="1579042453146" expanded="true" signature="82:294" ph="f/p" />
-            <marker date="1579042453146" expanded="true" signature="300:2172" ph="custom methods" />
-            <marker date="1579042453146" expanded="true" signature="395:616" ph="{...}" />
-            <marker date="1579042453146" expanded="true" signature="660:914" ph="{...}" />
-            <marker date="1579042453146" expanded="true" signature="675:908" ph="/* if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return; ... */" />
-            <marker date="1579042453146" expanded="true" signature="964:1739" ph="{...}" />
-            <marker date="1579042453146" expanded="true" signature="1784:2080" ph="{...}" />
+            <marker date="1579044785671" expanded="true" signature="75:2217" ph="{...}" />
+            <marker date="1579044785671" expanded="true" signature="82:294" ph="f/p" />
+            <marker date="1579044785671" expanded="true" signature="300:2215" ph="custom methods" />
+            <marker date="1579044785671" expanded="true" signature="395:655" ph="{...}" />
+            <marker date="1579044785671" expanded="true" signature="699:953" ph="{...}" />
+            <marker date="1579044785671" expanded="true" signature="714:947" ph="/* if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return; ... */" />
+            <marker date="1579044785671" expanded="true" signature="1003:1778" ph="{...}" />
+            <marker date="1579044785671" expanded="true" signature="1823:2123" ph="{...}" />
           </folding>
         </state>
       </provider>
