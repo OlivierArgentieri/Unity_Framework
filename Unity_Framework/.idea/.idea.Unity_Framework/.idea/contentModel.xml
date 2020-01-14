@@ -68,14 +68,14 @@
                 <e p="Editor" t="Include">
                   <e p="InputManager" t="Include">
                     <e p="UF_InputManagerEditor.cs" t="Include" />
+                    <e p="UI" t="Include">
+                      <e p="UF_Key_UI.cs" t="Include" />
+                    </e>
                   </e>
                 </e>
                 <e p="InputManager" t="Include">
                   <e p="UF_InputManager.cs" t="Include" />
-                  <e p="UF_Key.cs.cs" t="Include" />
-                  <e p="UI" t="Include">
-                    <e p="UF_Key_UI.cs" t="Include" />
-                  </e>
+                  <e p="UF_Key.cs" t="Include" />
                 </e>
               </e>
             </e>

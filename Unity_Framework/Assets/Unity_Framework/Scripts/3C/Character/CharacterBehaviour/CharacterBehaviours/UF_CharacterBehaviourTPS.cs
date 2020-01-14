@@ -21,8 +21,14 @@ public class UF_CharacterBehaviourTPS : UF_CharacterBehaviour, IIsValid, IEnable
 
     #region unity methods
 
+    private void Awake()
+    {
+        UF_CameraManager.OnRegister += SetMainCamera;
+    }
+
     private void Update()
     {
+        
         OnUpdate?.Invoke();
     }
 
@@ -37,7 +43,6 @@ public class UF_CharacterBehaviourTPS : UF_CharacterBehaviour, IIsValid, IEnable
     public override void InitCharacterBehaviour(UF_CharacterSettings _characterSettings)
     {
         base.InitCharacterBehaviour(_characterSettings);
-        UF_CameraManager.OnRegister += SetMainCamera;
     }
     
     void OnMoveTPS(Vector2 _moveAxis)

@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6239c9cc4421cd04ab0c595bc1f5c2ea, type: 3}
-  m_Name: FPS
+  m_Name: MiniMap
   m_EditorClassIdentifier: 
   localCamera: {fileID: 0}
   offsetX: 0
-  offsetY: 1.5
+  offsetY: 0
   offsetZ: 0
-  clampX: 1
+  clampX: 0
   clampY: 0
-  clampXValueMin: -90
-  clampXValueMax: 90
+  clampXValueMin: 0
+  clampXValueMax: 0
   clampYValueMin: 0
   clampYValueMax: 0
-  followPlayer: 1
+  followPlayer: 0
   focusPlayer: 0
-  rotateSpeed: 200
-  followSpeed: 9.7
+  rotateSpeed: 0.1
+  followSpeed: 0.1

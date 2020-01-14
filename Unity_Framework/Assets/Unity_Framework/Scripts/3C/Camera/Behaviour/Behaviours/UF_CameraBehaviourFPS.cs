@@ -21,13 +21,14 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         OnUpdateBehaviour += FollowTarget;
         SetEnable(true);
         UF_InputManager.OnMouseAxis += OnMouseAxis;
+        UF_InputManager.OnMoveFPS += OnAxis;
     }
 
     protected override void FollowTarget()
     {
-        if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
+        /*if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
+        transform.position = Target.position + _offset;*/
     }
 
     private void OnMouseAxis(Vector2 _mouseAxis)
@@ -49,8 +50,16 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         
         transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
         Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
+        
     }
 
+    private void OnAxis(Vector2 _mouseAxis)
+    {
+        if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
+
+        Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
+        transform.position = Target.position /*+ _offset + new Vector3(_mouseAxis.x, 0, _mouseAxis.y)*/;
+    }
     protected override bool TestValid() => base.TestValid() && target;
     
 
