@@ -23,14 +23,14 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         SetEnable(true);
         UF_InputManager.OnMouseAxis += OnMouseAxis;
         //UF_InputManager.OnMoveFPS += OnAxis;
-        transform.SetParent(target);
+        //transform.SetParent(target);
     }
 
     protected override void FollowTarget()
     {
         if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        transform.localPosition = _offset;
+        transform.localPosition = Target.position +  _offset;
     }
 
     private void OnMouseAxis(Vector2 _mouseAxis)
