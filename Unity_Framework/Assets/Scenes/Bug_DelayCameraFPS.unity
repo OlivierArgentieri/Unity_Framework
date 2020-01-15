@@ -308,10 +308,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 976038759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f78f778dc35908469fad1f0a4854489, type: 3}
+  m_Script: {fileID: 11500000, guid: b90f24a45d1f6864398501e5f01adc14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1076403346}
+  target: {fileID: 1035502955}
 --- !u!114 &976038764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,8 +325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraID: 0
-  cameraSettings: {fileID: 11400000, guid: 86a905047f260014cae8da0ce4ebf908, type: 2}
-  cameraType: 0
+  cameraSettings: {fileID: 11400000, guid: c16b5f40c362fd04d93eac61db229e98, type: 2}
+  cameraType: 1
 --- !u!1 &1035502951
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +435,6 @@ GameObject:
   - component: {fileID: 1076403343}
   - component: {fileID: 1076403342}
   - component: {fileID: 1076403341}
-  - component: {fileID: 1076403347}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -452,11 +451,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1076403340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f81956899ce52940af120806c0606bc, type: 3}
+  m_Script: {fileID: 11500000, guid: f12f25818e5474f43b4fe0251940000c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnable: 1
-  gravity: 20
+  rotateSpeed: 400
+  idMainCamera: 0
 --- !u!114 &1076403342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSettings:
     moveSpeed: 1
-  behaviourType: 0
+  behaviourType: 2
 --- !u!136 &1076403343
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -548,24 +548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &1076403347
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076403340}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2.02
-  m_Radius: 0.52
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1181610491
 GameObject:
   m_ObjectHideFlags: 0
