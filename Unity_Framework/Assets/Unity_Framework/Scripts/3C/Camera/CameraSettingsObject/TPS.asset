@@ -23,6 +23,6 @@ MonoBehaviour:
   clampYValueMin: -45
   clampYValueMax: -45
   followPlayer: 1
-  focusPlayer: 1
-  rotateSpeed: 36
+  focusPlayer: 0
+  rotateSpeed: 187
   followSpeed: 100
