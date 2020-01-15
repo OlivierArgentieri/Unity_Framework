@@ -27,7 +27,7 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
     {
         if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
+        transform.localPosition = Target.position +  _offset;
     }
 
     private void OnMouseAxis(Vector2 _mouseAxis)
@@ -49,8 +49,9 @@ public class UF_CameraBehaviourFPS : UF_CameraBehaviour
         
         transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
         Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
+        
     }
-
+    
     protected override bool TestValid() => base.TestValid() && target;
     
 

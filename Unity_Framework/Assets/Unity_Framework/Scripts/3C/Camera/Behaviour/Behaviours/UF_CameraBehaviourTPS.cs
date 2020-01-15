@@ -27,7 +27,6 @@ public class UF_CameraBehaviourTPS : UF_CameraBehaviour
     {
         if (!IsValid || !CameraSetting.FollowPlayer || !IsEnable) return;
         Vector3 _offset = new Vector3(CameraSetting.OffsetX, CameraSetting.OffsetY, CameraSetting.OffsetZ);
-        //transform.position = Vector3.MoveTowards(transform.position, Target.position + _offset,Time.deltaTime * CameraSetting.FollowSpeed);
         transform.position = Vector3.Lerp(transform.position, Target.transform.position - (transform.rotation *  _offset), Time.deltaTime * CameraSetting.FollowSpeed);
     }
 
@@ -49,8 +48,7 @@ public class UF_CameraBehaviourTPS : UF_CameraBehaviour
         else
             pitch = pitch % 360;
         
-        transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);/**/
-        //Target.eulerAngles = new Vector3(Target.eulerAngles.x, pitch, Target.eulerAngles.z);
+        transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
     }
 
     protected override bool TestValid() => base.TestValid() && target;

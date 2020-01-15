@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -5,14 +6,21 @@ public class UF_CharacterBehaviourFPS : UF_CharacterBehaviour, IIsValid, IEnable
 {
     #region f/p
     [SerializeField, Header("Enable")] private bool isEnable = true;
+    [SerializeField, Header("Gravity"), Range(0,50)] private float gravity= 20f;
+
+    
+
     public bool IsEnable => isEnable;
+
     public bool IsValid => CharacterSettings != null;
     #endregion
 
-    
-    
-    #region custom methods
 
+    #region unity methods
+    #endregion
+
+
+    #region custom methods
     public override void InitCharacterBehaviour(UF_CharacterSettings _characterSettings)
     {
         base.InitCharacterBehaviour(_characterSettings);
@@ -24,10 +32,10 @@ public class UF_CharacterBehaviourFPS : UF_CharacterBehaviour, IIsValid, IEnable
     void OnMoveFPS(Vector2 _moveAxis)
     {
         if(!IsValid || !IsEnable) return;
-        
-        CharacterSettings.LocalPlayer.transform.position += _moveAxis.y * CharacterSettings.MoveSpeed * Time.deltaTime * CharacterSettings.LocalPlayer.transform.forward;
-        CharacterSettings.LocalPlayer.transform.position += _moveAxis.x * CharacterSettings.MoveSpeed * Time.deltaTime * CharacterSettings.LocalPlayer.transform.right;
+        transform.position += _moveAxis.y * Time.deltaTime * CharacterSettings.MoveSpeed * transform.forward ;
+        transform.position += _moveAxis.x * Time.deltaTime * CharacterSettings.MoveSpeed * transform.right;
     }
+    
     public void SetEnable(bool _value) => isEnable = _value;
 
     #endregion

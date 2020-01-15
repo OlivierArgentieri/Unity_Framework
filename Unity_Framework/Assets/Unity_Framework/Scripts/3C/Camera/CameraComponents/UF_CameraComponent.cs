@@ -35,7 +35,7 @@ public class UF_CameraComponent : MonoBehaviour, IHandlerItem<int>
         InitBehaviour();
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         UpdateBehaviour();
     }
