@@ -1,28 +1,35 @@
 using System;
 using UnityEngine;
 
-[Serializable]
-public class UF_CharacterSettings
+namespace uf
 {
-    #region f/p
-    [SerializeField, Header("Move Speed "), Range(0,100)]private float moveSpeed = 10.0f;
-    private UF_CharacterComponent localPlayer = null;
-
-    
-    public float MoveSpeed => moveSpeed;
-
-    public UF_CharacterComponent LocalPlayer => localPlayer;
-    #endregion
-
-    
-    
-    #region custom methods
-    public void InitSettings(UF_CharacterComponent _character)
+    [Serializable]
+    public class UF_CharacterSettings
     {
-        SetPlayer(_character);
+        #region f/p
+
+        [SerializeField, Header("Move Speed "), Range(0, 100)]
+        private float moveSpeed = 10.0f;
+
+        private UF_CharacterComponent localPlayer = null;
+
+
+        public float MoveSpeed => moveSpeed;
+
+        public UF_CharacterComponent LocalPlayer => localPlayer;
+
+        #endregion
+
+
+        #region custom methods
+
+        public void InitSettings(UF_CharacterComponent _character)
+        {
+            SetPlayer(_character);
+        }
+
+        private void SetPlayer(UF_CharacterComponent _character) => localPlayer = _character;
+
+        #endregion
     }
-
-    private void SetPlayer(UF_CharacterComponent _character) => localPlayer = _character;
-
-    #endregion
 }

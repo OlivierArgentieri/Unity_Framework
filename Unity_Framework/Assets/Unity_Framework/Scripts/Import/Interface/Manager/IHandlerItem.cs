@@ -1,11 +1,18 @@
-public interface IHandlerItem<TID> : IIsValid
+namespace uf
 {
-    #region f/p
-    TID ID { get; }
-    #endregion
-    
-    #region custom methods
-    void Register();
-    void Unregister();
-    #endregion
+    public interface IHandlerItem<TID> : IIsValid
+    {
+        #region f/p
+
+        TID ID { get; }
+
+        #endregion
+
+        #region custom methods
+
+        void Register();
+        void Unregister();
+
+        #endregion
+    }
 }

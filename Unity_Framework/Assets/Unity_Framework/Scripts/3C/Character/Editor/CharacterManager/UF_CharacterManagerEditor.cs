@@ -1,26 +1,27 @@
 using UnityEditor;
 using UnityEngine;
 
-public class UF_CharacterManagerEditor
+namespace uf
 {
-    #region custom methods
-    
-
-    [MenuItem("UF/Character/CharacterManager")]
-    public static void Init()
+    public class UF_CharacterManagerEditor
     {
-        UF_CharacterManager[] _characterManagers = Object.FindObjectsOfType<UF_CharacterManager>();
+        #region custom methods
 
-        if (_characterManagers.Length > 0) return;
-        
-        GameObject _characterManager = new GameObject("CharacterManager", typeof(UF_CharacterManager));
-        Selection.activeObject = _characterManager;
-        
-        
-        
-        // create InputManager 
-        UF_InputManagerEditor.Init();
+        [MenuItem("UF/Character/CharacterManager")]
+        public static void Init()
+        {
+            UF_CharacterManager[] _characterManagers = Object.FindObjectsOfType<UF_CharacterManager>();
+
+            if (_characterManagers.Length > 0) return;
+
+            GameObject _characterManager = new GameObject("CharacterManager", typeof(UF_CharacterManager));
+            Selection.activeObject = _characterManager;
+
+
+            // create InputManager 
+            UF_InputManagerEditor.Init();
+        }
+
+        #endregion
     }
-    #endregion
-
 }

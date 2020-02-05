@@ -1,51 +1,54 @@
-
 using System;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(UF_CameraComponent))]
-public class UF_CameraComponentEditor : Editor
+namespace uf
 {
-    #region f/p
-
-    private CameraTypes previousCameraType;
-
-    #endregion
-    private static UF_CameraComponent eTarget = null;
-
-    #region unity methods
-
-    private void OnEnable()
+    [CustomEditor(typeof(UF_CameraComponent))]
+    public class UF_CameraComponentEditor : Editor
     {
-        eTarget = (UF_CameraComponent) target;
-    }
-    
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
+        #region f/p
 
-        InitCameraBehaviour();
-        
-    }
-    
-    #endregion
+        private CameraTypes previousCameraType;
 
+        #endregion
 
-    #region custom methods
-    
+        private static UF_CameraComponent eTarget = null;
 
-    void InitCameraBehaviour()
-    {
-        if (Application.isPlaying) return;
-        if (eTarget.CameraType.ToString() != previousCameraType.ToString())
+        #region unity methods
+
+        private void OnEnable()
         {
-            previousCameraType = eTarget.CameraType;
-            eTarget.InitBehaviour();
+            eTarget = (UF_CameraComponent) target;
         }
-        //if(EditorGUIUtility.isProSkin)
-            Color backgroundColor = EditorGUIUtility.isProSkin ? new Color32(56, 56, 56, 255) : new Color32(194, 194, 194, 255);
-    }
-    
 
-    #endregion
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+
+            InitCameraBehaviour();
+        }
+
+        #endregion
+
+
+        #region custom methods
+
+        void InitCameraBehaviour()
+        {
+            if (Application.isPlaying) return;
+            if (eTarget.CameraType.ToString() != previousCameraType.ToString())
+            {
+                previousCameraType = eTarget.CameraType;
+                eTarget.InitBehaviour();
+            }
+
+            //if(EditorGUIUtility.isProSkin)
+            Color backgroundColor = EditorGUIUtility.isProSkin
+                ? new Color32(56, 56, 56, 255)
+                : new Color32(194, 194, 194, 255);
+        }
+
+        #endregion
+    }
 }

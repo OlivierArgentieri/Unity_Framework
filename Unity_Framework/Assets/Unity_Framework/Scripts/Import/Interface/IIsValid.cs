@@ -1,6 +1,11 @@
-public interface IIsValid
+namespace uf
 {
-    #region f/p
-    bool IsValid { get; }
-    #endregion
+    public interface IIsValid
+    {
+        #region f/p
+
+        bool IsValid { get; }
+
+        #endregion
+    }
 }
