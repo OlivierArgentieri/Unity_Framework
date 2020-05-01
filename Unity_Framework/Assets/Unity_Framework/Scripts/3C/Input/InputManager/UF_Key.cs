@@ -1,12 +1,15 @@
 ﻿using System;
 using UnityEngine;
 
-[Serializable]
-public class UF_Key
+namespace Unity_Framework.Scripts._3C.Input.InputManager
 {
-    #region f/p
-    public KeyCode Key = KeyCode.None;
-    public string Label = string.Empty;
-    #endregion
+    [Serializable]
+    public class UF_Key
+    {
+        #region f/p
+        public KeyCode Key = KeyCode.None;
+        public string Label = string.Empty;
+        #endregion
     
+    }
 }

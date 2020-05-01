@@ -1,14 +1,17 @@
-public interface IEnable
+namespace Unity_Framework.Scripts.Import.Interface
 {
-    #region f/p
+    public interface IEnable
+    {
+        #region f/p
 
-    bool IsEnable { get; }
+        bool IsEnable { get; }
 
-    #endregion
+        #endregion
 
-    #region custom methods
+        #region custom methods
 
-    void SetEnable(bool _value);
+        void SetEnable(bool _value);
 
-    #endregion
+        #endregion
+    }
 }

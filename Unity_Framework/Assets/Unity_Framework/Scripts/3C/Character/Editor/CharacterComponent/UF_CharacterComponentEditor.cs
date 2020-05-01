@@ -1,52 +1,55 @@
-using System;
+using Unity_Framework.Scripts._3C.Character.CharacterComponent;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(UF_CharacterComponent))]
-public class UF_CharacterEditor : Editor
+namespace Unity_Framework.Scripts._3C.Character.Editor.CharacterComponent
 {
-    #region init
-    private static UF_CharacterComponent eTarget = null;
-    private void OnEnable()
+    [CustomEditor(typeof(UF_CharacterComponent))]
+    public class UF_CharacterEditor : UnityEditor.Editor
     {
-        eTarget = (UF_CharacterComponent) target;
-        
-    }
-    #endregion
-
-
-    #region f/p
-
-    private UF_CharacterBehaviourType previousBehavourType;
-
-    #endregion
-    
-    #region editor methods
-
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-        InitCharacterBehaviour();
-    }
-
-    #endregion
-    
-
-    #region custom methods
-
-    void InitCharacterBehaviour()
-    {
-        if (Application.isPlaying) return;
-        if (eTarget.BehaviourType.ToString() != previousBehavourType.ToString())
+        #region init
+        private static UF_CharacterComponent eTarget = null;
+        private void OnEnable()
         {
-            previousBehavourType = eTarget.BehaviourType;
-            eTarget.InitBehaviour();
+            eTarget = (UF_CharacterComponent) target;
+        
         }
-        //if(EditorGUIUtility.isProSkin)
-        Color backgroundColor = EditorGUIUtility.isProSkin ? new Color32(56, 56, 56, 255) : new Color32(194, 194, 194, 255);
-    }
+        #endregion
+
+
+        #region f/p
+
+        private UF_CharacterBehaviourType previousBehavourType;
+
+        #endregion
+    
+        #region editor methods
+
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+            InitCharacterBehaviour();
+        }
+
+        #endregion
     
 
-    #endregion
+        #region custom methods
+
+        void InitCharacterBehaviour()
+        {
+            if (Application.isPlaying) return;
+            if (eTarget.BehaviourType.ToString() != previousBehavourType.ToString())
+            {
+                previousBehavourType = eTarget.BehaviourType;
+                eTarget.InitBehaviour();
+            }
+            //if(EditorGUIUtility.isProSkin)
+            Color backgroundColor = EditorGUIUtility.isProSkin ? new Color32(56, 56, 56, 255) : new Color32(194, 194, 194, 255);
+        }
     
+
+        #endregion
+    
+    }
 }
