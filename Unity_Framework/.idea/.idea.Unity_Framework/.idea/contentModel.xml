@@ -100,6 +100,34 @@
                 <e p="UF_Menu.cs" t="Include" />
               </e>
             </e>
+            <e p="Spawner" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SpawnerManager" t="Include">
+                  <e p="UF_SpawnerManager.cs" t="Include" />
+                </e>
+                <e p="SpawnerManagerEditor" t="Include">
+                  <e p="UF_SpawnerManagerEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SpawnerManager" t="Include">
+                <e p="SpawnMode" t="Include">
+                  <e p="SpawnModes" t="Include">
+                    <e p="UF_CircleMode.cs" t="Include" />
+                    <e p="UF_LineMode.cs" t="Include" />
+                    <e p="UF_PointMode.cs" t="Include" />
+                  </e>
+                  <e p="UF_SpawnMode.cs" t="Include" />
+                  <e p="UF_SpawnModeSelector.cs" t="Include" />
+                </e>
+                <e p="SpawnPoint" t="Include">
+                  <e p="UF_SpawnPoint.cs" t="Include" />
+                </e>
+                <e p="SpawnTrigger" t="Include">
+                  <e p="UF_SpawnTrigger.cs" t="Include" />
+                </e>
+                <e p="UF_SpawnerManager.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>
