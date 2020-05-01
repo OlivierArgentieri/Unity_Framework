@@ -1,6 +1,9 @@
-public interface IIsValid
+namespace Unity_Framework.Scripts.Import.Interface
 {
-    #region f/p
-    bool IsValid { get; }
-    #endregion
+    public interface IIsValid
+    {
+        #region f/p
+        bool IsValid { get; }
+        #endregion
+    }
 }

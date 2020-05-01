@@ -1,17 +1,18 @@
-
 using UnityEditor;
-using UnityEngine;
 
-public class UF_Menu
+namespace Unity_Framework.Scripts.Menu.Editor
 {
-    [MenuItem("UF/Save On Play ([WIP] Doesn't work)")]
-    public static void SaveDataOnPlay()
+    public class UF_Menu
     {
-        foreach (var o in Selection.objects)
+        [MenuItem("UF/Save On Play ([WIP] Doesn't work)")]
+        public static void SaveDataOnPlay()
         {
-            EditorUtility.SetDirty(o);
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
+            foreach (var o in Selection.objects)
+            {
+                EditorUtility.SetDirty(o);
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
+            }
         }
     }
 }

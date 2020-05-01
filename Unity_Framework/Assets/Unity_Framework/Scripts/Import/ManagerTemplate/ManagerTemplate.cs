@@ -1,40 +1,40 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ManagerTemplate<T> : MonoBehaviour where T : MonoBehaviour
+namespace Unity_Framework.Scripts.Import.ManagerTemplate
 {
-    #region f/p
-    private static T instance = null;
-    public static T Instance => instance;
-
-    [SerializeField, Header("Keep ?")] private bool keep = false;
-    #endregion
-
-    #region unity methods
-
-    protected virtual void Awake()
+    public class ManagerTemplate<T> : MonoBehaviour where T : MonoBehaviour
     {
-        InitSingleton();
-    }
+        #region f/p
+        private static T instance = null;
+        public static T Instance => instance;
 
-    #endregion
+        [SerializeField, Header("Keep ?")] private bool keep = false;
+        #endregion
 
-    #region custom methods
+        #region unity methods
 
-    private void InitSingleton()
-    {
-        if (instance == null)
-            instance = this as T;
+        protected virtual void Awake()
+        {
+            InitSingleton();
+        }
 
-        if (instance != this)
-            Destroy(gameObject);
+        #endregion
+
+        #region custom methods
+
+        private void InitSingleton()
+        {
+            if (instance == null)
+                instance = this as T;
+
+            if (instance != this)
+                Destroy(gameObject);
         
-        if(keep) DontDestroyOnLoad(gameObject);
+            if(keep) DontDestroyOnLoad(gameObject);
 
-        name += "[MNG]";
+            name += "[MNG]";
+        }
+
+        #endregion
     }
-
-    #endregion
 }

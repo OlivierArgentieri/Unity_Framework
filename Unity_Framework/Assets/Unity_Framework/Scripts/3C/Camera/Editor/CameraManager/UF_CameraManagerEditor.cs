@@ -1,23 +1,27 @@
-
+using Unity_Framework.Scripts._3C.Camera.CameraManager;
+using Unity_Framework.Scripts._3C.Input.Editor.InputManager;
 using UnityEditor;
 using UnityEngine;
 
-public class UF_CameraManagerEditor
+namespace Unity_Framework.Scripts._3C.Camera.Editor.CameraManager
 {
-    #region custom methods
-    [MenuItem("UF/Camera/CameraManager")]
-    public static void Init()
+    public class UF_CameraManagerEditor
     {
-        UF_CameraManager[] _cameraManagers = Object.FindObjectsOfType<UF_CameraManager>();
+        #region custom methods
+        [MenuItem("UF/Camera/CameraManager")]
+        public static void Init()
+        {
+            UF_CameraManager[] _cameraManagers = Object.FindObjectsOfType<UF_CameraManager>();
 
-        if (_cameraManagers.Length > 0) return;
+            if (_cameraManagers.Length > 0) return;
         
-        GameObject _cameraManager = new GameObject("CameraManager", typeof(UF_CameraManager));
-        Selection.activeObject = _cameraManager;
+            GameObject _cameraManager = new GameObject("CameraManager", typeof(UF_CameraManager));
+            Selection.activeObject = _cameraManager;
         
-        // create InputManager 
-        UF_InputManagerEditor.Init();
+            // create InputManager 
+            UF_InputManagerEditor.Init();
+        }
+        #endregion
+
     }
-    #endregion
-
 }
