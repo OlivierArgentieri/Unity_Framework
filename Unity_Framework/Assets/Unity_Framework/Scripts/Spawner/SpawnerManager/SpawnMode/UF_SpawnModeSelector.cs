@@ -15,6 +15,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode
         public UF_CircleMode CircleMode = new UF_CircleMode();
         public UF_LineMode LineMode= new UF_LineMode();
         public UF_PointMode PointMode = new UF_PointMode();
+        public UF_BezierMode BezierMode = new UF_BezierMode();
 
         public UF_SpawnMode Mode
         {
@@ -30,6 +31,9 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode
                 
                     case UF_SpawnType.Point:
                         return PointMode;
+                    
+                    case UF_SpawnType.Bezier:
+                        return BezierMode;
                 }
 
                 return null;
@@ -42,6 +46,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode
     {
         Circle,
         Line,
-        Point
+        Point,
+        Bezier
     }
 }
