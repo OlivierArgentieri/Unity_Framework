@@ -25,12 +25,16 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
 
         #region reflections
         FieldInfo GetField(string _name, BindingFlags _flags = reflectionFlags) => eTarget.GetType().GetField(_name, _flags);
-
+        
         private UF_SpawnTrigger TriggerZonePrefab
         {
             get => (UF_SpawnTrigger) GetField("triggerZonePrefab").GetValue(eTarget);
-            set => GetField("triggerZonePrefab").SetValue(eTarget, value);
+            set
+            { 
+                GetField("triggerZonePrefab").SetValue(eTarget, value);
+            }
         }
+
         private List<UF_SpawnPoint> SpawnPoints
         {
             get => (List<UF_SpawnPoint>) GetField("spawnPoints").GetValue(eTarget);
@@ -213,7 +217,8 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                 UF_SpawnPoint _point = SpawnPoints[i];
 
                 EditoolsHandle.SetColor(Color.green);
-                EditoolsHandle.DrawWireCube(_point.Position, _point.Size);
+                if(_point.UseTrigger)
+                    EditoolsHandle.DrawWireCube(_point.Position, _point.Size);
                 EditoolsHandle.SetColor(Color.white);
 
                 EditoolsHandle.PositionHandle(ref _point.Position, Quaternion.identity);

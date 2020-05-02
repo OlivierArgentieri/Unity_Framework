@@ -8,7 +8,11 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager
     public class UF_SpawnerManager : MonoBehaviour
     {
         #region f/p
+      
+        [SerializeField]
         private List<UF_SpawnPoint> spawnPoints = new List<UF_SpawnPoint>();
+        
+        [SerializeField]
         private UF_SpawnTrigger triggerZonePrefab = null;
         #endregion
 
@@ -28,7 +32,11 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager
         
             for (int i = 0; i < spawnPoints.Count; i++)
             {
+                UF_SpawnPoint _point = spawnPoints[i];
+                
                 UF_SpawnTrigger _trigger = Instantiate(triggerZonePrefab);
+                _trigger.transform.localScale = _point.Size;
+                
                 if(_trigger) _trigger.SetData(spawnPoints[i]);
             }
         }

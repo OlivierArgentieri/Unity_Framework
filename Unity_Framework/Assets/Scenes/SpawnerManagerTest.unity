@@ -150,6 +150,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02fdd7a963545942a15cf809b5cd625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoints:
+  - IsVisible: 1
+    SpawnModes:
+    - Type: 0
+      CircleMode:
+        Position: {x: -0.5628443, y: 0, z: 3.535316}
+        AutoDestroyAgent: 0
+        AutoDestroyDelay: 0
+        Radius: 3
+        AgentNumber: 8
+    IsMonoAgent: 0
+    MonoAgent: {fileID: 0}
+    Agents:
+    - {fileID: 2778328971463339367, guid: bf14f3d0f4645334b83852d9718797d3, type: 3}
+    Position: {x: -0.89127994, y: 0, z: -1.1144559}
+    Size: {x: 16.410618, y: 1, z: 0.8836254}
+    UseTrigger: 1
+    UseDelay: 1
+    SpawnDelay: 3.09
+  triggerZonePrefab: {fileID: 8141369257474864712, guid: 0c6e0e9394fe596489f65c0614c64588,
+    type: 3}
 --- !u!4 &1469448231
 Transform:
   m_ObjectHideFlags: 0
@@ -158,7 +179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469448229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

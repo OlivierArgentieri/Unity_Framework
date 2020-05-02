@@ -77,9 +77,6 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
         #if UNITY_EDITOR
         public override void DrawSettings()
         {
-            //Radius = EditorGUILayout.IntSlider("Radius", Radius, 1, 100);
-            //AgentNumber = EditorGUILayout.IntSlider("Radius", AgentNumber, 1, 100);
-            
             EditoolsField.IntSlider("Radius", ref Radius, 1, 100);
             EditoolsField.IntSlider("Agent Number", ref AgentNumber, 1, 50);
 
@@ -92,7 +89,8 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
         public override void DrawSceneMode()
         {
-          //  EditoolsHandle.PositionHandle(ref Position, Quaternion.identity);
+          
+            EditoolsHandle.PositionHandle(ref Position, Quaternion.identity);
 
             Handles.DrawWireDisc(Position, Vector3.up, Radius);
             for (int i = 0; i < AgentNumber; i++)
