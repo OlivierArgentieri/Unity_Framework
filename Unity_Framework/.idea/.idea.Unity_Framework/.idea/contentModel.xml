@@ -112,6 +112,10 @@
               <e p="SpawnerManager" t="Include">
                 <e p="SpawnMode" t="Include">
                   <e p="SpawnModes" t="Include">
+                    <e p="BezierMode" t="Include">
+                      <e p="UF_Curve.cs" t="Include" />
+                    </e>
+                    <e p="UF_BezierMode.cs" t="Include" />
                     <e p="UF_CircleMode.cs" t="Include" />
                     <e p="UF_LineMode.cs" t="Include" />
                     <e p="UF_PointMode.cs" t="Include" />
