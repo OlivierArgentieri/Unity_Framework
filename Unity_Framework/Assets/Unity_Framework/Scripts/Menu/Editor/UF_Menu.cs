@@ -1,15 +1,16 @@
 using UnityEditor;
+using UnityEngine;
 
 namespace Unity_Framework.Scripts.Menu.Editor
 {
     public class UF_Menu
     {
-        [MenuItem("UF/Save On Play ([WIP] Doesn't work)")]
+        [MenuItem("UF/Set selected object Dirty ", false, 0)]
         public static void SaveDataOnPlay()
         {
-            foreach (var o in Selection.objects)
+            foreach (Object _o in Selection.objects)
             {
-                EditorUtility.SetDirty(o);
+                EditorUtility.SetDirty(_o);
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
             }

@@ -62,7 +62,6 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
 
         public override void OnInspectorGUI()
         {
-            //base.OnInspectorGUI();
             EditoolsBox.HelpBoxInfo($"SPAWN TOOL V{version}");
             TriggerZonePrefab =
                 (UF_SpawnTrigger) EditoolsField.ObjectField(TriggerZonePrefab, typeof(UF_SpawnTrigger), false);
@@ -118,7 +117,8 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                 if (!_point.IsVisible) continue;
 
                 EditoolsField.Vector3Field("Position", ref _point.Position);
-                EditoolsField.Vector3Field("Size", ref _point.Size);
+                
+                
 
                 EditoolsField.Toggle("Use Delay ?", ref _point.UseDelay);
                 if (_point.UseDelay)
@@ -127,13 +127,14 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                     _point.SpawnDelay = 0;
 
                 EditoolsField.Toggle("Use Trigger ?", ref _point.UseTrigger);
-
-                EditoolsLayout.Space();
-
-                EditoolsLayout.Space(1);
-
+                if(_point.UseTrigger)
+                    EditoolsField.Vector3Field("Size", ref _point.Size);
+                else
+                    _point.Size = Vector3.one;
+                
+                EditoolsLayout.Space(2);
+                
                 DrawSpawnModeUI(_point);
-
                 DrawnAgentUI(_point);
             }
         }
@@ -222,7 +223,9 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                 EditoolsHandle.SetColor(Color.white);
 
                 EditoolsHandle.PositionHandle(ref _point.Position, Quaternion.identity);
-                EditoolsHandle.ScaleHandle(ref _point.Size, _point.Position, Quaternion.identity, 2);
+                if (_point.UseTrigger)
+                    EditoolsHandle.ScaleHandle(ref _point.Size, _point.Position, Quaternion.identity, 2);
+                
                 EditoolsLayout.Space();
 
                 GetModeScene(_point);

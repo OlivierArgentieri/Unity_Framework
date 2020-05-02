@@ -32,7 +32,6 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
         public int GetStartAtPercent => (int) ((float) CurrentPercent / 100 * (Curve.Length - 1));
 
         public Vector3 StartPercentPosition => Curve[GetStartAtPercent];
-
         #endregion
 
 
@@ -55,6 +54,28 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
             }
 
             SetCurve();
+        }
+
+        public void ResetCurve()
+        {
+            Anchor = new Vector3[]
+            {
+                new Vector3(0, 0, 0),
+                new Vector3(0, 0, 1),
+                new Vector3(0, 0, 2),
+            };
+            
+            SetCurve();
+        }
+
+        public void RemoveSegment(int _index)
+        {
+            if (Anchor.Length == 3)
+            {
+                Anchor = new Vector3[0];
+                return;
+            }
+            
         }
 
         Vector3[] ComputeCurve(Vector3[] _anchors, int _definition)
@@ -85,19 +106,6 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
         }
 
         #endregion
-
-
-        #region debug
-
-        public void DrawGizmos()
-        {
-            for (int i = 0; i < curvePoints.Length; i++)
-            {
-                if (i < curvePoints.Length - 1)
-                    Gizmos.DrawLine(curvePoints[i], curvePoints[i + 1]);
-            }
-        }
-
-        #endregion
+        
     }
 }
