@@ -22,6 +22,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
         public override void Spawn(GameObject _agent)
         {
+            if(!_agent) return;
             if (SpawnOnEdge)
                 for (int i = 0; i < AgentNumber; i++)
                     GameObject.Instantiate(_agent, GetEdgedPosition(i, AgentNumber, Radius, Position), Quaternion.identity);
@@ -35,6 +36,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
         public override void SpawnWithDestroyDelay(GameObject _agent)
         {
+            if (!_agent) return;
             if (SpawnOnEdge)
             {
                 for (int i = 0; i < AgentNumber; i++)

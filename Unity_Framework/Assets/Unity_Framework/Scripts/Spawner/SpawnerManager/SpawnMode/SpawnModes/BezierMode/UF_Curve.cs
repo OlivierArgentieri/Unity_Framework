@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using Unity_Framework.Scripts.Import.Interface;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.BezierMode
@@ -7,17 +9,15 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
     public class UF_Curve
     {
         #region f/p
-
-        public bool ShowSegments = false;
-        public bool ShowCurve = false;
-
+        public bool DipslaySegments = false;
+        
         public int CurveDefinition = 1;
         public int MaxDefinition = 100;
         public int MinDefinition = 1;
 
         public Color CurveColor = Color.white;
 
-        public Vector3[] Anchor = new Vector3[]
+        public List<Vector3> Anchor = new List<Vector3>()
         {
             new Vector3(0, 0, 0),
             new Vector3(0, 0, 1),
@@ -25,13 +25,14 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
         };
 
         [SerializeField] Vector3[] curvePoints = new Vector3[] { };
-
-        public int CurveLength => Curve.Length;
-        public Vector3[] Curve => curvePoints;
+        
+        public Vector3[] CurvePoints => curvePoints;
+        
         public int CurrentPercent = 1;
-        public int GetStartAtPercent => (int) ((float) CurrentPercent / 100 * (Curve.Length - 1));
+        public int GetStartAtPercent => (int) ((float) CurrentPercent / 100 * (CurvePoints.Length - 1));
 
-        public Vector3 StartPercentPosition => Curve[GetStartAtPercent];
+        public Vector3 StartPercentPosition => CurvePoints[GetStartAtPercent];
+        public bool IsEmpty => Anchor.Count <1;
         #endregion
 
 
@@ -42,47 +43,49 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.Be
 
         public void AddSegment()
         {
-            Vector3 _lastPoint = Anchor[Anchor.Length - 1];
-            System.Array.Resize(ref Anchor, Anchor.Length + 3);
-
-            int _index = 0;
-            for (int i = Anchor.Length - 3; i < Anchor.Length; i++)
+            if (IsEmpty)
             {
-                _index++;
-                Vector3 _newPoint = _lastPoint + Vector3.forward * _index;
-                Anchor[i] = _newPoint;
+                ResetCurve();
+                return;
             }
+            
+            Vector3 _lastPoint = Anchor[Anchor.Count - 1];
 
+            Anchor.Add(_lastPoint + Vector3.forward * 1);
+            Anchor.Add(_lastPoint + Vector3.forward * 2);
+            Anchor.Add(_lastPoint + Vector3.forward * 3);
+            
             SetCurve();
         }
 
         public void ResetCurve()
         {
-            Anchor = new Vector3[]
+            Anchor = new List<Vector3>()
             {
                 new Vector3(0, 0, 0),
                 new Vector3(0, 0, 1),
                 new Vector3(0, 0, 2),
             };
-            
+         
             SetCurve();
         }
 
         public void RemoveSegment(int _index)
         {
-            if (Anchor.Length == 3)
-            {
-                Anchor = new Vector3[0];
-                return;
-            }
+            if (_index < 0 || _index >= Anchor.Count) return;
             
+            Anchor.RemoveAt(_index + 2);
+            Anchor.RemoveAt(_index + 1);
+            Anchor.RemoveAt(_index);
+            
+            SetCurve();
         }
 
-        Vector3[] ComputeCurve(Vector3[] _anchors, int _definition)
+        Vector3[] ComputeCurve(List<Vector3> _anchors, int _definition)
         {
-            Vector3[] _curve = new Vector3[_definition * (_anchors.Length / 3)];
+            Vector3[] _curve = new Vector3[_definition * (_anchors.Count / 3)];
             int _curveIndex = 0;
-            for (int i = _curveIndex; i < _anchors.Length; i += 3)
+            for (int i = _curveIndex; i < _anchors.Count; i += 3)
             {
                 Vector3 _a = _anchors[i];
                 Vector3 _b = _anchors[i + 1];

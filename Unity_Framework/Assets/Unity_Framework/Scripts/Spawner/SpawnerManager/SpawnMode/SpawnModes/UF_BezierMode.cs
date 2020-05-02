@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using EditoolsUnity;
+using Unity_Framework.Scripts.Import.Interface;
 using Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.BezierMode;
 using UnityEditor;
 using UnityEngine;
@@ -9,81 +10,82 @@ using UnityEngine;
 namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 {
     [Serializable]
-    public class UF_BezierMode : UF_SpawnMode
+    public class UF_BezierMode : UF_SpawnMode, IIsValid
     {
         #region f/p
 
         [SerializeField] UF_Curve Curve = new UF_Curve();
 
         private int selectedIndex = -1;
-
+        public bool IsValid => Curve != null;
         #endregion
 
 
-        #region custom methods
-
-        private void AddCurve()
-        {
-            Curve.SetCurve();
-        }
-
-
+        #region herited methods
+        
         public override void Spawn(GameObject _agent)
         {
-            int _step = Curve.Curve.Length / Curve.CurveDefinition;
+            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
 
-            for (int i = 0; i < Curve.Curve.Length; i += _step)
-                GameObject.Instantiate(_agent, Curve.Curve[i], Quaternion.identity);
+            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
+                GameObject.Instantiate(_agent, Curve.CurvePoints[i], Quaternion.identity);
             
         }
 
         public override void Spawn(List<GameObject> _agents)
         {
-            int _step = Curve.Curve.Length / Curve.CurveDefinition;
+            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
 
-            for (int i = 0; i < Curve.Curve.Length; i += _step)
+            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
             {
                 int _randomIndex = UnityEngine.Random.Range(0, _agents.Count);
                 if (!_agents[_randomIndex]) continue;
-                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.Curve[i], Quaternion.identity);
+                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.CurvePoints[i], Quaternion.identity);
             }
         }
 
         public override void SpawnWithDestroyDelay(GameObject _agent)
         {
-            int _step = Curve.Curve.Length / Curve.CurveDefinition;
+            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
 
-            for (int i = 0; i < Curve.Curve.Length; i += _step)
+            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
             {
-                GameObject _go = GameObject.Instantiate(_agent, Curve.Curve[i], Quaternion.identity);
+                GameObject _go = GameObject.Instantiate(_agent, Curve.CurvePoints[i], Quaternion.identity);
                 GameObject.Destroy(_go, AutoDestroyDelay);
             }
         }
 
         public override void SpawnWithDestroyDelay(List<GameObject> _agents)
         {
-            int _step = Curve.Curve.Length / Curve.CurveDefinition;
+            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
 
-            for (int i = 0; i < Curve.Curve.Length; i += _step)
+            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
             {
                 int _randomIndex = UnityEngine.Random.Range(0, _agents.Count);
                 if (!_agents[_randomIndex]) continue;
-                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.Curve[i], Quaternion.identity);
+                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.CurvePoints[i], Quaternion.identity);
                 GameObject.Destroy(_go, AutoDestroyDelay);
             }
         }
 
+        #endregion
 
-#if UNITY_EDITOR
+        
+        #region UI methods
+        
+        #if UNITY_EDITOR
+        
         public override void DrawSceneMode()
         {
+            if (!IsValid || Curve.IsEmpty) return;
             Curve.SetCurve();
 
-            Vector3 _lastAnchor = Curve.Anchor[Curve.Anchor.Length - 1];
+            
+            Vector3 _lastAnchor = Curve.Anchor[Curve.Anchor.Count - 1];
             _lastAnchor = Handles.PositionHandle(_lastAnchor, Quaternion.identity);
-            Curve.Anchor[Curve.Anchor.Length - 1] = _lastAnchor;
+            Curve.Anchor[Curve.Anchor.Count - 1] = _lastAnchor;
 
-            for (int j = 0; j < Curve.Anchor.Length; j += 3)
+            for (int j = 0; j < Curve.Anchor.Count; j += 3)
             {
                 Vector3 _handleA = Curve.Anchor[j];
                 Vector3 _handleB = Curve.Anchor[j + 1];
@@ -131,11 +133,11 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
             // draw curve
             EditoolsHandle.SetColor(Curve.CurveColor);
-            Vector3[] _curve = Curve.Curve;
-            for (int j = 0; j < Curve.Curve.Length; j++)
+            Vector3[] _curve = Curve.CurvePoints;
+            for (int j = 0; j < Curve.CurvePoints.Length; j++)
             {
-                if (j < Curve.Curve.Length - 1)
-                    Handles.DrawLine(Curve.Curve[j], Curve.Curve[j + 1]);
+                if (j < Curve.CurvePoints.Length - 1)
+                    Handles.DrawLine(Curve.CurvePoints[j], Curve.CurvePoints[j + 1]);
             }
 
             EditoolsHandle.SetColor(Color.white);
@@ -146,12 +148,14 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
         public override void DrawSettings()
         {
+            if (!IsValid) return;
             EditoolsLayout.Space(3);
             EditoolsLayout.Horizontal(true);
             EditoolsBox.HelpBoxInfo("Curve Settings"); 
             
             EditoolsLayout.Vertical(true);
-            EditoolsButton.ButtonWithConfirm("Reset Curve", Color.red, Curve.ResetCurve, "Reset Curve ?", $"Remove Curve", "Are your sure ?");
+            if(!Curve.IsEmpty)
+                EditoolsButton.ButtonWithConfirm("Reset Curve", Color.red, Curve.ResetCurve, "Reset Curve ?", $"Remove Curve", "Are your sure ?");
             EditoolsButton.Button("Add Segment", Color.green, Curve.AddSegment);
             EditoolsLayout.Vertical(false);
             EditoolsLayout.Horizontal(false);
@@ -162,10 +166,15 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
             EditoolsField.ColorField(Curve.CurveColor, ref Curve.CurveColor);
             EditoolsLayout.Horizontal(false);
 
+            EditoolsLayout.Space(2);
 
             EditoolsField.IntSlider("Curve Definition", ref Curve.CurveDefinition, Curve.MinDefinition,
                 Curve.MaxDefinition);
-
+            
+            EditoolsLayout.Space(2);
+            
+            DisplaySegmentSettings();
+            
             if (GUI.changed)
             {
                 Curve.SetCurve();
@@ -180,11 +189,30 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 
         public override void DrawLinkToSpawner(Vector3 _position)
         {
-            if (Curve.Anchor.Length < 1) return;
+            if (Curve.Anchor.Count < 1) return;
             Handles.DrawDottedLine(Curve.Anchor[0], _position, 0.5f);
+        }
+
+
+        private void DisplaySegmentSettings()
+        {
+            if (!IsValid || Curve.IsEmpty) return;
+            EditoolsLayout.Foldout(ref Curve.DipslaySegments, "Curve Segments");
+
+            if (!Curve.DipslaySegments) return;
+            
+            
+            for (int i = 0; i < Curve.Anchor.Count; i+=3)
+            {
+                EditoolsLayout.Horizontal(true);
+                EditoolsButton.ButtonWithConfirm("X", Color.red, Curve.RemoveSegment, i, $"Remove {i/3}", $"Remove {i/3}", "Are your sure ?");
+                EditoolsBox.HelpBox($"Segment {i/3} / {(Curve.Anchor.Count-1)/3} ");
+                EditoolsLayout.Horizontal(false);
+            }
         }
 #endif
 
         #endregion
+
     }
 }
