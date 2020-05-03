@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Unity_Framework.Scripts.Path.PathManager.Path;
-using Unity_Framework.Scripts.Path.PathManager.PathMode;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Path.PathManager
@@ -18,7 +17,7 @@ namespace Unity_Framework.Scripts.Path.PathManager
         #region cutstom methods
         
         public void AddPath() => Paths.Add(new UF_Path());
-        public void Remove(int _index) => Paths.RemoveAt(_index);
+        public void RemovePath(int _index) => Paths.RemoveAt(_index);
         public void Clear() => Paths.Clear();
 
         #endregion

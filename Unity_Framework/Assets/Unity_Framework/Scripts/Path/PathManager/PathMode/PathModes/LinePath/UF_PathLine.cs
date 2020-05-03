@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
 {
+    [Serializable]
     public class UF_PathLine
     {
         
@@ -15,6 +17,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
         public bool ShowPoint = true;
         public Color PathColor = Color.white;
         public bool IsEditable = false;
+        
         public List<Vector3> PathPoints = new List<Vector3>();
 
         #endregion

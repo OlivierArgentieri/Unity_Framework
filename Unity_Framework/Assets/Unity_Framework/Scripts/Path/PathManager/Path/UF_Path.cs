@@ -9,9 +9,15 @@ namespace Unity_Framework.Scripts.Path.PathManager.Path
     public class UF_Path
     {
         #region f/p
-        public bool IsVisible = true;
-        public List<UF_PathModeSelector> SpawnModes = new List<UF_PathModeSelector>();
+        public string Id = "Path 1";
 
+        public bool ShowPath = true;
+      
+        public List<Vector3> PathPoints = new List<Vector3>();
+        
+        public UF_PathModeSelector PathMode = new UF_PathModeSelector();
+
+        
         public bool IsMonoAgent = false;
         public GameObject MonoAgent = null;
         public List<GameObject> Agents = new List<GameObject>();
@@ -25,9 +31,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.Path
         public void RemoveAgent(int _index) => Agents.RemoveAt(_index);
         public void RemoveAgent() => MonoAgent = null;
         public void ClearAgents() => Agents.Clear();
-        public void AddMode() => SpawnModes.Add(new UF_PathModeSelector());
-        public void RemoveMode(int _index) => SpawnModes.RemoveAt(_index);
-        public void ClearModes() => SpawnModes.Clear();
+        
         #endregion
     }
 }
