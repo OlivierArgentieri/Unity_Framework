@@ -9,8 +9,16 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
     {
         #region f/p
 
-        public Vector3 Position = Vector3.zero;
+        public string Id = "Path 1";
 
+        public bool ShowPath = true;
+        public bool ShowPoint = true;
+        
+        public Color PathColor = Color.white;
+        
+        public abstract List<Vector3> PathPoints { get; }
+        public Vector3 Position = Vector3.zero;
+        
         #endregion
 
 

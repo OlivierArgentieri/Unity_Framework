@@ -121,9 +121,9 @@
                     <e p="LinePath" t="Include">
                       <e p="UF_PathLine.cs" t="Include" />
                     </e>
+                    <e p="UF_PathCurveMode.cs" t="Include" />
                     <e p="UF_PathLineMode.cs" t="Include" />
                   </e>
-                  <e p="UF_PathCurveMode.cs" t="Include" />
                   <e p="UF_PathMode.cs" t="Include" />
                   <e p="UF_PathModeSelector.cs" t="Include" />
                 </e>

@@ -10,11 +10,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
     {
         #region f/p
         // todo reflection
-        public string Id = "Path 1";
         public bool ShowPath = true;
         public bool ShowPoint = true;
-        public Color PathColor = Color.white;
-        public bool IsEditable = false;
+       public bool IsEditable = false;
         
         public List<Vector3> PathPoints = new List<Vector3>();
 

@@ -10,6 +10,7 @@ namespace Unity_Framework.Scripts.Path.PathManager
         // todo refletcions
         public List<UF_Path> Paths = new List<UF_Path>();
 
+        
         public bool IsEmpty => Paths != null && Paths.Count <1;
         #endregion
 

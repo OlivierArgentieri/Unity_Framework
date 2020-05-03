@@ -12,6 +12,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
     {
         #region f/p
         public UF_PathLine Path = new UF_PathLine();
+
+        public override List<Vector3> PathPoints => Path.PathPoints;
         #endregion
 
         
@@ -45,16 +47,30 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
         public override void DrawSettings()
         {
-            EditoolsButton.Button("+", Color.green, Path.AddPoint);
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBoxInfo("Line Settings"); 
+          
+            
+            EditoolsLayout.Vertical(true);
+           
+            EditoolsButton.ButtonWithConfirm("Remove All Points", Color.red, Path.ClearPoints, $"Suppress All Points ? ", "Are your sure ?", "Yes", "No" , Path.PathPoints.Count > 0);
+            EditoolsButton.Button("Add Point", Color.green, Path.AddPoint);
+            EditoolsLayout.Vertical(false);
+            EditoolsLayout.Horizontal(false);
+              
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBox($"Path ID : {Id}");
+            EditoolsField.TextField("", ref Id);
+            EditoolsLayout.Horizontal(false);
+            
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBox("Path Color");
+            EditoolsField.ColorField(PathColor, ref PathColor);
+            EditoolsLayout.Horizontal(false);
           //  EditoolsButton.Button("Editable", Path.IsEditable ? Color.green : Color.grey, SetEditable, Path);
 
           // New Line
-            EditoolsLayout.Horizontal(true);
-            EditoolsField.TextField(Path.Id, ref Path.Id);
-            EditoolsField.ColorField(Path.PathColor, ref Path.PathColor);
-
-
-            EditoolsLayout.Horizontal(false);
+         
 
             ShowPathPointUi(Path);
         }
@@ -62,31 +78,24 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         private void ShowPathPointUi(UF_PathLine _path)
         {
             if (_path.PathPoints.Count == 0) return;
-            EditoolsLayout.Foldout(ref _path.ShowPoint, $"Show/Hide points {_path.Id}", true);
+            EditoolsLayout.Foldout(ref _path.ShowPoint, $"Show/Hide points {Id}", true);
             if (_path.ShowPoint)
             {
                 for (int i = 0; i < _path.PathPoints.Count; i++)
                 {
                     EditoolsLayout.Horizontal(true);
-
-                    _path.PathPoints[i] = EditoolsField.Vector3Field($"Path Point [{i + 1}]", _path.PathPoints[i]);
-                    EditoolsButton.ButtonWithConfirm("-", Color.magenta, _path.RemovePoint, i,
-                        $"Suppress Point {i + 1} at {_path.PathPoints[i]} ? ", "Are your sure ?");
-
+                    EditoolsButton.ButtonWithConfirm("-", Color.red, _path.RemovePoint, i,$"Suppress Point {i + 1} at {_path.PathPoints[i]} ? ", "Are your sure ?");
+                    EditoolsBox.HelpBox($"[{i + 1} / {_path.PathPoints.Count}]");
+                    _path.PathPoints[i] = EditoolsField.Vector3Field("", _path.PathPoints[i]);
                     EditoolsLayout.Horizontal(false);
                 }
             }
 
-            EditoolsLayout.Space(1);
-
-            if (_path.PathPoints.Count > 0)
-                EditoolsButton.ButtonWithConfirm("Remove All Points", Color.red, _path.ClearPoints, $"Suppress All Points ? ",
-                    "Are your sure ?");
         }
 
         private void ShowAllPathScene()
         {
-            EditoolsHandle.SetColor(Path.PathColor);
+            EditoolsHandle.SetColor(PathColor);
 
             for (int j = 0; j < Path.PathPoints.Count; j++)
             {
@@ -94,7 +103,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
                 EditoolsHandle.Label(Path.PathPoints[j] + Vector3.up * 5, $"Point {j + 1}");
                 EditoolsHandle.SetColor(Color.white);
                 EditoolsHandle.DrawDottedLine(Path.PathPoints[j] + Vector3.up * 5, Path.PathPoints[j], .5f);
-                EditoolsHandle.SetColor(Path.PathColor);
+                EditoolsHandle.SetColor(PathColor);
                 EditoolsHandle.DrawSolidDisc(Path.PathPoints[j], Vector3.up, 0.1f);
                 if (j < Path.PathPoints.Count - 1)
                     EditoolsHandle.DrawLine(Path.PathPoints[j], Path.PathPoints[j + 1]);

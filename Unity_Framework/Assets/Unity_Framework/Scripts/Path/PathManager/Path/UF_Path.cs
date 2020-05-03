@@ -9,14 +9,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.Path
     public class UF_Path
     {
         #region f/p
-        public string Id = "Path 1";
-
-        public bool ShowPath = true;
-      
-        public List<Vector3> PathPoints = new List<Vector3>();
+       
         
         public UF_PathModeSelector PathMode = new UF_PathModeSelector();
-
         
         public bool IsMonoAgent = false;
         public GameObject MonoAgent = null;

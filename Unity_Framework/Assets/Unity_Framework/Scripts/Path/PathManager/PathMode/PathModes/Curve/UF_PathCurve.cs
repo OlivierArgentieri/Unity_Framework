@@ -13,9 +13,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve
         public int CurveDefinition = 1;
         public int MaxDefinition = 100;
         public int MinDefinition = 1;
-
-        public Color CurveColor = Color.white;
-
+        
         public List<Vector3> Anchor = new List<Vector3>()
         {
             new Vector3(0, 0, 0),

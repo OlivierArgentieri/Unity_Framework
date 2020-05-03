@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Import.Interface;
 using Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve;
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity_Framework.Scripts.Path.PathManager.PathMode
+namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 {
     [Serializable]
     public class UF_PathCurveMode : UF_PathMode, IIsValid
@@ -18,8 +19,10 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
         private float startAtPercent = 0;
         
         private int selectedIndex = -1;
-        public bool IsValid => Curve != null;
+        
+        public override List<Vector3> PathPoints => Curve.CurvePoints.ToList();
 
+        public bool IsValid => Curve != null;
         #endregion
         
         
@@ -103,7 +106,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
             }
 
             // draw curve
-            EditoolsHandle.SetColor(Curve.CurveColor);
+            EditoolsHandle.SetColor(PathColor);
             Vector3[] _curve = Curve.CurvePoints;
             for (int j = 0; j < Curve.CurvePoints.Length; j++)
             {
@@ -124,20 +127,25 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
             EditoolsBox.HelpBoxInfo("Curve Settings"); 
             
             EditoolsLayout.Vertical(true);
-            if(!Curve.IsEmpty)
-                EditoolsButton.ButtonWithConfirm("Reset Curve", Color.red, Curve.ResetCurve, "Reset Curve ?", $"Remove Curve", "Are your sure ?");
+            EditoolsButton.ButtonWithConfirm("Reset Curve", Color.red, Curve.ResetCurve, "Reset Curve ?", $"Remove Curve", "Are your sure ?", _showCondition: !Curve.IsEmpty);
             EditoolsButton.Button("Add Segment", Color.green, Curve.AddSegment);
             EditoolsLayout.Vertical(false);
             EditoolsLayout.Horizontal(false);
 
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBox($"Path ID : {Id}");
+            EditoolsField.TextField("", ref Id);
+            EditoolsLayout.Horizontal(false);
             
             EditoolsLayout.Horizontal(true);
             EditoolsBox.HelpBox("Curve Color");
-            EditoolsField.ColorField(Curve.CurveColor, ref Curve.CurveColor);
+            EditoolsField.ColorField(PathColor, ref PathColor);
             EditoolsLayout.Horizontal(false);
+          
 
             EditoolsLayout.Space(2);
 
+            EditoolsField.IntSlider("Start at percent ", ref Curve.CurrentPercent, 0, 100);
             EditoolsField.IntSlider("Curve Definition", ref Curve.CurveDefinition, Curve.MinDefinition,
                 Curve.MaxDefinition);
             

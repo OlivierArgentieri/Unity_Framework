@@ -204,6 +204,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
                 EditoolsLayout.Horizontal(true);
                 EditoolsButton.ButtonWithConfirm("X", Color.red, Curve.RemoveSegment, i, $"Remove {i/3}", $"Remove {i/3}", "Are your sure ?");
                 EditoolsBox.HelpBox($"Segment {i/3} / {(Curve.Anchor.Count-1)/3} ");
+                //Curve.Anchor[i] = EditoolsField.Vector3Field("", Curve.Anchor[i]);
                 EditoolsLayout.Horizontal(false);
             }
         }
