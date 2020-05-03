@@ -1,12 +1,9 @@
-using System;
 using System.Collections.Generic;
-using Unity_Framework.Scripts.Import.Interface;
 using UnityEngine;
 
-namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.BezierMode
+namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve
 {
-    [Serializable]
-    public class UF_Curve
+    public class UF_PathCurve
     {
         #region f/p
         public bool DipslaySegments = false;

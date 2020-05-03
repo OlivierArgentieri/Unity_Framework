@@ -14,7 +14,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
     {
         #region f/p
 
-        [SerializeField] UF_Curve Curve = new UF_Curve();
+        [SerializeField] UF_Bezier Curve = new UF_Bezier();
 
         private int selectedIndex = -1;
         public bool IsValid => Curve != null;
