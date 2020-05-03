@@ -17,6 +17,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
         public Color PathColor = Color.white;
         
         public abstract List<Vector3> PathPoints { get; }
+        public abstract Vector3 StartPercentPosition { get; }
+        public abstract int GetStartPercentIndex { get; }
+
         public Vector3 Position = Vector3.zero;
         
         #endregion

@@ -123,9 +123,13 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
                 EditoolsField.IntSlider("Speed Move", ref _agent.SpeedMove, _agent.MinSpeedMove, _agent.MaxSpeedMove);
                 EditoolsField.IntSlider("Speed Rotation", ref _agent.SpeedRotation, _agent.MinSpeedRotation, _agent.MaxSpeedRotation);
                 _agent.AgentToMove = (GameObject) EditoolsField.ObjectField(_agent.AgentToMove, typeof(GameObject), false);
-            
-                if(eTarget.Paths.Count > 0)
-                    _agent.PathId = EditorGUILayout.Popup("Paths target", _agent.PathId,eTarget.Paths.Select(o => o.PathMode.Mode.Id).ToArray());
+
+                if (eTarget.Paths.Count > 0)
+                {
+                    string[] _pathsNames = eTarget.Paths.Select(o => o.PathMode.Mode.Id).ToArray();
+                    _agent.PathIndex = EditorGUILayout.Popup("Paths target", _agent.PathIndex, _pathsNames);
+                    _agent.PathId = _pathsNames[_agent.PathIndex];
+                }
                 else
                     EditoolsBox.HelpBox("NO PATH FOUND !", MessageType.Error);
             }

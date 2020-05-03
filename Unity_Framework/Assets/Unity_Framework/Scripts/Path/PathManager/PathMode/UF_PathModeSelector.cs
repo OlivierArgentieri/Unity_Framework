@@ -38,6 +38,5 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
     {
         Curve,
         Line,
-    
     }
 }

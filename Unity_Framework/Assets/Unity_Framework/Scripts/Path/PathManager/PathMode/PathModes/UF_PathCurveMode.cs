@@ -21,7 +21,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         private int selectedIndex = -1;
         
         public override List<Vector3> PathPoints => Curve.CurvePoints.ToList();
-
+        public override Vector3 StartPercentPosition => Curve.StartPercentPosition;
+        public override int GetStartPercentIndex => Curve.GetStartPercentIndex;
         public bool IsValid => Curve != null;
         #endregion
         
@@ -116,7 +117,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
             EditoolsHandle.SetColor(Color.white);
 
-            EditoolsHandle.DrawDottedLine(Curve.CurvePoints[Curve.GetStartAtPercent], Curve.CurvePoints[Curve.GetStartAtPercent] + Vector3.up, 1);
+            EditoolsHandle.DrawDottedLine(Curve.CurvePoints[Curve.GetStartPercentIndex], Curve.CurvePoints[Curve.GetStartPercentIndex] + Vector3.up, 1);
         }
 
         public override void DrawSettings()

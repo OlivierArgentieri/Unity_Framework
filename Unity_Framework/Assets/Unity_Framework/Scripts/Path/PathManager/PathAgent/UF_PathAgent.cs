@@ -19,7 +19,8 @@ namespace EditoolsUnity
         public bool Show = true;
         private List<Vector3> pathPoints = null;
 
-        public int PathId; // todo select
+        public string PathId; // todo select
+        public int PathIndex = 0;
         public GameObject AgentToMove = null;
         public int PathLength => pathPoints?.Count ?? 0 ;
         

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Path.PathManager.Path;
 using Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath;
@@ -15,7 +16,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         public UF_PathLine Path = new UF_PathLine();
 
         public override List<Vector3> PathPoints => Path.PathPoints;
-
+        
+        public override Vector3 StartPercentPosition => PathPoints.FirstOrDefault();
+        public override int GetStartPercentIndex => 0;
         #endregion
 
 

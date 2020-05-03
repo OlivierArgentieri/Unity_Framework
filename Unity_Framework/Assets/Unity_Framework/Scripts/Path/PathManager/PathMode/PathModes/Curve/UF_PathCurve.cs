@@ -26,9 +26,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve
         public Vector3[] CurvePoints => curvePoints;
         
         public int CurrentPercent = 1;
-        public int GetStartAtPercent => (int) ((float) CurrentPercent / 100 * (CurvePoints.Length - 1));
+        public int GetStartPercentIndex => (int) ((float) CurrentPercent / 100 * (CurvePoints.Length - 1));
 
-        public Vector3 StartPercentPosition => CurvePoints[GetStartAtPercent];
+        public Vector3 StartPercentPosition => CurvePoints[GetStartPercentIndex];
         public bool IsEmpty => Anchor.Count <1;
         #endregion
 
