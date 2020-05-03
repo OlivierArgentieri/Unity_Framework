@@ -100,20 +100,54 @@
                 <e p="UF_Menu.cs" t="Include" />
               </e>
             </e>
+            <e p="Path" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PathManagerEditor" t="Include">
+                  <e p="UF_PathManagerEditor.cs" t="Include" />
+                </e>
+                <e p="PathManagerMenu" t="Include">
+                  <e p="UF_PathManagerMenu.cs" t="Include" />
+                </e>
+              </e>
+              <e p="PathManager" t="Include">
+                <e p="Path" t="Include">
+                  <e p="UF_Path.cs" t="Include" />
+                </e>
+                <e p="PathAgent" t="Include">
+                  <e p="UF_AgentFollowCurve.cs" t="Include" />
+                  <e p="UF_pathAgent.cs" t="Include" />
+                </e>
+                <e p="PathMode" t="Include">
+                  <e p="PathModes" t="Include">
+                    <e p="Curve" t="Include">
+                      <e p="UF_PathCurve.cs" t="Include" />
+                    </e>
+                    <e p="LinePath" t="Include">
+                      <e p="UF_PathLine.cs" t="Include" />
+                    </e>
+                    <e p="UF_PathCurveMode.cs" t="Include" />
+                    <e p="UF_PathLineMode.cs" t="Include" />
+                  </e>
+                  <e p="UF_PathMode.cs" t="Include" />
+                  <e p="UF_PathModeSelector.cs" t="Include" />
+                </e>
+                <e p="UF_PathManager.cs" t="Include" />
+              </e>
+            </e>
             <e p="Spawner" t="Include">
               <e p="Editor" t="Include">
-                <e p="SpawnerManager" t="Include">
-                  <e p="UF_SpawnerManager.cs" t="Include" />
-                </e>
                 <e p="SpawnerManagerEditor" t="Include">
                   <e p="UF_SpawnerManagerEditor.cs" t="Include" />
+                </e>
+                <e p="SpawnerManagerMenu" t="Include">
+                  <e p="UF_SpawnerManagerMenu.cs" t="Include" />
                 </e>
               </e>
               <e p="SpawnerManager" t="Include">
                 <e p="SpawnMode" t="Include">
                   <e p="SpawnModes" t="Include">
                     <e p="BezierMode" t="Include">
-                      <e p="UF_Curve.cs" t="Include" />
+                      <e p="UF_Bezier.cs" t="Include" />
                     </e>
                     <e p="UF_BezierMode.cs" t="Include" />
                     <e p="UF_CircleMode.cs" t="Include" />

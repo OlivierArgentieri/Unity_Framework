@@ -5,7 +5,7 @@ namespace Unity_Framework.Scripts.Menu.Editor
 {
     public class UF_Menu
     {
-        [MenuItem("UF/Set selected object Dirty ", false, 0)]
+        [MenuItem("UF/Set selected object Dirty ", false, 2)]
         public static void SaveDataOnPlay()
         {
             foreach (Object _o in Selection.objects)

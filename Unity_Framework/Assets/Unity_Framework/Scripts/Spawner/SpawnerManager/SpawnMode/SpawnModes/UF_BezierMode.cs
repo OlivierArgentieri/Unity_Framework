@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Import.Interface;
 using Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.BezierMode;
@@ -14,7 +13,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
     {
         #region f/p
 
-        [SerializeField] UF_Curve Curve = new UF_Curve();
+        [SerializeField] UF_Bezier Curve = new UF_Bezier();
 
         private int selectedIndex = -1;
         public bool IsValid => Curve != null;
@@ -141,9 +140,6 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
             }
 
             EditoolsHandle.SetColor(Color.white);
-
-            //EditoolsHandle.DrawDottedLine(Curve[_c.GetStartAtPercent], _c.Curve[_c.GetStartAtPercent] + Vector3.up, 1);
-
         }
 
         public override void DrawSettings()
@@ -207,6 +203,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
                 EditoolsLayout.Horizontal(true);
                 EditoolsButton.ButtonWithConfirm("X", Color.red, Curve.RemoveSegment, i, $"Remove {i/3}", $"Remove {i/3}", "Are your sure ?");
                 EditoolsBox.HelpBox($"Segment {i/3} / {(Curve.Anchor.Count-1)/3} ");
+                //Curve.Anchor[i] = EditoolsField.Vector3Field("", Curve.Anchor[i]);
                 EditoolsLayout.Horizontal(false);
             }
         }

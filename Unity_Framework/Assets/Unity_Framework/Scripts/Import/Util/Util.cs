@@ -1,12 +1,19 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Import.Util
 {
     public abstract class Util
     {
+
+        #region f/p /const
+
+        private const BindingFlags reflectionFlags = BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
+
+        #endregion
+        
         /// <summary>
         /// Simple Clamp Rotation Algorithm
         /// </summary>
@@ -47,5 +54,16 @@ namespace Unity_Framework.Scripts.Import.Util
             yield return new WaitForSeconds(_time);
             _callback?.Invoke();
         }
+        
+        
+
+        /// <summary>
+        /// Get field by reflection
+        /// </summary>
+        /// <param name="_name"></param>
+        /// <param name="_target"></param>
+        /// <param name="_flags"></param>
+        /// <returns> fieldInfo object</returns>
+        public static FieldInfo GetField(string _name, object _target, BindingFlags _flags = reflectionFlags) => _target.GetType().GetField(_name, _flags);
     }
 }

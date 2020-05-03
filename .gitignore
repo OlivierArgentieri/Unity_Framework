@@ -10,6 +10,9 @@
 *[Ll]ogs/
 *[Mm]emoryCaptures/
 
+*[Tt]estPrefabs/
+*[Tt]estPrefabs.meta
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 

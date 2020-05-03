@@ -18,6 +18,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager
 
         
         #region unity methods
+        
         private void Start()
         {
             SpawnAll();
@@ -43,6 +44,7 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager
         public void AddPoint() => spawnPoints.Add(new UF_SpawnPoint());
         public void Remove(int _index) => spawnPoints.RemoveAt(_index);
         public void Clear() => spawnPoints.Clear();
+        
         #endregion
     }
 }
