@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve
 {
+    [Serializable]
     public class UF_PathCurve
     {
         #region f/p

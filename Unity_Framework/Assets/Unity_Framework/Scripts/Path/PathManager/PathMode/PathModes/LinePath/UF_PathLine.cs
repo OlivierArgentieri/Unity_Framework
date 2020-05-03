@@ -8,10 +8,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
     [Serializable]
     public class UF_PathLine
     {
-        
         #region f/p
-
-        // todo refelction
+        // todo reflection
         public string Id = "Path 1";
         public bool ShowPath = true;
         public bool ShowPoint = true;

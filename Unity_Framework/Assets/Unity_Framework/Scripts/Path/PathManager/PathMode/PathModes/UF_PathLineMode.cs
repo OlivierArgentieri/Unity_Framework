@@ -11,9 +11,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
     public class UF_PathLineMode : UF_PathMode
     {
         #region f/p
-
         public UF_PathLine Path = new UF_PathLine();
-
         #endregion
 
         
@@ -49,9 +47,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         {
             EditoolsButton.Button("+", Color.green, Path.AddPoint);
           //  EditoolsButton.Button("Editable", Path.IsEditable ? Color.green : Color.grey, SetEditable, Path);
-            EditoolsLayout.Horizontal(false);
 
-            // New Line
+          // New Line
             EditoolsLayout.Horizontal(true);
             EditoolsField.TextField(Path.Id, ref Path.Id);
             EditoolsField.ColorField(Path.PathColor, ref Path.PathColor);

@@ -13,8 +13,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
     
         // modes
         public UF_PathLineMode LineMode = new UF_PathLineMode();
-     //   public UF_LineMode LineMode= new UF_LineMode();
-        
+        public UF_PathCurveMode CurveMode = new UF_PathCurveMode();
+
         public UF_PathMode Mode
         {
             get
@@ -23,10 +23,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode
                 {
                     case UF_PathType.Line:
                         return LineMode;
-
-                  
-                   /* case UF_PathType.Curve:
-                        return BezierMode;*/
+                    
+                    case UF_PathType.Curve:
+                        return CurveMode;
                 }
 
                 return null;

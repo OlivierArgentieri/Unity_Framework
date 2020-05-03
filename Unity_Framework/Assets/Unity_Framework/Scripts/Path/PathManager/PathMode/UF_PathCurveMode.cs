@@ -1,83 +1,54 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Import.Interface;
-using Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes.BezierMode;
+using Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve;
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
+namespace Unity_Framework.Scripts.Path.PathManager.PathMode
 {
     [Serializable]
-    public class UF_BezierMode : UF_SpawnMode, IIsValid
+    public class UF_PathCurveMode : UF_PathMode, IIsValid
     {
+
         #region f/p
+        [SerializeField] UF_PathCurve Curve = new UF_PathCurve();
 
-        [SerializeField] UF_Bezier Curve = new UF_Bezier();
-
+        private float startAtPercent = 0;
+        
         private int selectedIndex = -1;
         public bool IsValid => Curve != null;
-        #endregion
-
-
-        #region herited methods
-        
-        public override void Spawn(GameObject _agent)
-        {
-            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
-
-            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
-                GameObject.Instantiate(_agent, Curve.CurvePoints[i], Quaternion.identity);
-            
-        }
-
-        public override void Spawn(List<GameObject> _agents)
-        {
-            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
-
-            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
-            {
-                int _randomIndex = UnityEngine.Random.Range(0, _agents.Count);
-                if (!_agents[_randomIndex]) continue;
-                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.CurvePoints[i], Quaternion.identity);
-            }
-        }
-
-        public override void SpawnWithDestroyDelay(GameObject _agent)
-        {
-            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
-
-            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
-            {
-                GameObject _go = GameObject.Instantiate(_agent, Curve.CurvePoints[i], Quaternion.identity);
-                GameObject.Destroy(_go, AutoDestroyDelay);
-            }
-        }
-
-        public override void SpawnWithDestroyDelay(List<GameObject> _agents)
-        {
-            int _step = Curve.CurvePoints.Length / Curve.CurveDefinition;
-
-            for (int i = 0; i < Curve.CurvePoints.Length; i += _step)
-            {
-                int _randomIndex = UnityEngine.Random.Range(0, _agents.Count);
-                if (!_agents[_randomIndex]) continue;
-                GameObject _go = GameObject.Instantiate(_agents[_randomIndex], Curve.CurvePoints[i], Quaternion.identity);
-                GameObject.Destroy(_go, AutoDestroyDelay);
-            }
-        }
 
         #endregion
-
         
+        
+        
+        public override void Run(GameObject _agent)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Run(List<GameObject> _agent)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void RunAtPercent(GameObject _agent, float _percent)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void RunAtPercent(List<GameObject> _agents, float _percent)
+        {
+            throw new NotImplementedException();
+        }
+
         #region UI methods
-        
-        #if UNITY_EDITOR
-        
+
         public override void DrawSceneMode()
         {
-            if (!IsValid || Curve.IsEmpty) return;
+             if (!IsValid || Curve.IsEmpty) return;
             Curve.SetCurve();
 
             
@@ -141,6 +112,8 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
             }
 
             EditoolsHandle.SetColor(Color.white);
+
+            EditoolsHandle.DrawDottedLine(Curve.CurvePoints[Curve.GetStartAtPercent], Curve.CurvePoints[Curve.GetStartAtPercent] + Vector3.up, 1);
         }
 
         public override void DrawSettings()
@@ -178,19 +151,8 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
                 SceneView.RepaintAll();
             }
             
-            EditoolsField.Toggle("Auto Destroy Agents ?", ref AutoDestroyAgent);
-            if (AutoDestroyAgent)
-                AutoDestroyDelay = EditorGUILayout.Slider("Auto Destroy Delay", AutoDestroyDelay, 0, 15);
-
         }
-
-        public override void DrawLinkToSpawner(Vector3 _position)
-        {
-            if (Curve.Anchor.Count < 1) return;
-            Handles.DrawDottedLine(Curve.Anchor[0], _position, 0.5f);
-        }
-
-
+        
         private void DisplaySegmentSettings()
         {
             if (!IsValid || Curve.IsEmpty) return;
@@ -207,9 +169,9 @@ namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
                 EditoolsLayout.Horizontal(false);
             }
         }
-#endif
 
         #endregion
+
 
     }
 }

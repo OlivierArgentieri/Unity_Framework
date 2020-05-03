@@ -67,13 +67,15 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
 
                 EditoolsBox.HelpBox($"[{i}] {_p.Id} -> {_p.PathPoints.Count} total points");
 
+                
                 EditoolsLayout.Horizontal(true);
 
                 EditoolsButton.ButtonWithConfirm("Remove This Path", Color.red, eTarget.RemovePath, i, $"Suppress Path {i + 1} ? ","Are your sure ?");
 
                 UF_PathModeSelector _mode = _p.PathMode;
                 _mode.Type = (UF_PathType) EditoolsField.EnumPopup("Mode Type", _mode.Type);
-                
+                EditoolsLayout.Horizontal(false);
+
                 _mode.Mode.DrawSettings();
                 
              
