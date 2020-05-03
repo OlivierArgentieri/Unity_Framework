@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Reflection;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Path.PathManager;
@@ -54,8 +55,9 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
 
             EditoolsButton.Button("Add Path", Color.white, eTarget.AddPath);
 
-            EditoolsButton.ButtonWithConfirm("Remove all Path", Color.red, eTarget.Clear, "Clear All Paths ?", "Are you sure ?", "Yes", "No", !eTarget.IsEmpty);
+            EditoolsButton.ButtonWithConfirm("Remove all Path", Color.red, eTarget.ClearPath, "Clear All Paths ?", "Are you sure ?", "Yes", "No", !eTarget.IsEmpty);
             AllPathUI();
+            DrawnAgentUI();
         }
 
         private void AllPathUI()
@@ -86,6 +88,46 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
 
 
                 EditoolsLayout.Space(5);
+                
+                
+            }
+        }
+
+        void DrawnAgentUI()
+        {
+            if (!eTarget) return;
+
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBoxInfo("Agents Settings");
+            EditoolsLayout.Vertical(true);
+            EditoolsButton.ButtonWithConfirm("Remove all Agents", Color.red, eTarget.ClearAgents, "Clear All Agents ?", $"Clear All Agents", "Are your sure ?", _showCondition: eTarget.Agents.Count>0);
+            EditoolsButton.Button("Add Agent", Color.green, eTarget.AddAgent);
+            EditoolsLayout.Vertical(false);
+            EditoolsLayout.Horizontal(false);
+            
+            
+            for (int i = 0; i < eTarget.Agents.Count; i++)
+            {
+                if (eTarget.Agents[i] == null) return;
+                UF_PathAgent _agent = eTarget.Agents[i];
+
+                EditoolsLayout.Foldout(ref _agent.Show, $"{i+1} / {eTarget.Agents.Count}");
+            
+                if(!_agent.Show) continue;
+            
+                EditoolsLayout.Horizontal(true);
+                EditoolsBox.HelpBox($"{i+1} / {eTarget.Agents.Count}");
+                EditoolsButton.ButtonWithConfirm("-", Color.red, eTarget.RemoveAgent, i, $"Remove Agent {i}", "Are your sure ?");
+                EditoolsLayout.Horizontal(false);
+            
+                EditoolsField.IntSlider("Speed Move", ref _agent.SpeedMove, _agent.MinSpeedMove, _agent.MaxSpeedMove);
+                EditoolsField.IntSlider("Speed Rotation", ref _agent.SpeedRotation, _agent.MinSpeedRotation, _agent.MaxSpeedRotation);
+                _agent.AgentToMove = (GameObject) EditoolsField.ObjectField(_agent.AgentToMove, typeof(GameObject), false);
+            
+                if(eTarget.Paths.Count > 0)
+                    _agent.PathId = EditorGUILayout.Popup("Paths target", _agent.PathId,eTarget.Paths.Select(o => o.PathMode.Mode.Id).ToArray());
+                else
+                    EditoolsBox.HelpBox("NO PATH FOUND !", MessageType.Error);
             }
         }
 
@@ -95,8 +137,7 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
             for (int i = 0; i < eTarget.Paths.Count; i++)
             {
                 UF_Path _point = eTarget.Paths[i];
-
-
+                
                 _point.PathMode.Mode.DrawSceneMode();
             }
         }

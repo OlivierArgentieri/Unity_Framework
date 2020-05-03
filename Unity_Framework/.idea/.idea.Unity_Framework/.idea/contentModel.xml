@@ -113,6 +113,9 @@
                 <e p="Path" t="Include">
                   <e p="UF_Path.cs" t="Include" />
                 </e>
+                <e p="PathAgent" t="Include">
+                  <e p="UF_pathAgent.cs" t="Include" />
+                </e>
                 <e p="PathMode" t="Include">
                   <e p="PathModes" t="Include">
                     <e p="Curve" t="Include">

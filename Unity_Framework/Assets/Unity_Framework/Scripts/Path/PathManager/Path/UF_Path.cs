@@ -21,12 +21,6 @@ namespace Unity_Framework.Scripts.Path.PathManager.Path
         #endregion
         
 
-        #region custom methods 
-        public void AddAgent() => Agents.Add(null);
-        public void RemoveAgent(int _index) => Agents.RemoveAt(_index);
-        public void RemoveAgent() => MonoAgent = null;
-        public void ClearAgents() => Agents.Clear();
         
-        #endregion
     }
 }

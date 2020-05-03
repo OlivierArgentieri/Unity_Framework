@@ -123,19 +123,21 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         {
             if (!IsValid) return;
             EditoolsLayout.Space(3);
-            EditoolsLayout.Horizontal(true);
-            EditoolsBox.HelpBoxInfo("Curve Settings"); 
             
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBox($"Path ID : {Id}");
+            EditoolsField.TextField("", ref Id);
+            EditoolsLayout.Horizontal(false);
+            
+            
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBoxInfo("Curve Settings");
             EditoolsLayout.Vertical(true);
             EditoolsButton.ButtonWithConfirm("Reset Curve", Color.red, Curve.ResetCurve, "Reset Curve ?", $"Remove Curve", "Are your sure ?", _showCondition: !Curve.IsEmpty);
             EditoolsButton.Button("Add Segment", Color.green, Curve.AddSegment);
             EditoolsLayout.Vertical(false);
             EditoolsLayout.Horizontal(false);
 
-            EditoolsLayout.Horizontal(true);
-            EditoolsBox.HelpBox($"Path ID : {Id}");
-            EditoolsField.TextField("", ref Id);
-            EditoolsLayout.Horizontal(false);
             
             EditoolsLayout.Horizontal(true);
             EditoolsBox.HelpBox("Curve Color");
