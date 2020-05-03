@@ -1,3 +1,4 @@
+using Unity_Framework.Scripts.Path.PathManager;
 using Unity_Framework.Scripts.Spawner.SpawnerManager;
 using UnityEditor;
 using UnityEngine;
@@ -10,11 +11,11 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerMenu
         [MenuItem("UF/PathTool/PathManager", false, 1)]
         public static void Init()
         {
-            UF_SpawnerManager[] _spawnerManagers = Object.FindObjectsOfType<UF_SpawnerManager>();
+            UF_PathManager[] _spawnerManagers = Object.FindObjectsOfType<UF_PathManager>();
 
             if (_spawnerManagers.Length > 0) return;
         
-            GameObject _spawnerManager = new GameObject("SpawnerManager", typeof(UF_SpawnerManager));
+            GameObject _pathManager = new GameObject("PathManager", typeof(UF_SpawnerManager));
             
         }
         #endregion

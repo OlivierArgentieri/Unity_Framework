@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using EditoolsUnity;
-using Unity_Framework.Scripts.Path.PathManager.Path;
 using Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath;
 using UnityEngine;
 
@@ -14,32 +12,22 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
         #region f/p
 
         public UF_PathLine Path = new UF_PathLine();
+        
+        [SerializeField]
+        private int currentPercent = 1;
 
         public override List<Vector3> PathPoints => Path.PathPoints;
         
-        public override Vector3 StartPercentPosition => PathPoints.FirstOrDefault();
-        public override int GetStartPercentIndex => 0;
+        public override Vector3 StartPercentPosition => PathPoints[GetStartPercentIndex];
+        public override int GetStartPercentIndex => (int) ((float) currentPercent / 100 * (PathPoints.Count - 1));
         #endregion
 
-
-        public override void Run(GameObject _agent)
-        {
-        }
-
-        public override void Run(List<GameObject> _agent)
-        {
-        }
-
-        public override void RunAtPercent(GameObject _agent, float _percent)
-        {
-        }
-
-        public override void RunAtPercent(List<GameObject> _agents, float _percent)
-        {
-        }
-
-
+        
+        
         #region UI Methods
+
+#if UNITY_EDITOR
+        
 
         public override void DrawSceneMode()
         {
@@ -75,6 +63,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
 
             ShowPathPointUi(Path);
+            EditoolsField.IntSlider("Start at percent ", ref currentPercent, 0, 100);
         }
 
         private void ShowPathPointUi(UF_PathLine _path)
@@ -110,6 +99,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
                 if (j < Path.PathPoints.Count - 1)
                     EditoolsHandle.DrawLine(Path.PathPoints[j], Path.PathPoints[j + 1]);
             }
+            
+            EditoolsHandle.DrawDottedLine(PathPoints[GetStartPercentIndex], PathPoints[GetStartPercentIndex] + Vector3.up, 1);
+            EditoolsHandle.Label(PathPoints[GetStartPercentIndex] + Vector3.up, $"Spawn Mark");
         }
         /*void SetEditable(UF_Path _path)
         {
@@ -120,7 +112,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
             _path.IsEditable = true;
         }*/
-
+#endif
         #endregion
     }
 }

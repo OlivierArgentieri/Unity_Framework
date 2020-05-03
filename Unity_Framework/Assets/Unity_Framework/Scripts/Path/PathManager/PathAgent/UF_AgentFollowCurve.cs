@@ -11,7 +11,6 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
         #region f/p
 
         public static event Action OnIsArrived = null;
-
         private event Action OnUpdate = null;
 
         //[SerializeField, Header("Path ID")]private string pathID;
@@ -23,9 +22,10 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
 
         private List<Vector3> pathPoints = new List<Vector3>();
 
-        public UF_Path CurrentPath;
+
         private Vector3 currentPoint;
         private int currentIndex;
+        private bool isAtEnd => currentPoint == lastCurvePosition;
 
         public float SpeedMove
         {
@@ -39,10 +39,10 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
             set { speedRotation = value; }
         }
 
-        public int currentIndexPosition = 0;
-        private Vector3 LastCurvePosition => pathPoints?[pathPoints.Count - 1] ?? Vector3.zero;
+        public UF_Path CurrentPath;
+        private Vector3 lastCurvePosition => pathPoints?[pathPoints.Count - 1] ?? Vector3.zero;
 
-        private bool isAtEnd => currentPoint == LastCurvePosition;
+
         public bool IsValid => pathPoints != null && CurrentPath != null;
 
         #endregion
@@ -68,10 +68,9 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
 
         #endregion
 
-        
-        
-        
+
         #region custom methods
+
         void RotateTo()
         {
             if (Vector3.Distance(transform.position, currentPoint) > 0)
@@ -93,7 +92,6 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
             pathPoints = CurrentPath.PathMode.Mode.PathPoints;
             if (!IsValid) return;
 
-            //pathPoints = paths[CurveID];
             currentIndex = CurrentPath.PathMode.Mode.GetStartPercentIndex;
             currentPoint = CurrentPath.PathMode.Mode.StartPercentPosition;
             transform.position = currentPoint;
@@ -101,11 +99,10 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
 
         private void FollowPath()
         {
-            // GetPathById(pathID);
+            if (Vector3.Distance(transform.position, currentPoint) < 0.00001f) // epsilon?
 
-            if (Vector3.Distance(transform.position, currentPoint) < 0.00001f)
                 currentPoint = GetNextPoint();
-            
+
             transform.position = Vector3.MoveTowards(transform.position, currentPoint, SpeedMove * Time.deltaTime);
         }
 
@@ -117,8 +114,12 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
                 return Vector3.zero;
             }
 
-        
-            if (isAtEnd) return currentPoint;
+
+            if (isAtEnd)
+            {
+                OnIsArrived?.Invoke();
+                return currentPoint;
+            }
 
             if (currentIndex < pathPoints.Count)
             {
@@ -126,11 +127,11 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
                 return pathPoints[currentIndex];
             }
 
-          
+
             return CurrentPath.PathMode.Mode.StartPercentPosition;
         }
-        
-        // todo review
+
+        // todo need review
         /*
         private void ResetCurvePath()
         {
@@ -139,9 +140,30 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
             currentPoint = currentCurve.StartPercentPosition;
             transform.position = currentPoint;
         }*/
+
         #endregion
-        
-        
-        
+
+
+        #region debug
+
+        private void OnDrawGizmos()
+        {
+            DisplayPath();
+        }
+
+
+        private void DisplayPath()
+        {
+            Gizmos.color = CurrentPath.PathMode.Mode.PathColor;
+
+            for (int i = 0; i < pathPoints.Count - 1; i++)
+            {
+                Gizmos.DrawLine(pathPoints[i], pathPoints[i + 1]);
+            }
+
+            Gizmos.color = Color.white;
+        }
+
+        #endregion
     }
 }
