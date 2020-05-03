@@ -51,11 +51,16 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
 
         private void GlobalSettings()
         {
-            EditoolsBox.HelpBox($"PATH TOOL V{version}");
-
-            EditoolsButton.Button("Add Path", Color.white, eTarget.AddPath);
-
-            EditoolsButton.ButtonWithConfirm("Remove all Path", Color.red, eTarget.ClearPath, "Clear All Paths ?", "Are you sure ?", "Yes", "No", !eTarget.IsEmpty);
+            EditoolsLayout.Horizontal(true);
+            EditoolsBox.HelpBoxInfo($"PATH TOOL V{version}");
+            EditoolsLayout.Horizontal(false);
+            
+            EditoolsLayout.Horizontal(true);
+            EditoolsButton.ButtonWithConfirm("Remove all Path", Color.red, eTarget.ClearPath, "Clear All Paths ?", $"Are you sure", "Yes", "No", _showCondition: !eTarget.IsEmpty);
+            EditoolsButton.Button("Add Path", Color.green, eTarget.AddPath);
+            EditoolsLayout.Horizontal(false);
+            
+            EditorGUILayout.Space(8);
             AllPathUI();
             DrawnAgentUI();
         }

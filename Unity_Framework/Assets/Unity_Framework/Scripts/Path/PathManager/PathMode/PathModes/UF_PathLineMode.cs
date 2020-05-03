@@ -75,8 +75,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
                 for (int i = 0; i < _path.PathPoints.Count; i++)
                 {
                     EditoolsLayout.Horizontal(true);
-                    EditoolsButton.ButtonWithConfirm("-", Color.red, _path.RemovePoint, i,
-                        $"Suppress Point {i + 1} at {_path.PathPoints[i]} ? ", "Are your sure ?");
+                    EditoolsButton.ButtonWithConfirm("-", Color.red, _path.RemovePoint, i,$"Suppress Point {i + 1} at {_path.PathPoints[i]} ? ", "Are your sure ?");
                     EditoolsBox.HelpBox($"[{i + 1} / {_path.PathPoints.Count}]");
                     _path.PathPoints[i] = EditoolsField.Vector3Field("", _path.PathPoints[i]);
                     EditoolsLayout.Horizontal(false);
@@ -86,6 +85,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
         private void ShowAllPathScene()
         {
+            if (PathPoints.Count < 1) return;
             EditoolsHandle.SetColor(PathColor);
 
             for (int j = 0; j < Path.PathPoints.Count; j++)
@@ -99,7 +99,8 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
                 if (j < Path.PathPoints.Count - 1)
                     EditoolsHandle.DrawLine(Path.PathPoints[j], Path.PathPoints[j + 1]);
             }
-            
+
+            if (GetStartPercentIndex < 0 || GetStartPercentIndex > PathPoints.Count) return;
             EditoolsHandle.DrawDottedLine(PathPoints[GetStartPercentIndex], PathPoints[GetStartPercentIndex] + Vector3.up, 1);
             EditoolsHandle.Label(PathPoints[GetStartPercentIndex] + Vector3.up, $"Spawn Mark");
         }

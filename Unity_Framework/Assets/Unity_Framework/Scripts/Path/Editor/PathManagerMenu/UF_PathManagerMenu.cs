@@ -15,7 +15,7 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerMenu
 
             if (_spawnerManagers.Length > 0) return;
         
-            GameObject _pathManager = new GameObject("PathManager", typeof(UF_SpawnerManager));
+            GameObject _pathManager = new GameObject("PathManager", typeof(UF_PathManager));
             
         }
         #endregion

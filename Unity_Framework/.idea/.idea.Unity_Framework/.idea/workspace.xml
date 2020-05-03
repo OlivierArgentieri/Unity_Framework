@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="" />
+    <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,101 +16,169 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="1245">
+              <caret line="179" selection-start-line="179" selection-end-line="179" />
               <folding>
-                <marker date="1588539698113" expanded="true" signature="6:184" ph="..." />
-                <marker date="1588539698113" expanded="true" signature="242:1416" ph="{...}" />
-                <marker date="1588539698113" expanded="true" signature="295:1414" ph="{...}" />
-                <marker date="1588539698113" expanded="true" signature="310:541" ph="f/p" />
-                <marker date="1588539698113" expanded="true" signature="560:682" ph="unity methods" />
-                <marker date="1588539698113" expanded="true" signature="619:663" ph="{...}" />
-                <marker date="1588539698113" expanded="true" signature="693:1408" ph="custom methods" />
-                <marker date="1588539698113" expanded="true" signature="739:1184" ph="{...}" />
-                <marker date="1588539698113" expanded="true" signature="858:1174" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-              <folding>
-                <marker date="1588539752842" expanded="true" signature="6:201" ph="..." />
-                <marker date="1588539752842" expanded="true" signature="270:1470" ph="{...}" />
-                <marker date="1588539752842" expanded="true" signature="311:1468" ph="{...}" />
-                <marker date="1588539752842" expanded="true" signature="335:1462" ph="custom methods" />
-                <marker date="1588539752842" expanded="true" signature="453:774" ph="{...}" />
-                <marker date="1588539752842" expanded="true" signature="840:1443" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="6:399" ph="..." />
+                <marker date="1588540495995" expanded="true" signature="470:8582" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="593:8580" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="608:796" ph="const" />
+                <marker date="1588540495995" expanded="true" signature="807:1354" ph="reflections" />
+                <marker date="1588540495995" expanded="true" signature="876:1085" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="1134:1335" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="1365:2360" ph="unity methods" />
+                <marker date="1588540495995" expanded="true" signature="1430:1778" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="1506:1728" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="1825:2205" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="2240:2340" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="2371:7315" ph="UI methods" />
+                <marker date="1588540495995" expanded="false" signature="2424:4340" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="3018:4330" ph="{...}" />
+                <marker date="1588540495995" expanded="false" signature="4389:6030" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="4549:4915" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="4932:6020" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="5557:6006" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="6091:6150" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="6202:7295" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="6765:7285" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="7326:8574" ph="scene methods" />
+                <marker date="1588540495995" expanded="true" signature="7383:8084" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="7449:8074" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="8134:8357" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="8206:8347" ph="{...}" />
+                <marker date="1588540495995" expanded="true" signature="8435:8554" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2265">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
-                <marker date="1588540167313" expanded="true" signature="6:399" ph="..." />
-                <marker date="1588540167313" expanded="true" signature="470:8582" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="593:8580" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="608:796" ph="const" />
-                <marker date="1588540167313" expanded="true" signature="807:1354" ph="reflections" />
-                <marker date="1588540167313" expanded="true" signature="876:1085" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="1134:1335" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="1365:2360" ph="unity methods" />
-                <marker date="1588540167313" expanded="true" signature="1430:1778" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="1506:1728" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="1825:2205" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="2240:2340" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="2371:7315" ph="UI methods" />
-                <marker date="1588540167313" expanded="true" signature="2424:4340" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="3018:4330" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="4389:6030" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="4549:4915" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="4932:6020" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="5557:6006" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="6091:6150" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="6202:7295" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="6765:7285" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="7326:8574" ph="scene methods" />
-                <marker date="1588540167313" expanded="true" signature="7383:8084" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="7449:8074" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="8134:8357" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="8206:8347" ph="{...}" />
-                <marker date="1588540167313" expanded="true" signature="8435:8554" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="6:274" ph="..." />
+                <marker date="1588541337010" expanded="true" signature="339:5377" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="453:5375" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="468:732" ph="const" />
+                <marker date="1588541337010" expanded="true" signature="743:1134" ph="UI Methods" />
+                <marker date="1588541337010" expanded="true" signature="805:893" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="940:1028" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="1063:1114" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="1145:5369" ph="custom methods" />
+                <marker date="1588541337010" expanded="true" signature="1206:1848" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="1882:2945" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="1985:2935" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="2974:5080" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="3618:5070" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="4644:4956" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="5121:5349" ph="{...}" />
+                <marker date="1588541337010" expanded="true" signature="5189:5339" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <marker date="1588347820174" expanded="true" signature="6:312" ph="..." />
-                <marker date="1588347820174" expanded="true" signature="400:2898" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="487:2896" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="502:1014" ph="f/p" />
-                <marker date="1588347820174" expanded="false" signature="1025:1459" ph="unity methods" />
-                <marker date="1588347820174" expanded="true" signature="1076:1207" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="1238:1299" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="1333:1440" ph="{...}" />
-                <marker date="1588347820174" expanded="false" signature="1473:2644" ph="custom methods" />
-                <marker date="1588347820174" expanded="true" signature="1588:1669" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="1716:2278" ph="{...}" />
-                <marker date="1588347820174" expanded="true" signature="2348:2550" ph="{...}" />
-                <marker date="1588347820174" expanded="false" signature="2654:2889" ph="Gizmos" />
-                <marker date="1588347820174" expanded="true" signature="2705:2869" ph="{...}" />
+                <marker date="1588541169280" expanded="true" signature="6:139" ph="..." />
+                <marker date="1588541169280" expanded="true" signature="202:675" ph="{...}" />
+                <marker date="1588541169280" expanded="true" signature="240:673" ph="{...}" />
+                <marker date="1588541169280" expanded="true" signature="255:667" ph="custom methods" />
+                <marker date="1588541169280" expanded="true" signature="367:648" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+              <folding>
+                <marker date="1588540495961" expanded="true" signature="6:167" ph="..." />
+                <marker date="1588540495961" expanded="true" signature="229:4280" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="294:4278" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="309:1379" ph="f/p" />
+                <marker date="1588540495961" expanded="false" signature="928:1017" ph="{...}" />
+                <marker date="1588540495961" expanded="false" signature="1053:1150" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="1389:1770" ph="unity methods" />
+                <marker date="1588540495961" expanded="true" signature="1432:1565" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="1588:1750" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="1781:3827" ph="custom methods" />
+                <marker date="1588540495961" expanded="true" signature="1828:2211" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="1910:2201" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="2234:2280" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="2306:2621" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="2656:2932" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="2972:3487" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="3019:3118" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="3145:3249" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="3299:3408" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="3525:3807" ph="/* private void ResetCurvePath() ... */" />
+                <marker date="1588540495961" expanded="true" signature="3838:4272" ph="debug" />
+                <marker date="1588540495961" expanded="true" signature="3888:3935" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="3972:4252" ph="{...}" />
+                <marker date="1588540495961" expanded="true" signature="4106:4201" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <marker date="1588540495962" expanded="true" signature="6:66" ph="..." />
+                <marker date="1588540495962" expanded="true" signature="91:940" ph="{...}" />
+                <marker date="1588540495962" expanded="true" signature="142:938" ph="{...}" />
+                <marker date="1588540495962" expanded="true" signature="157:932" ph="f/p" />
+                <marker date="1588540495962" expanded="true" signature="686:903" ph="/* public int CurveDefinition =&gt; curves[CurveID]?.CurveDefinition ?? 0; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <marker date="1588540495959" expanded="true" signature="6:123" ph="..." />
+                <marker date="1588540495959" expanded="true" signature="180:465" ph="{...}" />
+                <marker date="1588540495959" expanded="true" signature="226:463" ph="{...}" />
+                <marker date="1588540495959" expanded="true" signature="354:457" ph="f/p" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+              <folding>
+                <marker date="1588540495993" expanded="true" signature="6:217" ph="..." />
+                <marker date="1588540495993" expanded="true" signature="269:1732" ph="{...}" />
+                <marker date="1588540495993" expanded="true" signature="319:1730" ph="{...}" />
+                <marker date="1588540495993" expanded="true" signature="334:635" ph="f/p" />
+                <marker date="1588540495993" expanded="true" signature="654:1299" ph="unity methods" />
+                <marker date="1588540495993" expanded="true" signature="705:1191" ph="{...}" />
+                <marker date="1588540495993" expanded="true" signature="766:1181" ph="{...}" />
+                <marker date="1588540495993" expanded="true" signature="1221:1271" ph="{...}" />
+                <marker date="1588540495993" expanded="true" signature="1317:1724" ph="cutstom methods" />
               </folding>
             </state>
           </provider>
@@ -114,23 +187,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="214">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
               <folding>
-                <marker date="1588539949743" expanded="true" signature="6:163" ph="..." />
-                <marker date="1588539949743" expanded="true" signature="234:4399" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="302:4397" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="317:759" ph="f/p" />
-                <marker date="1588539949743" expanded="true" signature="787:4391" ph="UI Methods" />
-                <marker date="1588539949743" expanded="false" signature="878:930" ph="{...}" />
-                <marker date="1588539949743" expanded="false" signature="975:2207" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="1948:2074" ph="/* EditoolsButton.Button(&quot;Editable&quot;, Path.IsEditable ? Color.green : Color.grey, SetEditable, Path); ... */" />
-                <marker date="1588539949743" expanded="false" signature="2264:3062" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="2449:3052" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="2528:3038" ph="{...}" />
-                <marker date="1588539949743" expanded="false" signature="3103:4137" ph="{...}" />
-                <marker date="1588539949743" expanded="true" signature="3222:3891" ph="{...}" />
-                <marker date="1588539949743" expanded="false" signature="4146:4365" ph="/* void SetEditable(UF_Path _path) ... */" />
+                <marker date="1588541032372" expanded="true" signature="6:163" ph="..." />
+                <marker date="1588541032372" expanded="true" signature="234:4501" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="302:4499" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="317:759" ph="f/p" />
+                <marker date="1588541032372" expanded="true" signature="787:4493" ph="UI Methods" />
+                <marker date="1588541032372" expanded="true" signature="878:930" ph="{...}" />
+                <marker date="1588541032372" expanded="false" signature="975:2207" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="1948:2074" ph="/* EditoolsButton.Button(&quot;Editable&quot;, Path.IsEditable ? Color.green : Color.grey, SetEditable, Path); ... */" />
+                <marker date="1588541032372" expanded="true" signature="2264:3037" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="2449:3027" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="2528:3013" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="3078:4239" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="3243:3912" ph="{...}" />
+                <marker date="1588541032372" expanded="true" signature="4248:4467" ph="/* void SetEditable(UF_Path _path) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <marker date="1588540495986" expanded="true" signature="6:85" ph="..." />
+                <marker date="1588540495986" expanded="true" signature="165:984" ph="{...}" />
+                <marker date="1588540495986" expanded="true" signature="215:982" ph="{...}" />
+                <marker date="1588540495986" expanded="true" signature="230:474" ph="f/p" />
+                <marker date="1588540495986" expanded="true" signature="485:534" ph="unity methods" />
+                <marker date="1588540495986" expanded="true" signature="545:976" ph="custom methods" />
+                <marker date="1588540495986" expanded="true" signature="599:822" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,102 +230,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
+            <state relative-caret-position="420">
               <caret line="197" column="1" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
               <folding>
-                <marker date="1588539987523" expanded="false" signature="6:246" ph="..." />
-                <marker date="1588539987523" expanded="true" signature="317:6974" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="396:6972" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="411:884" ph="f/p" />
-                <marker date="1588539987523" expanded="true" signature="894:6966" ph="UI methods" />
-                <marker date="1588539987523" expanded="false" signature="984:3667" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="1358:3229" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="2446:2647" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="2732:2933" ph="{...}" />
-                <marker date="1588539987523" expanded="false" signature="3708:4165" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="3883:4104" ph="{...}" />
-                <marker date="1588539987523" expanded="false" signature="4208:4676" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="4340:4664" ph="{...}" />
-                <marker date="1588539987523" expanded="false" signature="4721:6200" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="6088:6190" ph="{...}" />
-                <marker date="1588539987523" expanded="false" signature="6247:6940" ph="{...}" />
-                <marker date="1588539987523" expanded="true" signature="6500:6930" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathMode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <marker date="1588539838551" expanded="true" signature="6:66" ph="..." />
-                <marker date="1588539838551" expanded="true" signature="127:846" ph="{...}" />
-                <marker date="1588539838551" expanded="true" signature="186:844" ph="{...}" />
-                <marker date="1588539838551" expanded="true" signature="201:645" ph="f/p" />
-                <marker date="1588539838551" expanded="true" signature="656:838" ph="custom methods" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnPoint/UF_SpawnPoint.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <marker date="1588380557876" expanded="true" signature="6:130" ph="..." />
-                <marker date="1588380557876" expanded="true" signature="199:1289" ph="{...}" />
-                <marker date="1588380557876" expanded="true" signature="251:1287" ph="{...}" />
-                <marker date="1588380557876" expanded="true" signature="266:780" ph="f/p" />
-                <marker date="1588380557876" expanded="true" signature="799:1281" ph="custom methods" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnModeSelector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <marker date="1588415461830" expanded="true" signature="6:88" ph="..." />
-                <marker date="1588415461830" expanded="true" signature="156:1279" ph="{...}" />
-                <marker date="1588415461830" expanded="true" signature="215:1175" ph="{...}" />
-                <marker date="1588415461830" expanded="true" signature="230:1169" ph="f/p" />
-                <marker date="1588415461830" expanded="true" signature="601:1150" ph="{...}" />
-                <marker date="1588415461830" expanded="true" signature="627:1140" ph="{...}" />
-                <marker date="1588415461830" expanded="true" signature="671:1096" ph="{...}" />
-                <marker date="1588415461830" expanded="true" signature="1205:1277" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnTrigger/UF_SpawnTrigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <marker date="1588351064172" expanded="true" signature="6:223" ph="..." />
-                <marker date="1588351064172" expanded="true" signature="294:2531" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="364:2519" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="379:587" ph="f/p" />
-                <marker date="1588351064172" expanded="true" signature="599:1050" ph="unity methods" />
-                <marker date="1588351064172" expanded="true" signature="649:820" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="859:1031" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="1086:2082" ph="custom methods" />
-                <marker date="1588351064172" expanded="true" signature="1136:1851" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="1266:1811" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="1909:2063" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="2126:2506" ph="debug" />
-                <marker date="1588351064172" expanded="true" signature="2176:2227" ph="{...}" />
-                <marker date="1588351064172" expanded="true" signature="2267:2487" ph="{...}" />
+                <marker date="1588540495987" expanded="false" signature="6:246" ph="..." />
+                <marker date="1588540495987" expanded="true" signature="317:6974" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="396:6972" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="411:884" ph="f/p" />
+                <marker date="1588540495987" expanded="true" signature="894:6966" ph="UI methods" />
+                <marker date="1588540495987" expanded="false" signature="984:3667" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="1358:3229" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="2446:2647" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="2732:2933" ph="{...}" />
+                <marker date="1588540495987" expanded="false" signature="3708:4165" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="3883:4104" ph="{...}" />
+                <marker date="1588540495987" expanded="false" signature="4208:4676" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="4340:4664" ph="{...}" />
+                <marker date="1588540495987" expanded="false" signature="4721:6200" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="6088:6190" ph="{...}" />
+                <marker date="1588540495987" expanded="false" signature="6247:6940" ph="{...}" />
+                <marker date="1588540495987" expanded="true" signature="6500:6930" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -352,21 +367,21 @@
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathCurveMode.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_pathAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathModeSelector.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/Curve/UF_PathCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Util/Util.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" />
       </list>
     </option>
   </component>
@@ -378,10 +393,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2157" />
+    <option name="y" value="-15" />
+    <option name="width" value="1813" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -389,7 +404,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -407,55 +425,6 @@
               <item name="Assets" type="8711f2a6:AssetsRoot" />
               <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="3C" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="3C" type="1045f7f1:UnityExplorerNode" />
-              <item name="Character" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="3C" type="1045f7f1:UnityExplorerNode" />
-              <item name="Character" type="1045f7f1:UnityExplorerNode" />
-              <item name="CharacterBehaviour" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="3C" type="1045f7f1:UnityExplorerNode" />
-              <item name="Character" type="1045f7f1:UnityExplorerNode" />
-              <item name="CharacterBehaviour" type="1045f7f1:UnityExplorerNode" />
-              <item name="CharacterBehaviours" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Import" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Import" type="1045f7f1:UnityExplorerNode" />
-              <item name="Util" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="e068e287:UnityExplorerRootNode" />
@@ -544,63 +513,7 @@
               <item name="PathManager" type="1045f7f1:UnityExplorerNode" />
               <item name="PathMode" type="1045f7f1:UnityExplorerNode" />
               <item name="PathModes" type="1045f7f1:UnityExplorerNode" />
-              <item name="Curve" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Path" type="1045f7f1:UnityExplorerNode" />
-              <item name="PathManager" type="1045f7f1:UnityExplorerNode" />
-              <item name="PathMode" type="1045f7f1:UnityExplorerNode" />
-              <item name="PathModes" type="1045f7f1:UnityExplorerNode" />
               <item name="LinePath" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawner" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawner" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawner" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="SpawnerManagerEditor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawner" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="SpawnerManagerMenu" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Unity_Framework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawner" type="1045f7f1:UnityExplorerNode" />
-              <item name="SpawnerManager" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
           <select />
@@ -608,10 +521,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,10 +560,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="52772">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="58772">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="52772" />
+      <option name="pid" value="58772" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -675,11 +585,12 @@
       <workItem from="1578872201754" duration="17481000" />
       <workItem from="1588346583350" duration="6979000" />
       <workItem from="1588356379085" duration="7416000" />
+      <workItem from="1588540834899" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169680000" />
+    <option name="totallyTimeSpent" value="170695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,13 +605,13 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18540224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32657418" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33812153" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49973363" weight="0.30522946" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49973363" visible="true" weight="0.30522946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1137,11 +1048,11 @@
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <marker date="1588458606414" expanded="true" signature="6:37" ph="..." />
-            <marker date="1588458606414" expanded="true" signature="84:461" ph="{...}" />
-            <marker date="1588458606414" expanded="true" signature="111:459" ph="{...}" />
-            <marker date="1588458606414" expanded="true" signature="223:453" ph="{...}" />
-            <marker date="1588458606414" expanded="true" signature="286:443" ph="{...}" />
+            <marker date="1588540495949" expanded="true" signature="6:37" ph="..." />
+            <marker date="1588540495949" expanded="true" signature="84:461" ph="{...}" />
+            <marker date="1588540495949" expanded="true" signature="111:459" ph="{...}" />
+            <marker date="1588540495949" expanded="true" signature="223:453" ph="{...}" />
+            <marker date="1588540495949" expanded="true" signature="286:443" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1167,98 +1078,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <marker date="1588522561811" expanded="true" signature="6:123" ph="..." />
-            <marker date="1588522561811" expanded="true" signature="180:589" ph="{...}" />
-            <marker date="1588522561811" expanded="true" signature="226:587" ph="{...}" />
-            <marker date="1588522561811" expanded="true" signature="241:562" ph="f/p" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <marker date="1588520988873" expanded="true" signature="6:85" ph="..." />
-            <marker date="1588520988873" expanded="true" signature="165:984" ph="{...}" />
-            <marker date="1588520988873" expanded="true" signature="215:982" ph="{...}" />
-            <marker date="1588520988873" expanded="true" signature="230:474" ph="f/p" />
-            <marker date="1588520988873" expanded="true" signature="485:534" ph="unity methods" />
-            <marker date="1588520988873" expanded="true" signature="545:976" ph="custom methods" />
-            <marker date="1588520988873" expanded="true" signature="599:822" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="130" column="66" selection-start-line="130" selection-start-column="66" selection-end-line="130" selection-end-column="66" />
-          <folding>
-            <marker date="1588529227719" expanded="true" signature="6:274" ph="..." />
-            <marker date="1588529227719" expanded="true" signature="339:5110" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="453:5108" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="468:732" ph="const" />
-            <marker date="1588529227719" expanded="true" signature="743:1134" ph="UI Methods" />
-            <marker date="1588529227719" expanded="true" signature="805:893" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="940:1028" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="1063:1114" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="1145:5102" ph="custom methods" />
-            <marker date="1588529227719" expanded="true" signature="1206:1581" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="1615:2678" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="1718:2668" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="2707:4813" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="3351:4803" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="4377:4689" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="4854:5082" ph="{...}" />
-            <marker date="1588529227719" expanded="true" signature="4922:5072" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
-          <folding>
-            <marker date="1588529267289" expanded="true" signature="6:217" ph="..." />
-            <marker date="1588529267289" expanded="true" signature="269:1732" ph="{...}" />
-            <marker date="1588529267289" expanded="true" signature="319:1730" ph="{...}" />
-            <marker date="1588529267289" expanded="true" signature="334:635" ph="f/p" />
-            <marker date="1588529267289" expanded="true" signature="654:1299" ph="unity methods" />
-            <marker date="1588529267289" expanded="true" signature="705:1191" ph="{...}" />
-            <marker date="1588529267289" expanded="true" signature="766:1181" ph="{...}" />
-            <marker date="1588529267289" expanded="true" signature="1221:1271" ph="{...}" />
-            <marker date="1588529267289" expanded="true" signature="1317:1724" ph="cutstom methods" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/Curve/UF_PathCurve.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
-            <marker date="1588528163060" expanded="true" signature="6:66" ph="..." />
-            <marker date="1588528163060" expanded="true" signature="143:3197" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="194:3195" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="209:1019" ph="f/p" />
-            <marker date="1588528163060" expanded="true" signature="468:581" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="1030:3180" ph="custom methods" />
-            <marker date="1588528163060" expanded="true" signature="1175:1586" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="1210:1292" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="1620:1858" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="1684:1813" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="1905:2156" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="2229:3160" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="2418:3122" ph="{...}" />
-            <marker date="1588528163060" expanded="true" signature="2621:2968" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="6:66" ph="..." />
+            <marker date="1588540495983" expanded="true" signature="143:3197" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="194:3195" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="209:1019" ph="f/p" />
+            <marker date="1588540495983" expanded="true" signature="468:581" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="1030:3180" ph="custom methods" />
+            <marker date="1588540495983" expanded="true" signature="1175:1586" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="1210:1292" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="1620:1858" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="1684:1813" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="1905:2156" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="2229:3160" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="2418:3122" ph="{...}" />
+            <marker date="1588540495983" expanded="true" signature="2621:2968" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1268,75 +1106,14 @@
         <state relative-caret-position="165">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
-            <marker date="1588528163654" expanded="true" signature="6:80" ph="..." />
-            <marker date="1588528163654" expanded="true" signature="141:919" ph="{...}" />
-            <marker date="1588528163654" expanded="true" signature="199:847" ph="{...}" />
-            <marker date="1588528163654" expanded="true" signature="214:841" ph="f/p" />
-            <marker date="1588528163654" expanded="true" signature="471:822" ph="{...}" />
-            <marker date="1588528163654" expanded="true" signature="497:812" ph="{...}" />
-            <marker date="1588528163654" expanded="true" signature="541:768" ph="{...}" />
-            <marker date="1588528163654" expanded="true" signature="876:917" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <marker date="1588529190209" expanded="true" signature="6:66" ph="..." />
-            <marker date="1588529190209" expanded="true" signature="91:940" ph="{...}" />
-            <marker date="1588529190209" expanded="true" signature="142:938" ph="{...}" />
-            <marker date="1588529190209" expanded="true" signature="157:932" ph="f/p" />
-            <marker date="1588529190209" expanded="true" signature="686:903" ph="/* public int CurveDefinition =&gt; curves[CurveID]?.CurveDefinition ?? 0; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
-          <folding>
-            <marker date="1588539796050" expanded="true" signature="6:167" ph="..." />
-            <marker date="1588539796050" expanded="true" signature="229:4280" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="294:4278" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="309:1379" ph="f/p" />
-            <marker date="1588539796050" expanded="false" signature="928:1017" ph="{...}" />
-            <marker date="1588539796050" expanded="false" signature="1053:1150" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="1389:1770" ph="unity methods" />
-            <marker date="1588539796050" expanded="true" signature="1432:1565" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="1588:1750" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="1781:3827" ph="custom methods" />
-            <marker date="1588539796050" expanded="true" signature="1828:2211" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="1910:2201" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="2234:2280" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="2306:2621" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="2656:2932" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="2972:3487" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="3019:3118" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="3145:3249" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="3299:3408" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="3525:3807" ph="/* private void ResetCurvePath() ... */" />
-            <marker date="1588539796050" expanded="true" signature="3838:4272" ph="debug" />
-            <marker date="1588539796050" expanded="true" signature="3888:3935" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="3972:4252" ph="{...}" />
-            <marker date="1588539796050" expanded="true" signature="4106:4201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="95" lean-forward="true" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
-          <folding>
-            <marker date="1588538802762" expanded="true" signature="6:139" ph="..." />
-            <marker date="1588538802762" expanded="true" signature="202:678" ph="{...}" />
-            <marker date="1588538802762" expanded="true" signature="240:676" ph="{...}" />
-            <marker date="1588538802762" expanded="true" signature="255:670" ph="custom methods" />
-            <marker date="1588538802762" expanded="true" signature="367:651" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="6:80" ph="..." />
+            <marker date="1588540495991" expanded="true" signature="141:919" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="199:847" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="214:841" ph="f/p" />
+            <marker date="1588540495991" expanded="true" signature="471:822" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="497:812" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="541:768" ph="{...}" />
+            <marker date="1588540495991" expanded="true" signature="876:917" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1346,16 +1123,16 @@
         <state relative-caret-position="388">
           <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
-            <marker date="1588539795904" expanded="true" signature="6:83" ph="..." />
-            <marker date="1588539795904" expanded="true" signature="130:2222" ph="{...}" />
-            <marker date="1588539795904" expanded="true" signature="163:2220" ph="{...}" />
-            <marker date="1588539795904" expanded="true" signature="179:363" ph="f/p /const" />
-            <marker date="1588539795904" expanded="true" signature="381:625" ph="/// Simple Clamp Rotation Algorithm ... " />
-            <marker date="1588539795904" expanded="true" signature="715:981" ph="{...}" />
-            <marker date="1588539795904" expanded="true" signature="991:1224" ph="/// Convert Coordinate to Ray ... " />
-            <marker date="1588539795904" expanded="true" signature="1398:1597" ph="/// Delayed Callaback =&gt; Corountine  ... " />
-            <marker date="1588539795904" expanded="true" signature="1678:1783" ph="{...}" />
-            <marker date="1588539795904" expanded="true" signature="1811:2058" ph="/// Get field by reflection ... " />
+            <marker date="1588540495948" expanded="true" signature="6:83" ph="..." />
+            <marker date="1588540495948" expanded="true" signature="130:2222" ph="{...}" />
+            <marker date="1588540495948" expanded="true" signature="163:2220" ph="{...}" />
+            <marker date="1588540495948" expanded="true" signature="179:363" ph="f/p /const" />
+            <marker date="1588540495948" expanded="true" signature="381:625" ph="/// Simple Clamp Rotation Algorithm ... " />
+            <marker date="1588540495948" expanded="true" signature="715:981" ph="{...}" />
+            <marker date="1588540495948" expanded="true" signature="991:1224" ph="/// Convert Coordinate to Ray ... " />
+            <marker date="1588540495948" expanded="true" signature="1398:1597" ph="/// Delayed Callaback =&gt; Corountine  ... " />
+            <marker date="1588540495948" expanded="true" signature="1678:1783" ph="{...}" />
+            <marker date="1588540495948" expanded="true" signature="1811:2058" ph="/// Get field by reflection ... " />
           </folding>
         </state>
       </provider>
@@ -1365,20 +1142,20 @@
         <state relative-caret-position="1515">
           <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
           <folding>
-            <marker date="1588539795990" expanded="false" signature="6:66" ph="..." />
-            <marker date="1588539795990" expanded="true" signature="156:3241" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="204:3239" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="219:1063" ph="f/p" />
-            <marker date="1588539795990" expanded="true" signature="518:631" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="1074:3224" ph="custom methods" />
-            <marker date="1588539795990" expanded="true" signature="1219:1630" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="1254:1336" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="1664:1902" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="1728:1857" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="1949:2200" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="2273:3204" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="2462:3166" ph="{...}" />
-            <marker date="1588539795990" expanded="true" signature="2665:3012" ph="{...}" />
+            <marker date="1588540495999" expanded="false" signature="6:66" ph="..." />
+            <marker date="1588540495999" expanded="true" signature="156:3241" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="204:3239" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="219:1063" ph="f/p" />
+            <marker date="1588540495999" expanded="true" signature="518:631" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="1074:3224" ph="custom methods" />
+            <marker date="1588540495999" expanded="true" signature="1219:1630" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="1254:1336" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="1664:1902" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="1728:1857" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="1949:2200" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="2273:3204" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="2462:3166" ph="{...}" />
+            <marker date="1588540495999" expanded="true" signature="2665:3012" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1388,29 +1165,29 @@
         <state relative-caret-position="240">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1588539795940" expanded="true" signature="6:240" ph="..." />
-            <marker date="1588539795940" expanded="true" signature="319:7850" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="396:7848" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="411:589" ph="f/p" />
-            <marker date="1588539795940" expanded="true" signature="600:2503" ph="herited methods" />
-            <marker date="1588539795940" expanded="true" signature="686:955" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="1017:1466" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="1172:1456" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="1537:1897" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="1692:1887" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="1975:2483" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="2130:2473" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="2522:7841" ph="UI methods" />
-            <marker date="1588539795940" expanded="true" signature="2628:5302" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="3014:4878" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="4078:4279" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="4364:4565" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="5073:5241" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="5347:6836" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="6489:6591" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="6903:7041" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="7089:7814" ph="{...}" />
-            <marker date="1588539795940" expanded="true" signature="7364:7804" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="6:240" ph="..." />
+            <marker date="1588540496001" expanded="true" signature="319:7850" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="396:7848" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="411:589" ph="f/p" />
+            <marker date="1588540496001" expanded="true" signature="600:2503" ph="herited methods" />
+            <marker date="1588540496001" expanded="true" signature="686:955" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="1017:1466" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="1172:1456" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="1537:1897" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="1692:1887" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="1975:2483" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="2130:2473" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="2522:7841" ph="UI methods" />
+            <marker date="1588540496001" expanded="true" signature="2628:5302" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="3014:4878" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="4078:4279" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="4364:4565" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="5073:5241" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="5347:6836" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="6489:6591" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="6903:7041" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="7089:7814" ph="{...}" />
+            <marker date="1588540496001" expanded="true" signature="7364:7804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1574,15 +1351,15 @@
         <state relative-caret-position="210">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <marker date="1588539698113" expanded="true" signature="6:184" ph="..." />
-            <marker date="1588539698113" expanded="true" signature="242:1416" ph="{...}" />
-            <marker date="1588539698113" expanded="true" signature="295:1414" ph="{...}" />
-            <marker date="1588539698113" expanded="true" signature="310:541" ph="f/p" />
-            <marker date="1588539698113" expanded="true" signature="560:682" ph="unity methods" />
-            <marker date="1588539698113" expanded="true" signature="619:663" ph="{...}" />
-            <marker date="1588539698113" expanded="true" signature="693:1408" ph="custom methods" />
-            <marker date="1588539698113" expanded="true" signature="739:1184" ph="{...}" />
-            <marker date="1588539698113" expanded="true" signature="858:1174" ph="{...}" />
+            <marker date="1588540496002" expanded="true" signature="6:184" ph="..." />
+            <marker date="1588540496002" expanded="true" signature="242:1416" ph="{...}" />
+            <marker date="1588540496002" expanded="true" signature="295:1414" ph="{...}" />
+            <marker date="1588540496002" expanded="true" signature="310:541" ph="f/p" />
+            <marker date="1588540496002" expanded="true" signature="560:682" ph="unity methods" />
+            <marker date="1588540496002" expanded="true" signature="619:663" ph="{...}" />
+            <marker date="1588540496002" expanded="true" signature="693:1408" ph="custom methods" />
+            <marker date="1588540496002" expanded="true" signature="739:1184" ph="{...}" />
+            <marker date="1588540496002" expanded="true" signature="858:1174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1592,11 +1369,11 @@
         <state relative-caret-position="313">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <marker date="1588539838551" expanded="true" signature="6:66" ph="..." />
-            <marker date="1588539838551" expanded="true" signature="127:846" ph="{...}" />
-            <marker date="1588539838551" expanded="true" signature="186:844" ph="{...}" />
-            <marker date="1588539838551" expanded="true" signature="201:645" ph="f/p" />
-            <marker date="1588539838551" expanded="true" signature="656:838" ph="custom methods" />
+            <marker date="1588540495990" expanded="true" signature="6:66" ph="..." />
+            <marker date="1588540495990" expanded="true" signature="127:846" ph="{...}" />
+            <marker date="1588540495990" expanded="true" signature="186:844" ph="{...}" />
+            <marker date="1588540495990" expanded="true" signature="201:645" ph="f/p" />
+            <marker date="1588540495990" expanded="true" signature="656:838" ph="custom methods" />
           </folding>
         </state>
       </provider>
@@ -1624,103 +1401,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <marker date="1588539949743" expanded="true" signature="6:163" ph="..." />
-            <marker date="1588539949743" expanded="true" signature="234:4399" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="302:4397" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="317:759" ph="f/p" />
-            <marker date="1588539949743" expanded="true" signature="787:4391" ph="UI Methods" />
-            <marker date="1588539949743" expanded="false" signature="878:930" ph="{...}" />
-            <marker date="1588539949743" expanded="false" signature="975:2207" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="1948:2074" ph="/* EditoolsButton.Button(&quot;Editable&quot;, Path.IsEditable ? Color.green : Color.grey, SetEditable, Path); ... */" />
-            <marker date="1588539949743" expanded="false" signature="2264:3062" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="2449:3052" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="2528:3038" ph="{...}" />
-            <marker date="1588539949743" expanded="false" signature="3103:4137" ph="{...}" />
-            <marker date="1588539949743" expanded="true" signature="3222:3891" ph="{...}" />
-            <marker date="1588539949743" expanded="false" signature="4146:4365" ph="/* void SetEditable(UF_Path _path) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="197" column="1" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
-          <folding>
-            <marker date="1588539987523" expanded="false" signature="6:246" ph="..." />
-            <marker date="1588539987523" expanded="true" signature="317:6974" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="396:6972" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="411:884" ph="f/p" />
-            <marker date="1588539987523" expanded="true" signature="894:6966" ph="UI methods" />
-            <marker date="1588539987523" expanded="false" signature="984:3667" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="1358:3229" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="2446:2647" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="2732:2933" ph="{...}" />
-            <marker date="1588539987523" expanded="false" signature="3708:4165" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="3883:4104" ph="{...}" />
-            <marker date="1588539987523" expanded="false" signature="4208:4676" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="4340:4664" ph="{...}" />
-            <marker date="1588539987523" expanded="false" signature="4721:6200" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="6088:6190" ph="{...}" />
-            <marker date="1588539987523" expanded="false" signature="6247:6940" ph="{...}" />
-            <marker date="1588539987523" expanded="true" signature="6500:6930" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
+        <state relative-caret-position="30">
           <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
           <folding>
-            <marker date="1588539752842" expanded="true" signature="6:201" ph="..." />
-            <marker date="1588539752842" expanded="true" signature="270:1470" ph="{...}" />
-            <marker date="1588539752842" expanded="true" signature="311:1468" ph="{...}" />
-            <marker date="1588539752842" expanded="true" signature="335:1462" ph="custom methods" />
-            <marker date="1588539752842" expanded="true" signature="453:774" ph="{...}" />
-            <marker date="1588539752842" expanded="true" signature="840:1443" ph="{...}" />
+            <marker date="1588540495997" expanded="true" signature="6:201" ph="..." />
+            <marker date="1588540495997" expanded="true" signature="270:1470" ph="{...}" />
+            <marker date="1588540495997" expanded="true" signature="311:1468" ph="{...}" />
+            <marker date="1588540495997" expanded="true" signature="335:1462" ph="custom methods" />
+            <marker date="1588540495997" expanded="true" signature="453:774" ph="{...}" />
+            <marker date="1588540495997" expanded="true" signature="840:1443" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2265">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="1245">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
           <folding>
-            <marker date="1588540167313" expanded="true" signature="6:399" ph="..." />
-            <marker date="1588540167313" expanded="true" signature="470:8582" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="593:8580" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="608:796" ph="const" />
-            <marker date="1588540167313" expanded="true" signature="807:1354" ph="reflections" />
-            <marker date="1588540167313" expanded="true" signature="876:1085" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="1134:1335" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="1365:2360" ph="unity methods" />
-            <marker date="1588540167313" expanded="true" signature="1430:1778" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="1506:1728" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="1825:2205" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="2240:2340" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="2371:7315" ph="UI methods" />
-            <marker date="1588540167313" expanded="true" signature="2424:4340" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="3018:4330" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="4389:6030" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="4549:4915" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="4932:6020" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="5557:6006" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="6091:6150" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="6202:7295" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="6765:7285" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="7326:8574" ph="scene methods" />
-            <marker date="1588540167313" expanded="true" signature="7383:8084" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="7449:8074" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="8134:8357" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="8206:8347" ph="{...}" />
-            <marker date="1588540167313" expanded="true" signature="8435:8554" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="6:399" ph="..." />
+            <marker date="1588540495995" expanded="true" signature="470:8582" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="593:8580" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="608:796" ph="const" />
+            <marker date="1588540495995" expanded="true" signature="807:1354" ph="reflections" />
+            <marker date="1588540495995" expanded="true" signature="876:1085" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="1134:1335" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="1365:2360" ph="unity methods" />
+            <marker date="1588540495995" expanded="true" signature="1430:1778" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="1506:1728" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="1825:2205" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="2240:2340" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="2371:7315" ph="UI methods" />
+            <marker date="1588540495995" expanded="false" signature="2424:4340" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="3018:4330" ph="{...}" />
+            <marker date="1588540495995" expanded="false" signature="4389:6030" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="4549:4915" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="4932:6020" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="5557:6006" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="6091:6150" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="6202:7295" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="6765:7285" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="7326:8574" ph="scene methods" />
+            <marker date="1588540495995" expanded="true" signature="7383:8084" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="7449:8074" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="8134:8357" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="8206:8347" ph="{...}" />
+            <marker date="1588540495995" expanded="true" signature="8435:8554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+          <folding>
+            <marker date="1588540495961" expanded="true" signature="6:167" ph="..." />
+            <marker date="1588540495961" expanded="true" signature="229:4280" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="294:4278" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="309:1379" ph="f/p" />
+            <marker date="1588540495961" expanded="false" signature="928:1017" ph="{...}" />
+            <marker date="1588540495961" expanded="false" signature="1053:1150" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="1389:1770" ph="unity methods" />
+            <marker date="1588540495961" expanded="true" signature="1432:1565" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="1588:1750" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="1781:3827" ph="custom methods" />
+            <marker date="1588540495961" expanded="true" signature="1828:2211" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="1910:2201" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="2234:2280" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="2306:2621" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="2656:2932" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="2972:3487" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="3019:3118" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="3145:3249" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="3299:3408" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="3525:3807" ph="/* private void ResetCurvePath() ... */" />
+            <marker date="1588540495961" expanded="true" signature="3838:4272" ph="debug" />
+            <marker date="1588540495961" expanded="true" signature="3888:3935" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="3972:4252" ph="{...}" />
+            <marker date="1588540495961" expanded="true" signature="4106:4201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <marker date="1588540495962" expanded="true" signature="6:66" ph="..." />
+            <marker date="1588540495962" expanded="true" signature="91:940" ph="{...}" />
+            <marker date="1588540495962" expanded="true" signature="142:938" ph="{...}" />
+            <marker date="1588540495962" expanded="true" signature="157:932" ph="f/p" />
+            <marker date="1588540495962" expanded="true" signature="686:903" ph="/* public int CurveDefinition =&gt; curves[CurveID]?.CurveDefinition ?? 0; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="197" column="1" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
+          <folding>
+            <marker date="1588540495987" expanded="false" signature="6:246" ph="..." />
+            <marker date="1588540495987" expanded="true" signature="317:6974" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="396:6972" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="411:884" ph="f/p" />
+            <marker date="1588540495987" expanded="true" signature="894:6966" ph="UI methods" />
+            <marker date="1588540495987" expanded="false" signature="984:3667" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="1358:3229" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="2446:2647" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="2732:2933" ph="{...}" />
+            <marker date="1588540495987" expanded="false" signature="3708:4165" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="3883:4104" ph="{...}" />
+            <marker date="1588540495987" expanded="false" signature="4208:4676" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="4340:4664" ph="{...}" />
+            <marker date="1588540495987" expanded="false" signature="4721:6200" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="6088:6190" ph="{...}" />
+            <marker date="1588540495987" expanded="false" signature="6247:6940" ph="{...}" />
+            <marker date="1588540495987" expanded="true" signature="6500:6930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <marker date="1588540495993" expanded="true" signature="6:217" ph="..." />
+            <marker date="1588540495993" expanded="true" signature="269:1732" ph="{...}" />
+            <marker date="1588540495993" expanded="true" signature="319:1730" ph="{...}" />
+            <marker date="1588540495993" expanded="true" signature="334:635" ph="f/p" />
+            <marker date="1588540495993" expanded="true" signature="654:1299" ph="unity methods" />
+            <marker date="1588540495993" expanded="true" signature="705:1191" ph="{...}" />
+            <marker date="1588540495993" expanded="true" signature="766:1181" ph="{...}" />
+            <marker date="1588540495993" expanded="true" signature="1221:1271" ph="{...}" />
+            <marker date="1588540495993" expanded="true" signature="1317:1724" ph="cutstom methods" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <marker date="1588540495959" expanded="true" signature="6:123" ph="..." />
+            <marker date="1588540495959" expanded="true" signature="180:465" ph="{...}" />
+            <marker date="1588540495959" expanded="true" signature="226:463" ph="{...}" />
+            <marker date="1588540495959" expanded="true" signature="354:457" ph="f/p" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding>
+            <marker date="1588541032372" expanded="true" signature="6:163" ph="..." />
+            <marker date="1588541032372" expanded="true" signature="234:4501" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="302:4499" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="317:759" ph="f/p" />
+            <marker date="1588541032372" expanded="true" signature="787:4493" ph="UI Methods" />
+            <marker date="1588541032372" expanded="true" signature="878:930" ph="{...}" />
+            <marker date="1588541032372" expanded="false" signature="975:2207" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="1948:2074" ph="/* EditoolsButton.Button(&quot;Editable&quot;, Path.IsEditable ? Color.green : Color.grey, SetEditable, Path); ... */" />
+            <marker date="1588541032372" expanded="true" signature="2264:3037" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="2449:3027" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="2528:3013" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="3078:4239" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="3243:3912" ph="{...}" />
+            <marker date="1588541032372" expanded="true" signature="4248:4467" ph="/* void SetEditable(UF_Path _path) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <marker date="1588540495986" expanded="true" signature="6:85" ph="..." />
+            <marker date="1588540495986" expanded="true" signature="165:984" ph="{...}" />
+            <marker date="1588540495986" expanded="true" signature="215:982" ph="{...}" />
+            <marker date="1588540495986" expanded="true" signature="230:474" ph="f/p" />
+            <marker date="1588540495986" expanded="true" signature="485:534" ph="unity methods" />
+            <marker date="1588540495986" expanded="true" signature="545:976" ph="custom methods" />
+            <marker date="1588540495986" expanded="true" signature="599:822" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1588541169280" expanded="true" signature="6:139" ph="..." />
+            <marker date="1588541169280" expanded="true" signature="202:675" ph="{...}" />
+            <marker date="1588541169280" expanded="true" signature="240:673" ph="{...}" />
+            <marker date="1588541169280" expanded="true" signature="255:667" ph="custom methods" />
+            <marker date="1588541169280" expanded="true" signature="367:648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <marker date="1588541337010" expanded="true" signature="6:274" ph="..." />
+            <marker date="1588541337010" expanded="true" signature="339:5377" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="453:5375" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="468:732" ph="const" />
+            <marker date="1588541337010" expanded="true" signature="743:1134" ph="UI Methods" />
+            <marker date="1588541337010" expanded="true" signature="805:893" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="940:1028" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="1063:1114" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="1145:5369" ph="custom methods" />
+            <marker date="1588541337010" expanded="true" signature="1206:1848" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="1882:2945" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="1985:2935" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="2974:5080" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="3618:5070" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="4644:4956" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="5121:5349" ph="{...}" />
+            <marker date="1588541337010" expanded="true" signature="5189:5339" ph="{...}" />
           </folding>
         </state>
       </provider>
