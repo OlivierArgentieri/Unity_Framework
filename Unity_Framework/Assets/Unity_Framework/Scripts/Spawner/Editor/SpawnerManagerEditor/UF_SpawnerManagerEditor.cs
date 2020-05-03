@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using EditoolsUnity;
+using Unity_Framework.Scripts.Import.Util;
 using Unity_Framework.Scripts.Spawner.SpawnerManager;
 using Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode;
 using Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnPoint;
@@ -14,33 +15,26 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
     [CustomEditor(typeof(UF_SpawnerManager))]
     public class UF_SpawnerManagerEditor : EditorCustom<UF_SpawnerManager>
     {
-        
         #region const
+
         private const string triggerSpawnAssetName = "SpawnCollider/BoxCollider";
         private static readonly Version version = new Version(1, 3, 0);
 
-        private const BindingFlags reflectionFlags = BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
         #endregion
 
 
         #region reflections
-        FieldInfo GetField(string _name, BindingFlags _flags = reflectionFlags) => eTarget.GetType().GetField(_name, _flags);
-        
         private UF_SpawnTrigger TriggerZonePrefab
         {
-            get => (UF_SpawnTrigger) GetField("triggerZonePrefab").GetValue(eTarget);
-            set
-            { 
-                GetField("triggerZonePrefab").SetValue(eTarget, value);
-            }
+            get => (UF_SpawnTrigger) Util.GetField("triggerZonePrefab", eTarget).GetValue(eTarget);
+            set => Util.GetField("triggerZonePrefab", eTarget).SetValue(eTarget, value);
         }
 
         private List<UF_SpawnPoint> SpawnPoints
         {
-            get => (List<UF_SpawnPoint>) GetField("spawnPoints").GetValue(eTarget);
-            set => GetField("spawnPoints").SetValue(eTarget, value);
+            get => (List<UF_SpawnPoint>) Util.GetField("spawnPoints", eTarget).GetValue(eTarget);
+            set => Util.GetField("spawnPoints", eTarget).SetValue(eTarget, value);
         }
-
         #endregion
 
 
@@ -92,7 +86,8 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
 
             EditoolsLayout.Vertical(true);
             EditoolsButton.Button("+", Color.green, eTarget.AddPoint);
-            EditoolsButton.ButtonWithConfirm("Clear Points", Color.red, eTarget.Clear, "Remove All ?","Remove All Point ?", _showCondition: SpawnPoints.Count > 0);
+            EditoolsButton.ButtonWithConfirm("Clear Points", Color.red, eTarget.Clear, "Remove All ?",
+                "Remove All Point ?", _showCondition: SpawnPoints.Count > 0);
             EditoolsLayout.Vertical(false);
 
             EditoolsLayout.Horizontal(false);
@@ -117,8 +112,7 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                 if (!_point.IsVisible) continue;
 
                 EditoolsField.Vector3Field("Position", ref _point.Position);
-                
-                
+
 
                 EditoolsField.Toggle("Use Delay ?", ref _point.UseDelay);
                 if (_point.UseDelay)
@@ -127,13 +121,13 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                     _point.SpawnDelay = 0;
 
                 EditoolsField.Toggle("Use Trigger ?", ref _point.UseTrigger);
-                if(_point.UseTrigger)
+                if (_point.UseTrigger)
                     EditoolsField.Vector3Field("Size", ref _point.Size);
                 else
                     _point.Size = Vector3.one;
-                
+
                 EditoolsLayout.Space(2);
-                
+
                 DrawSpawnModeUI(_point);
                 DrawnAgentUI(_point);
             }
@@ -218,14 +212,14 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
                 UF_SpawnPoint _point = SpawnPoints[i];
 
                 EditoolsHandle.SetColor(Color.green);
-                if(_point.UseTrigger)
+                if (_point.UseTrigger)
                     EditoolsHandle.DrawWireCube(_point.Position, _point.Size);
                 EditoolsHandle.SetColor(Color.white);
 
                 EditoolsHandle.PositionHandle(ref _point.Position, Quaternion.identity);
                 if (_point.UseTrigger)
                     EditoolsHandle.ScaleHandle(ref _point.Size, _point.Position, Quaternion.identity, 2);
-                
+
                 EditoolsLayout.Space();
 
                 GetModeScene(_point);
@@ -249,6 +243,5 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
         }
 
         #endregion
-        
     }
 }
