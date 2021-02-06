@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   localCamera: {fileID: 0}
   offsetX: 3.5
-  offsetY: 9.5
+  offsetY: 14.2
   offsetZ: -4
   clampX: 1
   clampY: 1

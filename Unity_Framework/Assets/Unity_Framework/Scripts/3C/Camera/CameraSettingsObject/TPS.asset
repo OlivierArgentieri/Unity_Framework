@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   localCamera: {fileID: 0}
   offsetX: -0.2
-  offsetY: -1.5
-  offsetZ: 4.1
+  offsetY: -3.1
+  offsetZ: 7.5
   clampX: 1
   clampY: 0
-  clampXValueMin: -45
-  clampXValueMax: 45
+  clampXValueMin: -30
+  clampXValueMax: 50
   clampYValueMin: -45
   clampYValueMax: -45
   followPlayer: 1

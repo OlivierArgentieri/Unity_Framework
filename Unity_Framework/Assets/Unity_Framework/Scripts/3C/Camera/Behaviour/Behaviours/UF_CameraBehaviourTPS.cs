@@ -1,3 +1,4 @@
+using System;
 using Unity_Framework.Scripts._3C.Camera.CameraSetting;
 using Unity_Framework.Scripts._3C.Input.InputManager;
 using Unity_Framework.Scripts.Import.Util;
@@ -14,7 +15,6 @@ namespace Unity_Framework.Scripts._3C.Camera.Behaviour.Behaviours
         private float pitch = 0; // y
 
         public Transform Target => target;
-    
 
         #endregion
 
@@ -46,14 +46,14 @@ namespace Unity_Framework.Scripts._3C.Camera.Behaviour.Behaviours
             if (CameraSetting.ClampX)
                 roll = Util.ClampRotation(roll, CameraSetting.ClampXValueMax, CameraSetting.ClampXValueMin);
             else
-                roll = roll % 360;
-
+                roll %= 360;
+            
             if (CameraSetting.ClampY)
                 pitch = Util.ClampRotation(pitch, CameraSetting.ClampYValueMax, CameraSetting.ClampYValueMin);
             else
-                pitch = pitch % 360;
-        
-            transform.eulerAngles = new Vector3(roll, pitch, transform.eulerAngles.z);
+                pitch %= 360;
+            
+            transform.rotation = Quaternion.AngleAxis(pitch, Vector3.up) * Quaternion.AngleAxis(roll, Vector3.right);
         }
 
         protected override bool TestValid() => base.TestValid() && target;
