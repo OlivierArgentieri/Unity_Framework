@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: d132f22a43e18bb4fb382117a16acb7e,
+  m_LightingDataAsset: {fileID: 112000000, guid: b87074059e9dbc84883368a6e62acbc2,
     type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 976038759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90f24a45d1f6864398501e5f01adc14, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f78f778dc35908469fad1f0a4854489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1076403346}
@@ -325,8 +325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraID: 0
-  cameraSettings: {fileID: 11400000, guid: c16b5f40c362fd04d93eac61db229e98, type: 2}
-  cameraType: 1
+  cameraSettings: {fileID: 11400000, guid: 86a905047f260014cae8da0ce4ebf908, type: 2}
+  cameraType: 0
 --- !u!1 &1035502951
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,12 +451,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1076403340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f12f25818e5474f43b4fe0251940000c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f81956899ce52940af120806c0606bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnable: 1
-  rotateSpeed: 400
-  idMainCamera: 0
+  gravity: 20
 --- !u!114 &1076403342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,7 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSettings:
     moveSpeed: 1
-  behaviourType: 2
+  behaviourType: 0
 --- !u!136 &1076403343
 CapsuleCollider:
   m_ObjectHideFlags: 0
