@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using EditoolsUnity;
 using Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath;
+using UnityEditor;
 using UnityEngine;
 
 namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
@@ -62,6 +63,11 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
             ShowPathPointUi(Path);
             EditoolsField.IntSlider("Start at percent ", ref currentPercent, 0, 100);
+            
+            if (GUI.changed)
+            {
+                SceneView.RepaintAll();
+            }
         }
         
         public override void DrawGizmosMode()

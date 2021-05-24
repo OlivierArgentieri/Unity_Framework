@@ -330,190 +330,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Paths:
-  - PathMode:
-      Type: 1
-      LineMode:
-        Id: Path 1
-        ShowPath: 0
-        ShowPoint: 1
-        PathColor: {r: 1, g: 0, b: 0, a: 1}
-        Position: {x: 0, y: 0, z: 0}
-        Path:
-          ShowPath: 1
-          ShowPoint: 1
-          IsEditable: 0
-          PathPoints:
-          - {x: 4.880391, y: 0, z: 0}
-          - {x: 5.721343, y: 0.12755299, z: 1.131562}
-          - {x: 6.718447, y: 0.22188473, z: 2.4846315}
-          - {x: 7.19928, y: 0.7279172, z: 3.819899}
-          - {x: 6.773946, y: 0.8325138, z: 5.7601314}
-          - {x: 6.368072, y: 1.4171457, z: 8.01539}
-        currentPercent: 37
-      CurveMode:
-        Id: Path 1
+  - Type: 1
+    LineMode:
+      Id: Path 1
+      ShowPath: 1
+      ShowPoint: 1
+      PathColor: {r: 1, g: 1, b: 1, a: 1}
+      Position: {x: 0, y: 0, z: 0}
+      Path:
         ShowPath: 1
         ShowPoint: 1
-        PathColor: {r: 1, g: 1, b: 1, a: 1}
-        Position: {x: 0, y: 0, z: 0}
-        Curve:
-          DipslaySegments: 0
-          CurveDefinition: 1
-          MaxDefinition: 100
-          MinDefinition: 1
-          Anchor:
-          - {x: 0, y: 0, z: 0}
-          - {x: 0, y: 0, z: 1}
-          - {x: 0, y: 0, z: 2}
-          curvePoints: []
-          CurrentPercent: 1
-  - PathMode:
-      Type: 0
-      LineMode:
-        Id: Path 1
+        IsEditable: 0
+        PathPoints:
+        - {x: 0, y: 0, z: 0}
+        - {x: 0, y: 0, z: 1}
+        - {x: 0, y: 0, z: 2}
+        - {x: 0, y: 0, z: 3}
+        - {x: 0, y: 0, z: 4}
+      currentPercent: 1
+    CurveMode:
+      Id: Path 1
+      ShowPath: 1
+      ShowPoint: 1
+      PathColor: {r: 1, g: 1, b: 1, a: 1}
+      Position: {x: 0, y: 0, z: 0}
+      Curve:
+        DipslaySegments: 0
+        CurveDefinition: 1
+        MaxDefinition: 100
+        MinDefinition: 1
+        Anchor:
+        - {x: 0, y: 0, z: 0}
+        - {x: 0, y: 0, z: 1}
+        - {x: 0, y: 0, z: 2}
+        - {x: 0, y: 0, z: 2}
+        - {x: 0, y: 0, z: 4}
+        - {x: 0, y: 0, z: 5}
+        - {x: 0, y: 0, z: 5}
+        - {x: 0, y: 0, z: 7}
+        - {x: 0, y: 0, z: 8}
+        curvePoints:
+        - {x: 0, y: 0, z: 2}
+        - {x: 0, y: 0, z: 5}
+        - {x: 0, y: 0, z: 8}
+        CurrentPercent: 1
+  - Type: 1
+    LineMode:
+      Id: Path 1
+      ShowPath: 1
+      ShowPoint: 1
+      PathColor: {r: 1, g: 1, b: 1, a: 1}
+      Position: {x: 0, y: 0, z: 0}
+      Path:
         ShowPath: 1
         ShowPoint: 1
-        PathColor: {r: 1, g: 1, b: 1, a: 1}
-        Position: {x: 0, y: 0, z: 0}
-        Path:
-          ShowPath: 1
-          ShowPoint: 1
-          IsEditable: 0
-          PathPoints: []
-        currentPercent: 1
-      CurveMode:
-        Id: Path camera
-        ShowPath: 1
-        ShowPoint: 1
-        PathColor: {r: 0, g: 0.9130688, b: 1, a: 1}
-        Position: {x: 0, y: 0, z: 0}
-        Curve:
-          DipslaySegments: 1
-          CurveDefinition: 21
-          MaxDefinition: 100
-          MinDefinition: 1
-          Anchor:
-          - {x: -1.2378953, y: 0, z: 0}
-          - {x: -1.8298466, y: -0.7846203, z: 3.4096596}
-          - {x: 0.4943102, y: 0.30629253, z: 5.633115}
-          - {x: 0.4943102, y: 0.30629253, z: 5.633115}
-          - {x: 3.9912255, y: 0.8210814, z: 7.2623386}
-          - {x: 3.8626475, y: 1.6939802, z: 11.509845}
-          - {x: 3.8626475, y: 1.6939802, z: 11.509845}
-          - {x: 1.8784242, y: 2.5881681, z: 15.292278}
-          - {x: -1.2739823, y: 2.5881681, z: 17.681652}
-          - {x: -1.2739823, y: 2.5881681, z: 17.681652}
-          - {x: -5.8890944, y: 2.5881681, z: 20.170067}
-          - {x: -8.1315975, y: 2.5881681, z: 16.509846}
-          curvePoints:
-          - {x: -1.2378953, y: 0, z: 0}
-          - {x: -1.287659, y: -0.07047283, z: 0.3220397}
-          - {x: -1.3241979, y: -0.13243985, z: 0.63869977}
-          - {x: -1.3475118, y: -0.18590105, z: 0.94998026}
-          - {x: -1.3576007, y: -0.2308564, z: 1.2558811}
-          - {x: -1.3544645, y: -0.26730597, z: 1.5564023}
-          - {x: -1.3381035, y: -0.29524973, z: 1.8515439}
-          - {x: -1.3085175, y: -0.31468764, z: 2.141306}
-          - {x: -1.2657064, y: -0.32561973, z: 2.4256883}
-          - {x: -1.2096704, y: -0.328046, z: 2.7046912}
-          - {x: -1.1404094, y: -0.32196647, z: 2.9783142}
-          - {x: -1.0579234, y: -0.3073811, z: 3.246558}
-          - {x: -0.96221244, y: -0.28428993, z: 3.5094218}
-          - {x: -0.85327655, y: -0.2526929, z: 3.7669063}
-          - {x: -0.7311156, y: -0.2125901, z: 4.019011}
-          - {x: -0.5957297, y: -0.16398147, z: 4.265736}
-          - {x: -0.44711885, y: -0.106867, z: 4.5070815}
-          - {x: -0.28528297, y: -0.04124673, z: 4.743047}
-          - {x: -0.11022217, y: 0.032879364, z: 4.973634}
-          - {x: 0.07806365, y: 0.11551126, z: 5.19884}
-          - {x: 0.4943102, y: 0.30629253, z: 5.633115}
-          - {x: 0.4943102, y: 0.30629253, z: 5.633115}
-          - {x: 0.8191287, y: 0.3561321, z: 5.794216}
-          - {x: 1.1275051, y: 0.40759572, z: 5.9671917}
-          - {x: 1.4194392, y: 0.46068347, z: 6.1520414}
-          - {x: 1.6949313, y: 0.5153952, z: 6.348766}
-          - {x: 1.953981, y: 0.5717311, z: 6.5573645}
-          - {x: 2.196589, y: 0.62969106, z: 6.7778373}
-          - {x: 2.4227545, y: 0.6892751, z: 7.0101843}
-          - {x: 2.632478, y: 0.7504833, z: 7.2544055}
-          - {x: 2.8257594, y: 0.81331545, z: 7.5105014}
-          - {x: 3.0025985, y: 0.87777174, z: 7.7784715}
-          - {x: 3.1629956, y: 0.9438521, z: 8.058315}
-          - {x: 3.3069503, y: 1.0115565, z: 8.350035}
-          - {x: 3.434463, y: 1.080885, z: 8.653627}
-          - {x: 3.5455337, y: 1.1518377, z: 8.969094}
-          - {x: 3.640162, y: 1.2244143, z: 9.296435}
-          - {x: 3.7183483, y: 1.2986151, z: 9.635652}
-          - {x: 3.7800925, y: 1.37444, z: 9.986742}
-          - {x: 3.8253944, y: 1.4518889, z: 10.349706}
-          - {x: 3.8542542, y: 1.530962, z: 10.724545}
-          - {x: 3.8626475, y: 1.6939802, z: 11.509845}
-          - {x: 3.8626475, y: 1.6939802, z: 11.509845}
-          - {x: 3.671025, y: 1.7771133, z: 11.866918}
-          - {x: 3.4741044, y: 1.8561912, z: 12.217672}
-          - {x: 3.271886, y: 1.9312137, z: 12.562111}
-          - {x: 3.06437, y: 2.002181, z: 12.90023}
-          - {x: 2.8515558, y: 2.069093, z: 13.232032}
-          - {x: 2.6334436, y: 2.13195, z: 13.557516}
-          - {x: 2.410034, y: 2.1907513, z: 13.876682}
-          - {x: 2.181326, y: 2.2454975, z: 14.189532}
-          - {x: 1.9473205, y: 2.2961884, z: 14.496062}
-          - {x: 1.7080169, y: 2.342824, z: 14.796275}
-          - {x: 1.4634154, y: 2.3854046, z: 15.090172}
-          - {x: 1.213516, y: 2.4239297, z: 15.377749}
-          - {x: 0.9583189, y: 2.4583995, z: 15.659009}
-          - {x: 0.69782376, y: 2.4888139, z: 15.933952}
-          - {x: 0.4320309, y: 2.5151732, z: 16.202576}
-          - {x: 0.16094002, y: 2.5374773, z: 16.464884}
-          - {x: -0.11544867, y: 2.555726, z: 16.720873}
-          - {x: -0.3971353, y: 2.5699193, z: 16.970545}
-          - {x: -0.6841197, y: 2.5800576, z: 17.213898}
-          - {x: -1.2739823, y: 2.5881681, z: 17.681652}
-          - {x: -1.2739823, y: 2.5881681, z: 17.681652}
-          - {x: -1.7081367, y: 2.5881681, z: 17.904701}
-          - {x: -2.131531, y: 2.5881681, z: 18.099865}
-          - {x: -2.5441651, y: 2.5881681, z: 18.267145}
-          - {x: -2.9460392, y: 2.5881681, z: 18.40654}
-          - {x: -3.337153, y: 2.5881681, z: 18.51805}
-          - {x: -3.717507, y: 2.5881681, z: 18.601673}
-          - {x: -4.0871005, y: 2.5881681, z: 18.657413}
-          - {x: -4.4459343, y: 2.5881681, z: 18.685268}
-          - {x: -4.7940073, y: 2.5881681, z: 18.685238}
-          - {x: -5.1313205, y: 2.5881681, z: 18.657322}
-          - {x: -5.457874, y: 2.5881681, z: 18.601522}
-          - {x: -5.773667, y: 2.5881681, z: 18.517838}
-          - {x: -6.0786996, y: 2.5881681, z: 18.406265}
-          - {x: -6.3729725, y: 2.5881681, z: 18.266811}
-          - {x: -6.656485, y: 2.5881681, z: 18.099472}
-          - {x: -6.9292374, y: 2.5881681, z: 17.904245}
-          - {x: -7.1912293, y: 2.5881681, z: 17.681137}
-          - {x: -7.4424615, y: 2.5881681, z: 17.43014}
-          - {x: -7.682934, y: 2.5881681, z: 17.15126}
-          - {x: -8.1315975, y: 2.5881681, z: 16.509846}
-          CurrentPercent: 0
+        IsEditable: 0
+        PathPoints: []
+      currentPercent: 1
+    CurveMode:
+      Id: Path 1
+      ShowPath: 1
+      ShowPoint: 1
+      PathColor: {r: 1, g: 1, b: 1, a: 1}
+      Position: {x: 0, y: 0, z: 0}
+      Curve:
+        DipslaySegments: 0
+        CurveDefinition: 1
+        MaxDefinition: 100
+        MinDefinition: 1
+        Anchor:
+        - {x: 0, y: 0, z: 0}
+        - {x: 0, y: 0, z: 1}
+        - {x: 0, y: 0, z: 2}
+        curvePoints: []
+        CurrentPercent: 1
   Agents:
-  - MaxSpeedMove: 100
-    MinSpeedMove: 1
-    SpeedMove: 11
-    MaxSpeedRotation: 500
-    MinSpeedRotation: 1
-    SpeedRotation: 134
+  - AgentSettings: {fileID: 0}
+    AgentToMove: {fileID: 2778328971463339367, guid: bf14f3d0f4645334b83852d9718797d3,
+      type: 3}
     Show: 0
     PathId: Path 1
     PathIndex: 0
-    AgentToMove: {fileID: 2778328971463339367, guid: bf14f3d0f4645334b83852d9718797d3,
-      type: 3}
-  - MaxSpeedMove: 100
-    MinSpeedMove: 1
-    SpeedMove: 1
-    MaxSpeedRotation: 500
-    MinSpeedRotation: 1
-    SpeedRotation: 10
-    Show: 1
-    PathId: Path camera
-    PathIndex: 1
+  - AgentSettings: {fileID: 0}
     AgentToMove: {fileID: 1137423381349345267, guid: 1540f5c448206a54b81bd21136e88b6a,
       type: 3}
+    Show: 1
+    PathId: Path 1
+    PathIndex: 1
 --- !u!4 &928542627
 Transform:
   m_ObjectHideFlags: 0
@@ -527,101 +430,4 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &973768820
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 973768824}
-  - component: {fileID: 973768823}
-  - component: {fileID: 973768822}
-  - component: {fileID: 973768821}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &973768821
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973768820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &973768822
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973768820}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2559410d5b8c46a42bb8d46c7a1ca9cf, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &973768823
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973768820}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &973768824
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973768820}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
