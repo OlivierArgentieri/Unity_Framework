@@ -2,388 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PathTool.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PathTool.unity" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
-              <folding>
-                <marker date="1588540495995" expanded="true" signature="6:399" ph="..." />
-                <marker date="1588540495995" expanded="true" signature="470:8582" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="593:8580" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="608:796" ph="const" />
-                <marker date="1588540495995" expanded="true" signature="807:1354" ph="reflections" />
-                <marker date="1588540495995" expanded="true" signature="876:1085" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="1134:1335" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="1365:2360" ph="unity methods" />
-                <marker date="1588540495995" expanded="true" signature="1430:1778" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="1506:1728" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="1825:2205" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="2240:2340" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="2371:7315" ph="UI methods" />
-                <marker date="1588540495995" expanded="false" signature="2424:4340" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="3018:4330" ph="{...}" />
-                <marker date="1588540495995" expanded="false" signature="4389:6030" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="4549:4915" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="4932:6020" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="5557:6006" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="6091:6150" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="6202:7295" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="6765:7285" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="7326:8574" ph="scene methods" />
-                <marker date="1588540495995" expanded="true" signature="7383:8084" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="7449:8074" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="8134:8357" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="8206:8347" ph="{...}" />
-                <marker date="1588540495995" expanded="true" signature="8435:8554" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-              <folding>
-                <marker date="1588541337010" expanded="true" signature="6:274" ph="..." />
-                <marker date="1588541337010" expanded="true" signature="339:5377" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="453:5375" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="468:732" ph="const" />
-                <marker date="1588541337010" expanded="true" signature="743:1134" ph="UI Methods" />
-                <marker date="1588541337010" expanded="true" signature="805:893" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="940:1028" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="1063:1114" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="1145:5369" ph="custom methods" />
-                <marker date="1588541337010" expanded="true" signature="1206:1848" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="1882:2945" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="1985:2935" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="2974:5080" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="3618:5070" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="4644:4956" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="5121:5349" ph="{...}" />
-                <marker date="1588541337010" expanded="true" signature="5189:5339" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <marker date="1588541169280" expanded="true" signature="6:139" ph="..." />
-                <marker date="1588541169280" expanded="true" signature="202:675" ph="{...}" />
-                <marker date="1588541169280" expanded="true" signature="240:673" ph="{...}" />
-                <marker date="1588541169280" expanded="true" signature="255:667" ph="custom methods" />
-                <marker date="1588541169280" expanded="true" signature="367:648" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-              <folding>
-                <marker date="1588540495961" expanded="true" signature="6:167" ph="..." />
-                <marker date="1588540495961" expanded="true" signature="229:4280" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="294:4278" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="309:1379" ph="f/p" />
-                <marker date="1588540495961" expanded="false" signature="928:1017" ph="{...}" />
-                <marker date="1588540495961" expanded="false" signature="1053:1150" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="1389:1770" ph="unity methods" />
-                <marker date="1588540495961" expanded="true" signature="1432:1565" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="1588:1750" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="1781:3827" ph="custom methods" />
-                <marker date="1588540495961" expanded="true" signature="1828:2211" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="1910:2201" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="2234:2280" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="2306:2621" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="2656:2932" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="2972:3487" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="3019:3118" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="3145:3249" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="3299:3408" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="3525:3807" ph="/* private void ResetCurvePath() ... */" />
-                <marker date="1588540495961" expanded="true" signature="3838:4272" ph="debug" />
-                <marker date="1588540495961" expanded="true" signature="3888:3935" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="3972:4252" ph="{...}" />
-                <marker date="1588540495961" expanded="true" signature="4106:4201" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <marker date="1588540495962" expanded="true" signature="6:66" ph="..." />
-                <marker date="1588540495962" expanded="true" signature="91:940" ph="{...}" />
-                <marker date="1588540495962" expanded="true" signature="142:938" ph="{...}" />
-                <marker date="1588540495962" expanded="true" signature="157:932" ph="f/p" />
-                <marker date="1588540495962" expanded="true" signature="686:903" ph="/* public int CurveDefinition =&gt; curves[CurveID]?.CurveDefinition ?? 0; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <marker date="1588540495959" expanded="true" signature="6:123" ph="..." />
-                <marker date="1588540495959" expanded="true" signature="180:465" ph="{...}" />
-                <marker date="1588540495959" expanded="true" signature="226:463" ph="{...}" />
-                <marker date="1588540495959" expanded="true" signature="354:457" ph="f/p" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-              <folding>
-                <marker date="1588540495993" expanded="true" signature="6:217" ph="..." />
-                <marker date="1588540495993" expanded="true" signature="269:1732" ph="{...}" />
-                <marker date="1588540495993" expanded="true" signature="319:1730" ph="{...}" />
-                <marker date="1588540495993" expanded="true" signature="334:635" ph="f/p" />
-                <marker date="1588540495993" expanded="true" signature="654:1299" ph="unity methods" />
-                <marker date="1588540495993" expanded="true" signature="705:1191" ph="{...}" />
-                <marker date="1588540495993" expanded="true" signature="766:1181" ph="{...}" />
-                <marker date="1588540495993" expanded="true" signature="1221:1271" ph="{...}" />
-                <marker date="1588540495993" expanded="true" signature="1317:1724" ph="cutstom methods" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-              <folding>
-                <marker date="1588541032372" expanded="true" signature="6:163" ph="..." />
-                <marker date="1588541032372" expanded="true" signature="234:4501" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="302:4499" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="317:759" ph="f/p" />
-                <marker date="1588541032372" expanded="true" signature="787:4493" ph="UI Methods" />
-                <marker date="1588541032372" expanded="true" signature="878:930" ph="{...}" />
-                <marker date="1588541032372" expanded="false" signature="975:2207" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="1948:2074" ph="/* EditoolsButton.Button(&quot;Editable&quot;, Path.IsEditable ? Color.green : Color.grey, SetEditable, Path); ... */" />
-                <marker date="1588541032372" expanded="true" signature="2264:3037" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="2449:3027" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="2528:3013" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="3078:4239" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="3243:3912" ph="{...}" />
-                <marker date="1588541032372" expanded="true" signature="4248:4467" ph="/* void SetEditable(UF_Path _path) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding>
-                <marker date="1588540495986" expanded="true" signature="6:85" ph="..." />
-                <marker date="1588540495986" expanded="true" signature="165:984" ph="{...}" />
-                <marker date="1588540495986" expanded="true" signature="215:982" ph="{...}" />
-                <marker date="1588540495986" expanded="true" signature="230:474" ph="f/p" />
-                <marker date="1588540495986" expanded="true" signature="485:534" ph="unity methods" />
-                <marker date="1588540495986" expanded="true" signature="545:976" ph="custom methods" />
-                <marker date="1588540495986" expanded="true" signature="599:822" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="197" column="1" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
-              <folding>
-                <marker date="1588540495987" expanded="false" signature="6:246" ph="..." />
-                <marker date="1588540495987" expanded="true" signature="317:6974" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="396:6972" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="411:884" ph="f/p" />
-                <marker date="1588540495987" expanded="true" signature="894:6966" ph="UI methods" />
-                <marker date="1588540495987" expanded="false" signature="984:3667" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="1358:3229" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="2446:2647" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="2732:2933" ph="{...}" />
-                <marker date="1588540495987" expanded="false" signature="3708:4165" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="3883:4104" ph="{...}" />
-                <marker date="1588540495987" expanded="false" signature="4208:4676" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="4340:4664" ph="{...}" />
-                <marker date="1588540495987" expanded="false" signature="4721:6200" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="6088:6190" ph="{...}" />
-                <marker date="1588540495987" expanded="false" signature="6247:6940" ph="{...}" />
-                <marker date="1588540495987" expanded="true" signature="6500:6930" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourFPS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourRTS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/UF_CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnTrigger/UF_SpawnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterSettings/UF_CharacterSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnPoint/UF_SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/BezierMode/UF_Bezier.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSetting/UF_CameraSetting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_LineMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/Curve/UF_PathCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterManager/UF_CharacterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterComponent/UF_CharacterComponentEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_PointMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UI/UF_Key_UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterManager/UF_CharacterManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_LineMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_BezierMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_CircleMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UF_InputManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnTrigger/UF_SpawnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathModeSelector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/Manager/IHandlerItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraManager/UF_CameraManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourRTS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50C28864-29A8-49E8-B640-D0ACA52729FC/ae/91c01f09/ScriptableBakedReflectionSystemWrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D01204B-437E-47C1-A78B-600B597A89F4/b3/a3a76c2c/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnModeSelector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/UF_CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/IEnable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnPoint/UF_SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/0c/59ceae57/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterManager/UF_CharacterManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/IIsValid.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://E:/Programme/Unity/2020.1.0a17/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/Manager/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D01204B-437E-47C1-A78B-600B597A89F4/10/474bf63a/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterSettings/UF_CharacterSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/e8/ce9565c9/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourFPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/9e/04d74a29/MulticastDelegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/MiniMap.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://E:/Programme/Unity/2020.1.0a17/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterComponent/UF_CharacterComponentEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D01204B-437E-47C1-A78B-600B597A89F4/9e/0a557793/HeaderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D01204B-437E-47C1-A78B-600B597A89F4/5d/b0773b62/CreateAssetMenuAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourRTS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterManager/UF_CharacterManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/ManagerTemplate/ManagerTemplate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraManager/UF_CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Util/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnModeSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/MiniMap.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSetting/UF_CameraSetting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraManager/UF_CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourRTS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/ManagerTemplate/ManagerTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/Manager/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourTPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72753322-AF77-491A-8B07-0EBE84E95C24/11/46f52296/EditoolsButton.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraManager/UF_CameraManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterComponent/UF_CharacterComponentEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterComponent/UF_CharacterComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourRTS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourFPS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/CharacterBehaviour/CharacterBehaviours/UF_CharacterBehaviourTPS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourTPS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/UF_SpawnerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnTrigger/UF_SpawnTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_PointMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_LineMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnPoint/UF_SpawnPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnModeSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraManager/UF_CameraManagerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Character/Editor/CharacterManager/UF_CharacterManagerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UF_InputManagerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_CircleMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManager/UF_PathManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManager/UF_SpawnerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/BezierMode/UF_Curve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Curve/UF_PathCurve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathModeSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathModes/UF_PathMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathModes/UF_PathLineMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathModes/LinePath/UF_PathLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/SpawnModes/UF_BezierMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathCurveMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_pathAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathModeSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/Curve/UF_PathCurve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Util/Util.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/Path/UF_Path.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerMenu/UF_PathManagerMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/Manager/IHandlerItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/Behaviours/UF_CameraBehaviourFPS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Behaviour/UF_CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/IEnable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Interface/IIsValid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraComponent/UF_CameraComponentEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/Editor/CameraManager/UF_CameraManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Import/Util/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_PathAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/LinePath/UF_PathLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_Key.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/Curve/UF_PathCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/InputManager/UF_InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UI/UF_Key_UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Input/Editor/InputManager/UF_InputManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathCurveMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/UF_PathModeSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -398,6 +83,7 @@
     <option name="width" value="1813" />
     <option name="height" value="1016" />
   </component>
+  <component name="ProjectId" id="1szY40fJSBMMvmYxMwRUnTpN2x7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -524,6 +210,10 @@
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -539,35 +229,37 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\Unity_Framework.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Projet\PullGithub\Unity_Framework\Unity_Framework\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="58772">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="58772" />
-      <option name="userSelectedPid" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -586,6 +278,7 @@
       <workItem from="1588346583350" duration="6979000" />
       <workItem from="1588356379085" duration="7416000" />
       <workItem from="1588540834899" duration="506000" />
+      <workItem from="1621876710566" duration="598000" />
     </task>
     <servers />
   </component>
@@ -633,10 +326,13 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>

@@ -44,11 +44,11 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.Curve
             {
                 ResetCurve();
                 return;
-            }
+            } 
             
             Vector3 _lastPoint = Anchor[Anchor.Count - 1];
 
-            Anchor.Add(_lastPoint + Vector3.forward * 1);
+            Anchor.Add(_lastPoint);
             Anchor.Add(_lastPoint + Vector3.forward * 2);
             Anchor.Add(_lastPoint + Vector3.forward * 3);
             

@@ -12,7 +12,7 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
         // todo reflection
         public bool ShowPath = true;
         public bool ShowPoint = true;
-       public bool IsEditable = false;
+        public bool IsEditable = false;
         
         public List<Vector3> PathPoints = new List<Vector3>();
 
@@ -20,12 +20,10 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes.LinePath
 
 
         #region unity methods
-        
         #endregion
 
 
         #region custom methods
-
         public void AddPoint()
         {
             int _count = PathPoints.Count;
