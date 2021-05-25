@@ -300,6 +300,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &848745820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848745824}
+  - component: {fileID: 848745823}
+  - component: {fileID: 848745822}
+  - component: {fileID: 848745821}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &848745821
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848745820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &848745822
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848745820}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &848745823
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848745820}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &848745824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848745820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928542625
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Paths:
-  - Type: 1
+  - Type: 0
     LineMode:
       Id: Path 1
       ShowPath: 1
@@ -356,22 +452,109 @@ MonoBehaviour:
       Position: {x: 0, y: 0, z: 0}
       Curve:
         DipslaySegments: 0
-        CurveDefinition: 1
+        CurveDefinition: 30
         MaxDefinition: 100
         MinDefinition: 1
         Anchor:
-        - {x: 0, y: 0, z: 0}
-        - {x: 0, y: 0, z: 1}
+        - {x: 0, y: 0, z: -0.85417944}
+        - {x: 0.66040385, y: 0, z: 1}
         - {x: 0, y: 0, z: 2}
         - {x: 0, y: 0, z: 2}
-        - {x: 0, y: 0, z: 4}
+        - {x: -1.1767211, y: 0, z: 3.6091232}
         - {x: 0, y: 0, z: 5}
         - {x: 0, y: 0, z: 5}
-        - {x: 0, y: 0, z: 7}
+        - {x: 1.1193457, y: 0, z: 7}
         - {x: 0, y: 0, z: 8}
         curvePoints:
+        - {x: 0, y: 0, z: -0.85417944}
+        - {x: 0.04255936, y: 0, z: -0.7315166}
+        - {x: 0.08218359, y: 0, z: -0.6107518}
+        - {x: 0.118872695, y: 0, z: -0.49188533}
+        - {x: 0.15262668, y: 0, z: -0.374917}
+        - {x: 0.18344551, y: 0, z: -0.2598468}
+        - {x: 0.21132924, y: 0, z: -0.14667481}
+        - {x: 0.23627783, y: 0, z: -0.035401028}
+        - {x: 0.2582913, y: 0, z: 0.073974654}
+        - {x: 0.27736962, y: 0, z: 0.1814521}
+        - {x: 0.29351282, y: 0, z: 0.2870314}
+        - {x: 0.3067209, y: 0, z: 0.3907125}
+        - {x: 0.31699386, y: 0, z: 0.49249542}
+        - {x: 0.32433167, y: 0, z: 0.59238017}
+        - {x: 0.32873437, y: 0, z: 0.69036674}
+        - {x: 0.33020192, y: 0, z: 0.78645515}
+        - {x: 0.32873437, y: 0, z: 0.8806454}
+        - {x: 0.32433167, y: 0, z: 0.97293735}
+        - {x: 0.31699383, y: 0, z: 1.0633314}
+        - {x: 0.3067209, y: 0, z: 1.151827}
+        - {x: 0.29351282, y: 0, z: 1.2384245}
+        - {x: 0.27736962, y: 0, z: 1.3231238}
+        - {x: 0.25829127, y: 0, z: 1.405925}
+        - {x: 0.23627785, y: 0, z: 1.486828}
+        - {x: 0.21132922, y: 0, z: 1.5658329}
+        - {x: 0.18344553, y: 0, z: 1.6429393}
+        - {x: 0.15262666, y: 0, z: 1.718148}
+        - {x: 0.118872724, y: 0, z: 1.7914581}
+        - {x: 0.082183585, y: 0, z: 1.8628703}
         - {x: 0, y: 0, z: 2}
+        - {x: 0, y: 0, z: 2}
+        - {x: -0.07583314, y: 0, z: 2.1070325}
+        - {x: -0.14643641, y: 0, z: 2.2135797}
+        - {x: -0.2118098, y: 0, z: 2.319642}
+        - {x: -0.27195334, y: 0, z: 2.4252195}
+        - {x: -0.32686698, y: 0, z: 2.530312}
+        - {x: -0.37655073, y: 0, z: 2.6349194}
+        - {x: -0.42100465, y: 0, z: 2.7390418}
+        - {x: -0.4602287, y: 0, z: 2.8426793}
+        - {x: -0.49422288, y: 0, z: 2.9458318}
+        - {x: -0.5229871, y: 0, z: 3.048499}
+        - {x: -0.54652154, y: 0, z: 3.1506817}
+        - {x: -0.56482613, y: 0, z: 3.2523792}
+        - {x: -0.5779008, y: 0, z: 3.3535917}
+        - {x: -0.58574563, y: 0, z: 3.4543192}
+        - {x: -0.58836055, y: 0, z: 3.5545616}
+        - {x: -0.58574563, y: 0, z: 3.654319}
+        - {x: -0.5779008, y: 0, z: 3.7535918}
+        - {x: -0.56482613, y: 0, z: 3.852379}
+        - {x: -0.54652154, y: 0, z: 3.9506817}
+        - {x: -0.5229871, y: 0, z: 4.0484996}
+        - {x: -0.49422288, y: 0, z: 4.1458316}
+        - {x: -0.46022868, y: 0, z: 4.242679}
+        - {x: -0.42100468, y: 0, z: 4.339042}
+        - {x: -0.37655073, y: 0, z: 4.4349194}
+        - {x: -0.326867, y: 0, z: 4.530312}
+        - {x: -0.2719533, y: 0, z: 4.62522}
+        - {x: -0.21180984, y: 0, z: 4.719642}
+        - {x: -0.1464364, y: 0, z: 4.8135796}
         - {x: 0, y: 0, z: 5}
+        - {x: 0, y: 0, z: 5}
+        - {x: 0.07213561, y: 0, z: 5.132222}
+        - {x: 0.13929635, y: 0, z: 5.2622223}
+        - {x: 0.20148222, y: 0, z: 5.39}
+        - {x: 0.25869322, y: 0, z: 5.515556}
+        - {x: 0.31092936, y: 0, z: 5.638889}
+        - {x: 0.3581906, y: 0, z: 5.76}
+        - {x: 0.40047702, y: 0, z: 5.878889}
+        - {x: 0.43778855, y: 0, z: 5.9955554}
+        - {x: 0.4701252, y: 0, z: 6.11}
+        - {x: 0.49748698, y: 0, z: 6.2222223}
+        - {x: 0.5198739, y: 0, z: 6.3322225}
+        - {x: 0.5372859, y: 0, z: 6.44}
+        - {x: 0.5497231, y: 0, z: 6.5455556}
+        - {x: 0.5571854, y: 0, z: 6.648889}
+        - {x: 0.55967283, y: 0, z: 6.75}
+        - {x: 0.5571854, y: 0, z: 6.848889}
+        - {x: 0.5497231, y: 0, z: 6.9455557}
+        - {x: 0.5372859, y: 0, z: 7.04}
+        - {x: 0.5198739, y: 0, z: 7.132222}
+        - {x: 0.49748695, y: 0, z: 7.2222223}
+        - {x: 0.4701252, y: 0, z: 7.31}
+        - {x: 0.43778852, y: 0, z: 7.395556}
+        - {x: 0.40047702, y: 0, z: 7.4788885}
+        - {x: 0.3581906, y: 0, z: 7.56}
+        - {x: 0.3109294, y: 0, z: 7.638889}
+        - {x: 0.25869322, y: 0, z: 7.7155557}
+        - {x: 0.20148227, y: 0, z: 7.79}
+        - {x: 0.13929635, y: 0, z: 7.862222}
         - {x: 0, y: 0, z: 8}
         CurrentPercent: 1
   - Type: 1
@@ -411,9 +594,8 @@ MonoBehaviour:
     Show: 0
     PathId: Path 1
     PathIndex: 0
-  - AgentSettings: {fileID: 0}
-    AgentToMove: {fileID: 1137423381349345267, guid: 1540f5c448206a54b81bd21136e88b6a,
-      type: 3}
+  - AgentSettings: {fileID: 11400000, guid: 5536fa0bc12bafb4397092471e456b1f, type: 2}
+    AgentToMove: {fileID: 848745820}
     Show: 1
     PathId: Path 1
     PathIndex: 1

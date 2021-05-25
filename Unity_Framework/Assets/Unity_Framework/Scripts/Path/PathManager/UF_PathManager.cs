@@ -31,8 +31,9 @@ namespace Unity_Framework.Scripts.Path.PathManager
                 // GameObject _temp = Instantiate(Agents[i].AgentToMove);
                 GameObject _temp = Agents[i].AgentToMove;
                 UF_AgentFollowCurve _script = _temp.AddComponent<UF_AgentFollowCurve>();
+                _script.agentSetting = Agents[i].AgentSettings;/*
                 _script.SpeedMove = Agents[i].AgentSettings.SpeedMove;
-                _script.SpeedRotation = Agents[i].AgentSettings.SpeedRotation;
+                _script.SpeedRotation = Agents[i].AgentSettings.SpeedRotation;*/
                 _script.CurrentPath = Paths.FirstOrDefault(p => p.Mode.Id == Agents[i].PathId);
             }
         }
