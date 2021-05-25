@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedMove: 1
   SpeedRotation: 20
+  TargetLookAt: {fileID: 0}
+  UseLookAt: 0

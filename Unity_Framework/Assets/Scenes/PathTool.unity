@@ -464,7 +464,7 @@ MonoBehaviour:
         - {x: 0, y: 0, z: 5}
         - {x: 0, y: 0, z: 5}
         - {x: 1.1193457, y: 0, z: 7}
-        - {x: 0, y: 0, z: 8}
+        - {x: 0, y: 0, z: 8.449639}
         curvePoints:
         - {x: 0, y: 0, z: -0.85417944}
         - {x: 0.04255936, y: 0, z: -0.7315166}
@@ -527,78 +527,42 @@ MonoBehaviour:
         - {x: -0.1464364, y: 0, z: 4.8135796}
         - {x: 0, y: 0, z: 5}
         - {x: 0, y: 0, z: 5}
-        - {x: 0.07213561, y: 0, z: 5.132222}
-        - {x: 0.13929635, y: 0, z: 5.2622223}
-        - {x: 0.20148222, y: 0, z: 5.39}
-        - {x: 0.25869322, y: 0, z: 5.515556}
-        - {x: 0.31092936, y: 0, z: 5.638889}
-        - {x: 0.3581906, y: 0, z: 5.76}
-        - {x: 0.40047702, y: 0, z: 5.878889}
-        - {x: 0.43778855, y: 0, z: 5.9955554}
-        - {x: 0.4701252, y: 0, z: 6.11}
-        - {x: 0.49748698, y: 0, z: 6.2222223}
-        - {x: 0.5198739, y: 0, z: 6.3322225}
-        - {x: 0.5372859, y: 0, z: 6.44}
-        - {x: 0.5497231, y: 0, z: 6.5455556}
-        - {x: 0.5571854, y: 0, z: 6.648889}
-        - {x: 0.55967283, y: 0, z: 6.75}
-        - {x: 0.5571854, y: 0, z: 6.848889}
-        - {x: 0.5497231, y: 0, z: 6.9455557}
-        - {x: 0.5372859, y: 0, z: 7.04}
-        - {x: 0.5198739, y: 0, z: 7.132222}
-        - {x: 0.49748695, y: 0, z: 7.2222223}
-        - {x: 0.4701252, y: 0, z: 7.31}
-        - {x: 0.43778852, y: 0, z: 7.395556}
-        - {x: 0.40047702, y: 0, z: 7.4788885}
-        - {x: 0.3581906, y: 0, z: 7.56}
-        - {x: 0.3109294, y: 0, z: 7.638889}
-        - {x: 0.25869322, y: 0, z: 7.7155557}
-        - {x: 0.20148227, y: 0, z: 7.79}
-        - {x: 0.13929635, y: 0, z: 7.862222}
-        - {x: 0, y: 0, z: 8}
-        CurrentPercent: 1
-  - Type: 1
-    LineMode:
-      Id: Path 1
-      ShowPath: 1
-      ShowPoint: 1
-      PathColor: {r: 1, g: 1, b: 1, a: 1}
-      Position: {x: 0, y: 0, z: 0}
-      Path:
-        ShowPath: 1
-        ShowPoint: 1
-        IsEditable: 0
-        PathPoints: []
-      currentPercent: 1
-    CurveMode:
-      Id: Path 1
-      ShowPath: 1
-      ShowPoint: 1
-      PathColor: {r: 1, g: 1, b: 1, a: 1}
-      Position: {x: 0, y: 0, z: 0}
-      Curve:
-        DipslaySegments: 0
-        CurveDefinition: 1
-        MaxDefinition: 100
-        MinDefinition: 1
-        Anchor:
-        - {x: 0, y: 0, z: 0}
-        - {x: 0, y: 0, z: 1}
-        - {x: 0, y: 0, z: 2}
-        curvePoints: []
-        CurrentPercent: 1
+        - {x: 0.07213561, y: 0, z: 5.132722}
+        - {x: 0.13929635, y: 0, z: 5.2642207}
+        - {x: 0.20148222, y: 0, z: 5.3944964}
+        - {x: 0.25869322, y: 0, z: 5.5235496}
+        - {x: 0.31092936, y: 0, z: 5.651379}
+        - {x: 0.3581906, y: 0, z: 5.7779856}
+        - {x: 0.40047702, y: 0, z: 5.9033694}
+        - {x: 0.43778855, y: 0, z: 6.0275297}
+        - {x: 0.4701252, y: 0, z: 6.1504674}
+        - {x: 0.49748698, y: 0, z: 6.272182}
+        - {x: 0.5198739, y: 0, z: 6.392674}
+        - {x: 0.5372859, y: 0, z: 6.5119424}
+        - {x: 0.5497231, y: 0, z: 6.629988}
+        - {x: 0.5571854, y: 0, z: 6.7468104}
+        - {x: 0.55967283, y: 0, z: 6.8624096}
+        - {x: 0.5571854, y: 0, z: 6.976786}
+        - {x: 0.5497231, y: 0, z: 7.0899396}
+        - {x: 0.5372859, y: 0, z: 7.20187}
+        - {x: 0.5198739, y: 0, z: 7.3125777}
+        - {x: 0.49748695, y: 0, z: 7.422062}
+        - {x: 0.4701252, y: 0, z: 7.5303235}
+        - {x: 0.43778852, y: 0, z: 7.6373615}
+        - {x: 0.40047702, y: 0, z: 7.743177}
+        - {x: 0.3581906, y: 0, z: 7.8477693}
+        - {x: 0.3109294, y: 0, z: 7.951138}
+        - {x: 0.25869322, y: 0, z: 8.053285}
+        - {x: 0.20148227, y: 0, z: 8.154207}
+        - {x: 0.13929635, y: 0, z: 8.253908}
+        - {x: 0, y: 0, z: 8.449639}
+        CurrentPercent: 0
   Agents:
-  - AgentSettings: {fileID: 0}
-    AgentToMove: {fileID: 2778328971463339367, guid: bf14f3d0f4645334b83852d9718797d3,
-      type: 3}
-    Show: 0
-    PathId: Path 1
-    PathIndex: 0
   - AgentSettings: {fileID: 11400000, guid: 5536fa0bc12bafb4397092471e456b1f, type: 2}
     AgentToMove: {fileID: 848745820}
     Show: 1
     PathId: Path 1
-    PathIndex: 1
+    PathIndex: 0
 --- !u!4 &928542627
 Transform:
   m_ObjectHideFlags: 0
@@ -612,4 +576,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2129351389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129351393}
+  - component: {fileID: 2129351392}
+  - component: {fileID: 2129351391}
+  - component: {fileID: 2129351390}
+  m_Layer: 0
+  m_Name: target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2129351390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129351389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2129351391
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129351389}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2129351392
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129351389}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2129351393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129351389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.58, y: -0.16, z: 1.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

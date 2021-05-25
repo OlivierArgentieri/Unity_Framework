@@ -40,8 +40,15 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
         void Awake()
         {
             UF_PathManager.OnInit += InitPath;
+        }
+
+        void Start()
+        {
             OnUpdate += MoveTo;
-            OnUpdate += RotateTo;
+            if (agentSetting.TargetLookAt)
+                OnUpdate += LookAt;
+            else
+                OnUpdate += RotateTo;
         }
 
         void Update()
@@ -61,12 +68,17 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathAgent
 
         void RotateTo()
         {
-            if (Vector3.Distance(transform.position, currentPoint) > 0)
+            if (Vector3.Distance(transform.position, currentPoint) > 0.00001f) // epsilon?
             {
                 Quaternion _lookRotate = Quaternion.LookRotation(currentPoint - transform.position, transform.up);
                 transform.rotation =
                     Quaternion.RotateTowards(transform.rotation, _lookRotate, SpeedRotation * Time.deltaTime);
             }
+        }
+
+        void LookAt()
+        {
+            transform.LookAt(agentSetting.TargetLookAt.transform);
         }
 
         void MoveTo()

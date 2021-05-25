@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathAgentEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathAgentEditor/UF_PathAgentEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathAgentEditor/UF_PathAgentEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PathTool.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PathTool.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathAssets/PathSettingsObject/Camera_Agent.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathAssets/PathSettingsObject/Camera_Agent.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathAssets/PathSettingsObject/Props_Agent.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathAssets/PathSettingsObject/Props_Agent.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/PathAgentSettings/UF_PathAgentSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/PathAgentSettings/UF_PathAgentSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/SpawnMode/UF_SpawnModeSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/SpawnerManager/UF_SpawnerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraSettingsObject/MiniMap.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72753322-AF77-491A-8B07-0EBE84E95C24/20/c54e9d64/EditorCustom`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerEditor/UF_SpawnerManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/3C/Camera/CameraComponents/UF_CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Spawner/Editor/SpawnerManagerMenu/UF_SpawnerManagerMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,6 +83,8 @@
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathMode/PathModes/UF_PathLineMode.cs" />
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/UF_PathManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/PathAgentSettings/UF_PathAgentSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathAgentEditor/UF_PathAgentEditor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectConfigurationFiles">
@@ -287,7 +295,7 @@
       <workItem from="1588346583350" duration="6979000" />
       <workItem from="1588356379085" duration="7416000" />
       <workItem from="1588540834899" duration="506000" />
-      <workItem from="1621876710566" duration="3389000" />
+      <workItem from="1621876710566" duration="7127000" />
     </task>
     <servers />
   </component>
@@ -339,6 +347,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
