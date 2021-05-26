@@ -78,6 +78,7 @@
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/PathAgentSettings/UF_PathAgentSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathAgentEditor/UF_PathAgentEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/PathManager/PathAgent/UF_AgentFollowCurve.cs" />
+      <option value="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Path/Editor/PathManagerEditor/UF_PathManagerEditor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectConfigurationFiles">
@@ -288,7 +289,7 @@
       <workItem from="1588346583350" duration="6979000" />
       <workItem from="1588356379085" duration="7416000" />
       <workItem from="1588540834899" duration="506000" />
-      <workItem from="1621876710566" duration="8416000" />
+      <workItem from="1621876710566" duration="9021000" />
     </task>
     <servers />
   </component>
