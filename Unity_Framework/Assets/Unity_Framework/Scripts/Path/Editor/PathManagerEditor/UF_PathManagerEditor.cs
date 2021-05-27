@@ -16,7 +16,7 @@ namespace Unity_Framework.Scripts.Path.Editor.PathManagerEditor
     {
         #region const
 
-        private static readonly Version version = new Version(1, 2, 0);
+        private static readonly Version version = new Version(1, 3, 0);
 
         private const BindingFlags reflectionFlags =
             BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
