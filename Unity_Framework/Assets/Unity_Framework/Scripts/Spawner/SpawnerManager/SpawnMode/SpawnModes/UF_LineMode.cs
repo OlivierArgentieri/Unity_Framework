@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using EditoolsUnity;
 using UnityEditor;
@@ -5,6 +6,7 @@ using UnityEngine;
 
 namespace Unity_Framework.Scripts.Spawner.SpawnerManager.SpawnMode.SpawnModes
 {
+    [Serializable]
     public class UF_LineMode : UF_SpawnMode
     {
         #region f/p
