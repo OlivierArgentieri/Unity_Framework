@@ -17,7 +17,7 @@ namespace Unity_Framework.Scripts.Spawner.Editor.SpawnerManagerEditor
         #region const
 
         private const string triggerSpawnAssetName = "SpawnCollider/BoxCollider";
-        private static readonly Version version = new Version(1, 3, 0);
+        private static readonly Version version = new Version(1, 3, 1);
 
         #endregion
 
