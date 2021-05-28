@@ -15,8 +15,6 @@ namespace Unity_Framework.Scripts._3C.Character.CharacterBehaviour.CharacterBeha
 
         [SerializeField, Header("Enable")] private bool isEnable = true;
     
-        [SerializeField, Range(0,500), Header("Rotate Speed")] private float rotateSpeed = 400;
-    
         [SerializeField, Header("ID Main Camera")] private int idMainCamera = 0;
 
         private UF_CameraComponent mainCamera = null;

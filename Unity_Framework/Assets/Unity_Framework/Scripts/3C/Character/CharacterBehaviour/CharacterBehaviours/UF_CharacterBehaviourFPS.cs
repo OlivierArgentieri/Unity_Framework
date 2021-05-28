@@ -9,10 +9,7 @@ namespace Unity_Framework.Scripts._3C.Character.CharacterBehaviour.CharacterBeha
     {
         #region f/p
         [SerializeField, Header("Enable")] private bool isEnable = true;
-        [SerializeField, Header("Gravity"), Range(0,50)] private float gravity= 20f;
-
-    
-
+        
         public bool IsEnable => isEnable;
 
         public bool IsValid => CharacterSettings != null;

@@ -16,8 +16,6 @@ namespace Unity_Framework.Scripts.Path.PathManager.PathMode.PathModes
 
         [SerializeField] UF_PathCurve Curve = new UF_PathCurve();
 
-        private float startAtPercent = 0;
-
         private int selectedIndex = -1;
 
         public override List<Vector3> PathPoints => Curve.CurvePoints.ToList();
