@@ -7,10 +7,10 @@ This project evolves according to my ideas or my needs
 ## Project state
 
 
-| Features                |Details                                   |Progress                     |
-|-------------------------|------------------------------------------|-----------------------------|
-| Camera Manager          | Manage camera with profiles              | :white_check_mark:          |
-| Basic Player Behaviour  | Basic FPS, RTS, TPS Behaviour            | :white_check_mark:          |
-| Spawner Manager         | Create different scenarios of spawn      | :white_check_mark:          |
-| Path Tools              | To move gameobject along spline          | :white_check_mark:          |
-| IA Grafcet              | Create different IA with grafcet pattern | Not started yet :hammer:    |
+| Features                | Details                                  | Progress                    | Current Version             |
+|-------------------------|------------------------------------------|-----------------------------|-----------------------------|
+| Camera Manager          | Manage camera with profiles              | :white_check_mark:          | -                           |
+| Basic Player Behaviour  | Basic FPS, RTS, TPS Behaviour            | :white_check_mark:          | -                           |
+| Spawner Manager         | Create different scenarios of spawn      | :white_check_mark:          | 1.3.1                       |
+| Path Tools              | To move gameobject along spline          | :white_check_mark:          | 1.3.0                       |
+| IA Grafcet              | Create different IA with grafcet pattern | Not started yet :hammer:    | -                           |
