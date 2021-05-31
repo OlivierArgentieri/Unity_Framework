@@ -8,7 +8,7 @@ namespace Unity_Framework.Scripts._3C.Camera.CameraSetting
     {
         #region f/p
         [SerializeField, Header("Camera")] private UnityEngine.Camera localCamera = null;
-
+    
         #region offset
         [SerializeField, Header("Offset X"), Range(-20, 20)] private float offsetX = 0;
         private float offsetXMax = 20;

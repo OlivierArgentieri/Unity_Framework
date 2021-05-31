@@ -28,7 +28,6 @@ namespace Unity_Framework.Scripts._3C.Camera.Behaviour
         protected virtual void FollowTarget()
         {
             if (!IsValid || !cameraSetting.FollowPlayer) return;
-
         }
 
         protected virtual void LookAtTarget()
