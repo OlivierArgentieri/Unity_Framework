@@ -74,6 +74,7 @@ namespace Unity_Framework.Scripts._3C.Character.CharacterBehaviour.CharacterBeha
             if(!_navigable) return;
 
             target = _hit.point;
+            
         }
 
         void OnMoveTo()

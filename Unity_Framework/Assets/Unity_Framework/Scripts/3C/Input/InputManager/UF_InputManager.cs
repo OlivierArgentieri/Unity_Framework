@@ -71,7 +71,7 @@ namespace Unity_Framework.Scripts._3C.Input.InputManager
             // Axis
             OnMouseAxis?.Invoke(new Vector2(MouseXValue, MouseYValue));
             OnMoveFPS?.Invoke(new Vector2(MoveHorizontalValue, MoveVerticalValue));
-        
+
             // Input
             OnMoveRTS?.Invoke(GetMoveRTSValue, MousePosition);
         }
