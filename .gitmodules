@@ -1,0 +1,4 @@
+[submodule "Unity_Framework/Assets/Plugins/editools"]
+	path = Unity_Framework/Assets/Plugins/editools
+	url = https://github.com/OlivierArgentieri/EditoolsUnity.git
+	branch = prod
