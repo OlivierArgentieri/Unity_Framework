@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a3c1a9-2a7e-4d0f-bee3-5413433dbfdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Scenes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Scenes.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_FPS.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_FPS.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_RTS.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_RTS.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_TPS.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/ExampleScenes/BasicPlayerBehaviour/BasicPlayerBehaviour_TPS.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Scenes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity_Framework/Scripts/Menu/Editor/UF_Scenes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +307,7 @@
       <workItem from="1588356379085" duration="7416000" />
       <workItem from="1588540834899" duration="506000" />
       <workItem from="1621876710566" duration="11602000" />
-      <workItem from="1639579992561" duration="7489000" />
+      <workItem from="1639579992561" duration="9158000" />
     </task>
     <servers />
   </component>
