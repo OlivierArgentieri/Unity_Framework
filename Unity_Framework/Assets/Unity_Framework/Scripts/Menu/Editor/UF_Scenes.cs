@@ -11,7 +11,7 @@ namespace Unity_Framework.Scripts.Menu.Editor
         [MenuItem("UF/List Scenes")]
         static void Init()
         {
-            UF_Scenes _window = (UF_Scenes) EditorWindow.GetWindow(typeof(UF_Scenes));
+            UF_Scenes _window = (UF_Scenes) GetWindow(typeof(UF_Scenes));
             _window.titleContent = new GUIContent("List of Scenes");
         }
         
@@ -27,8 +27,7 @@ namespace Unity_Framework.Scripts.Menu.Editor
             foreach (var _scene in _scenes)
             {
                 string _name = System.IO.Path.GetFileNameWithoutExtension(_scene);
-                
-                    EditoolsButton.Button(_name, Color.grey, () => { EditorSceneManager.OpenScene(_scene); });
+                EditoolsButton.Button(_name, Color.grey, () => { EditorSceneManager.OpenScene(_scene); });
             }
         }
         

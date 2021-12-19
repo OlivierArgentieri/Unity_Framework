@@ -103,6 +103,7 @@
             </e>
             <e p="Menu" t="Include">
               <e p="Editor" t="Include">
+                <e p="UF_CopyAbsolutePath.cs" t="Include" />
                 <e p="UF_Menu.cs" t="Include" />
                 <e p="UF_Scenes.cs" t="Include" />
               </e>
